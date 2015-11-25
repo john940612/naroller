@@ -1,0 +1,37 @@
+@@media all and (min-width: 768px) {
+
+}
+
+html{
+  overflow-x: hidden;
+}
+
+#about{
+  margin: 0;
+}
+
+#about h2{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#about .container{
+  width: 99%;
+  margin: 0;
+  padding: 5em 0 2em 0;
+}
+
+#about #newsImgArea{
+}
+
+#about #newsImgArea img{
+  float: right;
+
+  height: auto;
+}
+
+
+#portfolio .container{
+  width: 99%;
+
+}
