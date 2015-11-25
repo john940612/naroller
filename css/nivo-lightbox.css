@@ -33,7 +33,7 @@
 	right: 10%;
 }
 .nivo-lightbox-content {
-	width: 100%;
+	width: 100%;/*100% lets the picture stays in the center. If less, go left; if right otherwise.*/
 	height: 100%;
 }
 .nivo-lightbox-title-wrap {
