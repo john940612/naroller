@@ -1,37 +1,51 @@
-@@media all and (min-width: 768px) {
+@media all and (min-width: 768px) {
+    html{
+      overflow-x: hidden;
+    }
 
+    #about{
+      margin: 0;
+    }
+
+    #about h2{
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    #about .container{
+      width: 99%;
+      margin: 0;
+      padding: 5em 0 2em 0;
+    }
+
+    #about #newsImgArea{
+    }
+
+    #about #newsImgArea img{
+      float: right;
+
+      height: auto;
+    }
+
+
+    #portfolio .container{
+      width: 99%;
+
+    }
+
+    
 }
 
-html{
-  overflow-x: hidden;
+.navbar-brand img#logo{
+    width: 23%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    float: left;
+    border: white dottd 3px !important;
 }
 
-#about{
-  margin: 0;
-}
-
-#about h2{
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-#about .container{
-  width: 99%;
-  margin: 0;
-  padding: 5em 0 2em 0;
-}
-
-#about #newsImgArea{
-}
-
-#about #newsImgArea img{
-  float: right;
-
-  height: auto;
-}
-
-
-#portfolio .container{
-  width: 99%;
+#portfolio img.productPhotoTemp{
+    width: 640px;
 
 }

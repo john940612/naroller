@@ -81,7 +81,7 @@ img {
 .navbar-default {
     background: #202020;
     border: none;
-    border-left: 6px solid #d54ab6;
+    border-left: 6px solid red;
     padding-right: 40px;
     margin: 0 !important;
     position: relative;
@@ -131,7 +131,7 @@ img {
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  background: url('../images/photo/Lobby.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -142,6 +142,8 @@ img {
 #home h3 {
   line-height: 30px;
   font-size: 40px;
+    color: red;
+    text-shadow: rgba(0, 0, 0, .5) !important;
 }
 
 /* divider section */
