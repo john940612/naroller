@@ -28,12 +28,20 @@
     }
 
 
-    #portfolio .container{
+  #portfolio .container{
       width: 99%;
 
     }
 
     
+}
+
+p{
+    font-family: "Microsoft Jhenhei", sans-serif;
+}
+
+.fa{
+    color: white;
 }
 
 .navbar-brand img#logo{
