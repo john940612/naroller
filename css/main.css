@@ -5,6 +5,12 @@
     
     p{
         font-size: 1.2em;
+        letter-spacing: 1px;
+        line-height: 2em;
+    }
+    
+    a{
+        transition: all 0.4s ease-in;
     }
     
     .navbar-brand img#logo{
@@ -14,8 +20,6 @@
         padding-left: 0.5em;
         padding-bottom: 0;
         position: absolute;
-        float: left;
-        border: white dottd 3px !important;
     }
 
     .navbar-default .navbar-nav li a{
@@ -29,7 +33,6 @@
     }
 
     #about h2{
-      text-align: center;
         margin-top: 2em;
         margin-bottom: 1em;
     }
@@ -37,6 +40,21 @@
     #newsImgArea img{
         margin-bottom: 5em;
     }
+    
+    #newsButton{
+        margin-top: 15% !important;
+    }
+    
+    .about-des{
+        padding-left: 5em !important;
+        text-align: justify;
+    }
+    
+    #newsButtonArea{
+        text-align: right;
+        padding-right: 2em !important;
+    }
+    
     #footerInfo{
         padding-left: 5em;
     }
@@ -49,7 +67,7 @@
     p.menu{
         letter-spacing: 0.1em;
     }
-}
+}/*End @media all and (min-width: 768px)*/
 
 
 p, .navbar-default .navbar-nav li a{
@@ -61,8 +79,6 @@ p, .navbar-default .navbar-nav li a{
     color: white;
 }
 
-
-/*#portfolio img.productPhotoTemp{
-    width: 640px;
-
-}*/
+#about h2{
+    text-align: center;
+}
