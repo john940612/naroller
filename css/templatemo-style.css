@@ -26,7 +26,8 @@ body
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;
+    /*width: 1000px;*/
+      width: 100%;
   }
 }
 
@@ -68,8 +69,8 @@ img {
 }
 .btn:hover {
   /*background: #009988;*/
-    background: #7b0000;
-    color: #ddd;
+    background: #d71921;
+    color: white;
   border-color: transparent;
 }
 
@@ -83,7 +84,7 @@ img {
 .navbar-default {
     background: #202020;
     border: none;
-    border-left: 6px solid red;
+    border-left: 8px solid #d71921;
     padding-right: 40px;
     margin: 0 !important;
     position: relative;
@@ -100,19 +101,23 @@ img {
   font-weight: 400;
   line-height: 40px;
   transition: all 0.4s ease-in;
+    padding-right: 2em;
  }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffa500;
+  /*color: #ffa500;*/
+    color: #f55;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  	color: #ffa500;
+  	/*color: #ffa500;*/
+    color: #f55;
   	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  	background: #d54ab6;
+  	/*background: #d54ab6;*/
+    background: #d71921;
   	border-radius: 0px;
    	border: none;
    	margin-top: 20px;
@@ -144,12 +149,13 @@ img {
 #home h3 {
   line-height: 30px;
   font-size: 40px;
-    color: red;
-    text-shadow: rgba(0, 0, 0, .5) !important;
+    /*color: red;
+    text-shadow: 1px 1px rgba(0, 0, 0, .5) !important;*/
 }
 
 /* divider section */
 .divider {
+  color: #fff;
   color: #fff;
   text-align: center;
 }
@@ -175,6 +181,8 @@ img {
   bottom: 60px;
   cursor: pointer;
 }
+
+/*The three colorful rectangle on index*/
 .divider .divider-one {
   background: #c14000;
 }
@@ -197,7 +205,8 @@ img {
   padding-top: 60px;
 }
 #about .container {
-  background: #191919;
+  /*background: #191919;*/
+    background: #1c1c1c;
 }
 #about .col-md-6 {
   padding: 0;

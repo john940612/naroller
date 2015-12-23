@@ -1,59 +1,64 @@
 @media all and (min-width: 768px) {
     html{
-      overflow-x: hidden;
+        overflow-x: hidden;
+    }
+    
+    p{
+        font-size: 1.2em;
+    }
+    
+    .navbar-brand img#logo{
+        height: 90%;
+        width: auto;
+        margin-bottom: 0;
+        padding-left: 0.5em;
+        padding-bottom: 0;
+        position: absolute;
+        float: left;
+        border: white dottd 3px !important;
     }
 
+    .navbar-default .navbar-nav li a{
+        font-size: 1.1em;
+        letter-spacing: 0.1em;
+        padding-right: 2em;
+    }
+    
     #about{
       margin: 0;
     }
 
     #about h2{
       text-align: center;
-      margin-bottom: 1em;
+        margin-top: 2em;
+        margin-bottom: 1em;
     }
-
-    #about .container{
-      width: 99%;
-      margin: 0;
-      padding: 5em 0 2em 0;
-    }
-
-    #about #newsImgArea{
-    }
-
-    #about #newsImgArea img{
-      float: right;
-
-      height: auto;
-    }
-
-
-  #portfolio .container{
-      width: 99%;
-
-    }
-
     
+    #newsImgArea img{
+        margin-bottom: 5em;
+    }
+    #footerInfo{
+        padding-left: 5em;
+    }
+
+    #footerInfo img{
+        width: 50%;
+        height: auto;
+    }
 }
 
-p{
-    font-family: "Microsoft Jhenhei", sans-serif;
+
+p, .navbar-default .navbar-nav li a{
+    font-family: "Microsoft Jhenghei", sans-serif;
+
 }
 
 .fa{
     color: white;
 }
 
-.navbar-brand img#logo{
-    width: 23%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    position: absolute;
-    float: left;
-    border: white dottd 3px !important;
-}
 
-#portfolio img.productPhotoTemp{
+/*#portfolio img.productPhotoTemp{
     width: 640px;
 
-}
+}*/
