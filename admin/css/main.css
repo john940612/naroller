@@ -1,5 +1,8 @@
 @media all and (min-width: 768px){
-
+    #contact-header{
+        padding-top: 100px;
+    }
+    
     #signInForm input{
         border-radius: 5px !important;
         margin-bottom: 1em;
