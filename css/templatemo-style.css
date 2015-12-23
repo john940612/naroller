@@ -103,7 +103,7 @@ img {
   font-weight: 400;
   line-height: 40px;
   transition: all 0.4s ease-in;
-    padding-right: 2em;
+    margin: 0 0.5em 0 0.5em;
  }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -135,7 +135,7 @@ img {
 }
 
 .active {
-	background: #333;
+	background: rgba(49, 49, 49, 0.5);
 }
 
 /* home section */
