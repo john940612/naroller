@@ -21,10 +21,10 @@
     #signInForm input::-webkit-input-placeholder{
         letter-spacing: 0.5em;
     }
-    #signInForm input:-moz-placeholder{
+    #signInForm input:-moz-placeholder{/*Firefox 18-*/
         letter-spacing: 0.5em;
     }
-    #signInForm input::-moz-placeholder{
+    #signInForm input::-moz-placeholder{/*Firefox 19+*/
         letter-spacing: 0.5em;
     }
     #signInForm input:-ms-input-placeholderr{
