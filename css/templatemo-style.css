@@ -9,7 +9,8 @@ http://www.templatemo.com/tm-468-onetel
 body
 	{
 		background: #101010;
-    color: #808080;
+    /*color: #808080;*/
+        color: #aaa;
 		font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 	}
@@ -377,10 +378,12 @@ footer .input-group-addon {
 }
 footer a, footer a:visited {
   font-size: 14px;
-  color: #999;
+  /*color: #999;*/
+    color: #aaa;
 }
 footer a:hover {
-  color: #fff;
+  /*color: #fff;*/
+    color: #f55;
   text-decoration: none;
 }
 

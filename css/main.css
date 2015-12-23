@@ -45,6 +45,10 @@
         width: 50%;
         height: auto;
     }
+    
+    p.menu{
+        letter-spacing: 0.1em;
+    }
 }
 
 
