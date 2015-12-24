@@ -10,7 +10,7 @@ function initialize() {
       scrollwheel: false
     };
   
-    map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+    map = new google.maps.Map(document.getElementById('googleMap'),  mapOptions);
 
     google.maps.event.addDomListener(map, 'idle', function() {
         calculateCenter();
@@ -30,6 +30,7 @@ function loadGoogleMap(){
     script.type = 'text/javascript';
     script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
     document.body.appendChild(script);
+    initialize();
 }
 
 $(function(){
