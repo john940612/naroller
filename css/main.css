@@ -37,6 +37,10 @@
         margin-bottom: 1em;
     }
     
+    #about h3{
+        margin: -0.5em 0 1em 0;
+    }
+    
     #newsImgArea img{
         margin-bottom: 5em;
     }
@@ -65,7 +69,15 @@
     }
     
     p.menu{
-        letter-spacing: 0.1em;
+        line-height: 1.5em;
+        letter-spacing: 0.3em;
+        font-weight: bold;
+    }
+    
+    #googleMap{
+        border-radius: 5px;
+        width: 85%;
+        height: 200px;
     }
 }/*End @media all and (min-width: 768px)*/
 
