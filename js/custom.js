@@ -6,11 +6,11 @@ var center;
 function initialize() {
     var mapOptions = {
       zoom: 16,
-      center: new google.maps.LatLng(13.758468, 100.567481),
+      center: new google.maps.LatLng(25.043912, 121.297606),
       scrollwheel: false
     };
   
-    map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
+    map = new google.maps.Map(document.getElementById('googleMap'),  mapOptions);
 
     google.maps.event.addDomListener(map, 'idle', function() {
         calculateCenter();
@@ -18,6 +18,11 @@ function initialize() {
   
     google.maps.event.addDomListener(window, 'resize', function() {
         map.setCenter(center);
+    });
+    var marker = new google.maps.Marker({
+      map : map,
+      position : {lat: 25.0439, lng: 121.2976},
+      title :"奈美電子"
     });
 }
 
@@ -30,6 +35,7 @@ function loadGoogleMap(){
     script.type = 'text/javascript';
     script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
     document.body.appendChild(script);
+    initialize();
 }
 
 $(function(){
