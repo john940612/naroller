@@ -415,7 +415,8 @@ footer a:hover {
 
 }
 .social-icons li a:hover {
-  background: #d54ab6;
+  /*background: #d54ab6;*/
+    background: #d71921;
   color: #fff;
 }
 
