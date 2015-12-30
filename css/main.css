@@ -28,6 +28,14 @@
         padding-right: 2em;
     }
     
+    .divider-wrapper{
+        background-color: rgba(171, 125, 22, 0.7) !important;
+    }
+    
+    .divider-wrapper:hover{
+        opacity: 1;
+    }
+    
     #about{
       margin: 0;
     }
