@@ -95,8 +95,14 @@
         height: 200px;
     }
     
+    .copyright p{
+        margin-left: 5%;
+        font-family: 'Montserrat';
+        letter-spacing: 0.15em;
+    }
+    
     #socialLinkArea{
-        padding-right: 3em;
+        padding-right: 5%;
         text-align: right;
     }
     
