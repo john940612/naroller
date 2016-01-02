@@ -109,14 +109,24 @@
         margin-left: 0.7em;
     }
     
-    /*about.html*/
-    #about-header{
+    /*about.html, contact.html*/
+    #about-header, #contact-header{
         text-align: center;
         text-shadow: 3px 3px rgba(0, 0, 0, .7);
     }
     
-    #about-header h1{
+    #about-header h1, #contact-header h1{
         font-size: 56pt;
+    }
+    
+    #about-header a, #contact-header a{
+        
+        font-size: 48pt;
+        opacity: .7;
+    }
+    
+    #about-header a:hover, #contact-header a:hover{
+        opacity: 1;
     }
 }/*End @media all and (min-width: 768px)*/
 
