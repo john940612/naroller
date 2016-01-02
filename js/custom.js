@@ -40,6 +40,7 @@ function loadGoogleMap(){
 
 $(function(){
   loadGoogleMap();
+  //DropDownTest
 });
 
 // NIVO LIGHTBOX
