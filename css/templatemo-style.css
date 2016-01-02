@@ -6,6 +6,8 @@ http://www.templatemo.com/tm-468-onetel
 
 */
 
+/*Naroller color: #d71921*/
+
 body
 	{
 		background: #101010;
@@ -136,6 +138,7 @@ img {
 
 .active {
 	background: rgba(49, 49, 49, 0.5);
+    border-bottom: #d71921 3px solid;
 }
 
 /* home section */

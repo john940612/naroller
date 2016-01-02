@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Onetel Template - Portfolio</title>
+	<title>Portfolio - Naroller</title>
     <meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
@@ -12,11 +12,12 @@ OneTel Template
 http://www.templatemo.com/tm-468-onetel
 -->
 	<!-- stylesheet css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link rel="stylesheet" href="css/templatemo-style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/nivo-lightbox.css" />
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css" />
+	<link rel="stylesheet" href="css/templatemo-style.css" />
+    <link rel="stylesheet" href="css/main.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -33,14 +34,18 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand"><img src="images/logo.png" class="img-responsive" alt="logo"></a>
+			<a href="index.html" class="navbar-brand">
+                <img id="logo" src="images/NaRollerLogo-w500.png" />
+            </a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="about.html">ABOUT US</a></li>
-				<li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
+				<!--li><a href="index.html" class="active">首頁</a></li -->
+				<li><a href="about.html">關於我們</a></li>
+				<li><a href="about.html">最新消息</a></li>
+				<li><a href="portfolio.html">產品</a></li>
+				<li><a href="portfolio.html">技術</a></li>
+				<li><a href="contact.html">聯繫我們</a></li>
 			</ul>
 		</div>
 	</div>
@@ -107,37 +112,31 @@ http://www.templatemo.com/tm-468-onetel
 <footer>
 	<div class="container">
 		<div class="row">
-        
-			<div class="col-md-5 col-sm-4">
-				<img src="images/logo.png" class="img-responsive" alt="logo">
-				<p>Onetel is free Bootstrap v3.3.5 HTML5 layout from 
-                <a rel="nofollow" href="http://www.facebook.com/templatemo" target="_parent">templatemo</a> website.
-                Feel free to use it for your website.</p>
-				<p><i class="fa fa-phone"></i> 010-020-0340</p>
-				<p><i class="fa fa-envelope-o"></i> info@company.com</p>
-              <p><i class="fa fa-globe"></i> www.company.com</p>
+
+			<div id="footerInfo" class="col-md-4 col-sm-4">
+				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
+                <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
+				<p><i class="fa fa-phone"></i>（03）222-2500</p>
+				<p><i class="fa fa-envelope-o"></i><a class="mailAddr" href="mailto: roger.lee@naroller.com">roger.lee@naroller.com</a></p>
+                <p><i class="fa fa-map-marker"></i>桃園市龜山區民生北路ㄧ段580號6樓</p>
 			</div>
 
-			<div class="col-md-3 col-sm-4">
-				<h3>Useful Links</h3>
-				<p><a href="#">HTML5 Templates</a></p>
-				<p><a href="#">CSS3 Tricks</a></p>
-				<p><a href="#">Design Blog</a></p>
-				<p><a href="#">Animations</a></p>
+			<div id="footerMenu" class="col-md-3 col-sm-4">
+				<h3>Menu</h3>
+				<p class="menu"><a href="about.html">About</a></p>
+				<p class="menu"><a href="#">News</a></p>
+				<p class="menu"><a href="#">Products</a></p>
+				<p class="menu"><a href="#">Technology</a></p>
+				<p class="menu"><a href="#">Contact</a></p>
+			</div>
+
+			<div class="col-md-5 col-sm-4 newsletter">
+				<h3>Map</h3>
+				<div id="googleMap"></div>
 			</div>
             
-			<div class="col-md-4 col-sm-4 newsletter">
-				<h3>Newsletter</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo.</p>
-				<div class="input-group">
-           	    	<form action="#" method="post">
-                        <input name="email" type="email" placeholder="Enter your email" class="form-control" autorequired>
-                    	<button type="submit" name="submit" class="btn email">Submit</button>
-                  	</form>
-				 </div>
-			</div>
-            
-		</div>
+		</div><!-- End class="row"-->
 	</div>
 </footer>
 
@@ -145,17 +144,14 @@ http://www.templatemo.com/tm-468-onetel
 <div class="copyright">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-sm-6">
-				<p>Copyright © 2084 Company Name</p>
+			<div class="col-md-8 col-sm-6">
+				<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
 			</div>
-			<div class="col-md-6 col-sm-6">
+			<div id="socialLinkArea" class="col-md-4 col-sm-6">
 				<ul class="social-icons">
 					<li><a href="#" class="fa fa-facebook"></a></li>
 					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-dribbble"></a></li>
-					<li><a href="#" class="fa fa-pinterest"></a></li>
-					<li><a href="#" class="fa fa-behance"></a></li>
-					<li><a href="#" class="fa fa-envelope-o"></a></li>
+					<li><a href="mailto: roger.lee@naroller.com" class="fa fa-envelope-o"></a></li>
 				</ul>
 			</div>
 		</div>
