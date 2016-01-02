@@ -119,7 +119,7 @@
         font-size: 56pt;
     }
     
-    #about-header a, #contact-header a{
+    #about-header a.downButton, #contact-header a.downButton{
         
         font-size: 48pt;
         opacity: .7;
