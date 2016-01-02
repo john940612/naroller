@@ -200,7 +200,8 @@ img {
 
 /* about section */
 #about-header {
-  background: url('../images/about-header.jpg') no-repeat;
+  /*background: url('../images/about-header.jpg') no-repeat;*/
+    background: url('../images/about-header.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;

@@ -55,7 +55,6 @@
     
     .about-des{
         padding-left: 5em !important;
-        text-align: justify;
     }
     
     #newsButtonArea{
@@ -109,6 +108,16 @@
     #socialLinkArea > ul > li{
         margin-left: 0.7em;
     }
+    
+    /*about.html*/
+    #about-header{
+        text-align: center;
+        text-shadow: 3px 3px rgba(0, 0, 0, .7);
+    }
+    
+    #about-header h1{
+        font-size: 56pt;
+    }
 }/*End @media all and (min-width: 768px)*/
 
 
@@ -146,7 +155,11 @@ a.mailAddr{
     background-color: rgba(215, 58, 25, 0.8);
 }
 
-
 #about h2{
     text-align: center;
 }
+
+.about-des, #team p{
+    text-align: justify;
+}
+
