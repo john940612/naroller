@@ -52,3 +52,11 @@ $('#portfolio a').nivoLightbox({
    $('.navbar-collapse a').click(function(){
         $(".navbar-collapse").collapse('hide');
     });
+
+//DropDown
+$('#nav > ul').dropotron({
+  mode: 'fade',
+  speed: 350,
+  noOpenerFade: true,
+  alignment: 'center'
+});

@@ -3,10 +3,10 @@ $(document).ready(function(){
 	$("#product").mouseenter(function(){
 		$("#productSub").slideDown("fast");
 	});
-	$("#productSub").mouseenter(function(){
+	$(".Sub").mouseenter(function(){
 		show = true;
 	});
-	$("#productSub").mouseleave(function(){
+	$(".Sub").mouseleave(function(){
 		show = false;
 	});
 	setTimeout(function(){
