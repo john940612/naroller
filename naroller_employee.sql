@@ -1,8 +1,0 @@
-CREATE TABLE Employee
-(
-	eId				VARCHAR(10)		NOT NULL,
-	eName			VARCHAR(255)	NOT NULL,
-	ePwd			VARCHAR(255)	NOT NULL,
-	eComp			VARCHAR(255)	NOT NULL,
-	PRIMARY KEY (eId)
-);
