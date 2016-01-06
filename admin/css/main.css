@@ -50,6 +50,29 @@
         text-align: center;
     }
     
+    #uploadForm{
+        width: 50%;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+    
+    #uploadForm a{
+        width: 100%;
+    }
+    /*Change letter-spacing of input placeholder ONLY*/
+    #uploadForm input::-webkit-input-placeholder{
+        letter-spacing: 0.5em;
+    }
+    #uploadForm input:-moz-placeholder{/*Firefox 18-*/
+        letter-spacing: 0.5em;
+    }
+    #uploadForm input::-moz-placeholder{/*Firefox 19+*/
+        letter-spacing: 0.5em;
+    }
+    #uploadForm input:-ms-input-placeholderr{
+        letter-spacing: 0.5em;
+    }
+    
     .copyright p{
         text-align: center;
         letter-spacing: 0.1em;
@@ -66,6 +89,3 @@
 
 /*mediaManagement*/
 
-#file{
-    
-}
