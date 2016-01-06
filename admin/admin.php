@@ -60,14 +60,7 @@ http://www.templatemo.com/tm-468-onetel
                         <span class="fa fa-5x fa-sign-in"></span>
                     </div>
                     <div id="formArea" class="col-md-6 col-sm-6">
-                        <form id="signInForm" action="article.php" method="post" role="form">
                         
-                            <input name="aTitle" type="text" class="form-control" id="name" placeholder="請輸入文章標題" />
-                            <input name="aSecondTitle" type="text" class="form-control" id="email" placeholder="請輸入文章副標題(可為空)" />
-                            <input name="aText" type="text" class="form-control" id="email" placeholder="請輸入文章內容" />
-                            <input name="aSummary" type="text" class="form-control" id="email" placeholder="請輸入文章摘要(可為空)" />
-                            <button id="updateButton" type="submit" name="submit" class="btn btn-default">上傳文章</button>
-                        </form>
                     </div>
                 </div>
             </div>

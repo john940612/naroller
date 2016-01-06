@@ -1,21 +1,10 @@
 <?php
-
-	/*
-	// 給定資料庫變數
-	$dbtype_sql = 'mysql';
-	$host_sql = '127.0.0.1';
-	$dbname_sql = 'goodgoodeat107';
-	$username_sql = 'goodgoodeat107';
-    $password_sql = 'abu520';
-	*/
     
 	$dbtype_sql = 'mysql';
-	$host_sql = '127.0.0.1';
-	$dbname_sql = 'naroller';
-	$username_sql = 'root';
-    $password_sql = '';
-    
-
+	$host_sql = '140.117.194.50';
+	$dbname_sql = 'sad';
+	$username_sql = 'sad';
+    $password_sql = 'a0123456789';
 
 	// 資料庫連線
 	try {

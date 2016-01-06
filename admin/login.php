@@ -1,5 +1,5 @@
 <?php
-	include("connect_userDB.php");
+	include("connect_db.php");
 	session_start();
 	if($_SERVER["REQUEST_METHOD"] == "POST")
 	{
