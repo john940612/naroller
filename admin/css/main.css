@@ -51,7 +51,8 @@
     }
     
     #uploadForm{
-        width: 50%;
+        padding-top: 1.5em;
+        width: 60%;
         letter-spacing: 0.1em;
         text-align: center;
     }
