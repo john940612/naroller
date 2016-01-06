@@ -1,7 +1,7 @@
-<!DOCTYPE html><!--TEST-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>NaRoller</title>
+	<title>Naroller - 奈美電子</title>
     <meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
@@ -26,7 +26,7 @@ http://www.templatemo.com/tm-468-onetel
 
 <!-- navigation -->
 
-	<div class="container">
+<div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="navbar-header">
 			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -34,8 +34,9 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand"><font color="#ff1493">NaRoller</font>
-			</a>
+			<a href="index.html" class="navbar-brand">
+                <img id="logo" src="images/NaRollerLogo-w500.png" />
+            </a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -56,8 +57,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div class="col-md-5 col-sm-3"></div>
 			<div class="col-md-7 col-sm-9">
-				<h3>歡迎來到</h3>
-				<h1>奈美科技股份有限公司</h1>
+				
 			</div>
 		</div>
 	</div>
@@ -67,39 +67,37 @@ http://www.templatemo.com/tm-468-onetel
 <div class="divider">
 	<div class="container">
 		<div class="row">
-
+            <!-- Divider 1 -->
 			<div class="col-md-4 col-sm-6">
 				<div class="divider-wrapper divider-one">
 					<img src="pic\3.jpg" height="80" width="200">
-					<h2>結構力學</h2>
+					<h2>微結構和微發電機</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
 				</div>
 			</div>
-
+            <!-- Divider 2 -->
 			<div class="col-md-4 col-sm-6">
 				<div class="divider-wrapper divider-two">
 					<img src="pic\4.jpg" height="80" width="200">
-					<h2>電磁場</h2>
+					<h2>精密servo motor design fabrication</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
 				</div>
 			</div>
-
+            <!-- Divider 3 -->
 			<div class="col-md-4 col-sm-12">
 				<div class="divider-wrapper divider-three">
 					<img src="pic\5.jpg" height="80" width="200">
-					<h2>系統多物理場</h2>
+					<h2>Power electronics in energy-saving</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
 				</div>
 			</div>
-
 		</div><!-- End row -->
 	</div><!-- End container-->
-</div>
+</div><!-- End divider -->
 <!-- End divider section -->
 <!-- about section -->
 <div id="about">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12">
 				<h2>News</h2><!--span class="fa fa-newspaper-o fa-2x"></span-->
@@ -107,21 +105,26 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 
 		<div class="row">
-
-			<div class="col-md-6 col-sm-12" id="newsImgArea">
-				<img src="pic\3.jpg" class="img-responsive" alt="about img">
+            <!-- News Image -->
+			<div class="col-md-5 col-sm-12" id="newsImgArea">
+				<img src="images/photo/DSC04035.jpg" class="img-responsive" alt="about img" />
 			</div>
-
+            <!-- News Text -->
 			<div class="col-md-6 col-sm-12 about-des">
-				<h3>Startup Business</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet.</p>
-				<a href="about.html" class="btn btn-default" id="newsButton">LEARN MORE</a>
-			</div>
-
-		</div><!-- End row -->
-
-	</div>
-</div>
+				<h3>尚待更新</h3>
+				<p>混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲，消費者對於對車輛動力操控和加速度的感受要求增加，車輛動力已經成為新的趨勢主流。
+                </p>
+                <!-- News, LEARN MORE button Area -->
+				<div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6"></div>
+                    <div id="newsButtonArea" class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="about.html" class="btn btn-default" id="newsButton">LEARN MORE</a>
+                    </div>
+                </div>
+			</div><!-- End News Text -->
+		</div><!-- End div.row -->
+	</div><!-- End div.container -->
+</div><!-- End div#about -->
 
 <!-- portfolio section -->
 <div id="portfolio">
@@ -129,78 +132,70 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12">
 				<h2>Product</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
 			</div>
          </div>
 
     <div class="row mt30">
 
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img1.jpg" alt="portfolio img"></a>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+                <a href="images/photo/product/DSC04046.jpg" data-lightbox-gallery="portfolio-gallery"><img class="productPhotoTemp" src="images/photo/product/DSC04046-01.jpg" alt="portfolio img"></a>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img2.jpg" alt="portfolio img"></a>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<a href="images/photo/product/IMG_8295.JPG" data-lightbox-gallery="portfolio-gallery"><img class="productPhotoTemp" src="images/photo/product/IMG_8295.JPG" alt="portfolio img" /></a>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img3.jpg" alt="portfolio img"></a>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<a href="images/photo/product/DSC03988.jpg" data-lightbox-gallery="portfolio-gallery"><img class="productPhotoTemp" src="images/photo/product/DSC03988-01.jpg" alt="portfolio img" /></a>
 			</div>
-
+            <div class="col-md-3 col-sm-6 col-xs-12">
+				<a href="images/photo/product/DSC00115.jpg" data-lightbox-gallery="portfolio-gallery"><img class="productPhotoTemp" src="images/photo/product/DSC00115.jpg" alt="portfolio img"></a>
+			</div>
+			
 			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img4.jpg" alt="portfolio img"></a>
+				<a href="images/photo/product/DSC04005.jpg" data-lightbox-gallery="portfolio-gallery"><img class="productPhotoTemp" src="images/photo/product/DSC04005-01.jpg" alt="portfolio img" /></a>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img5.jpg" alt="portfolio img"></a>
+				<a href="images/photo/product/DSC00069.jpg" data-lightbox-gallery="portfolio-gallery"><img class="productPhotoTemp" src="images/photo/product/DSC00069-01.jpg" alt="portfolio img"></a>
 			</div>
-			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img6.jpg" alt="portfolio img"></a>
-			</div>
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<a href="images/portfolio-img7.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img7.jpg" alt="portfolio img"></a>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="images/photo/product/DSC04000.jpg" data-lightbox-gallery="portfolio-gallery"><img class="productPhotoTemp" src="images/photo/product/DSC04000-01.jpg" alt="portfolio img" /></a>
 			</div>
 			<div class="col-md-12 col-sm-12">
 				<a rel="nofollow" href="http://www.templatemo.com/tag/darkgray" class="btn btn-default">View More</a>
 			</div>
 		</div>
-	</div>
-</div>
+	</div><!-- End div.container -->
+</div><!-- End div#portfolio -->
 
 <!-- footer section -->
 <footer>
 	<div class="container">
 		<div class="row">
 
-			<div class="col-md-5 col-sm-4">
-				<img src="images/logo.png" class="img-responsive" alt="logo">
-				<p>Nano is the future
-
-				<p><i class="fa fa-phone"></i> 000-000-0000</p>
-				<p><i class="fa fa-envelope-o"></i> info@naroller.com</p>
-              <p><i class="fa fa-globe"></i> www.naroller.com</p>
+			<div id="footerInfo" class="col-md-4 col-sm-4">
+				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
+                <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
+				<p><i class="fa fa-phone"></i>（03）222-2500</p>
+				<p><i class="fa fa-envelope-o"></i><a class="mailAddr" href="mailto: roger.lee@naroller.com">roger.lee@naroller.com</a></p>
+                <p><i class="fa fa-map-marker"></i>桃園市龜山區民生北路ㄧ段580號6樓</p>
 			</div>
 
-			<div class="col-md-3 col-sm-4">
+			<div id="footerMenu" class="col-md-3 col-sm-4">
 				<h3>Menu</h3>
-				<p><a href="#">About</a></p>
-				<p><a href="#">News</a></p>
-				<p><a href="#">Products</a></p>
-				<p><a href="#">Technology</a></p>
-				<p><a href="#">Contact</a></p>
+				<p class="menu"><a href="about.html">About</a></p>
+				<p class="menu"><a href="#">News</a></p>
+				<p class="menu"><a href="#">Products</a></p>
+				<p class="menu"><a href="#">Technology</a></p>
+				<p class="menu"><a href="#">Contact</a></p>
 			</div>
 
-			<div class="col-md-4 col-sm-4 newsletter">
+			<div class="col-md-5 col-sm-4 newsletter">
 				<h3>Map</h3>
-				<p>Place Google Map here.</p>
-<!--
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo.</p>
-				<div class="input-group">
-           	    	<form action="#" method="post">
-                        <input name="email" type="email" placeholder="Enter your email" class="form-control" autorequired>
-                    	<button type="submit" name="submit" class="btn email">Submit</button>
-                  	</form>
-				 </div> -->
+				<div id="googleMap"></div>
 			</div>
-
-		</div>
+            
+		</div><!-- End class="row"-->
 	</div>
 </footer>
 
@@ -208,17 +203,14 @@ http://www.templatemo.com/tm-468-onetel
 <div class="copyright">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-sm-6">
-				<p>Copyright © 2015 NaRoller</p>
+			<div class="col-md-8 col-sm-6">
+				<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
 			</div>
-			<div class="col-md-6 col-sm-6">
+			<div id="socialLinkArea" class="col-md-4 col-sm-6">
 				<ul class="social-icons">
 					<li><a href="#" class="fa fa-facebook"></a></li>
 					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-dribbble"></a></li>
-					<li><a href="#" class="fa fa-pinterest"></a></li>
-					<li><a href="#" class="fa fa-behance"></a></li>
-					<li><a href="#" class="fa fa-envelope-o"></a></li>
+					<li><a href="mailto: roger.lee@naroller.com" class="fa fa-envelope-o"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -231,6 +223,7 @@ http://www.templatemo.com/tm-468-onetel
 <script src="js/bootstrap.min.js"></script>
 <script src="js/nivo-lightbox.min.js"></script>
 <script src="js/custom.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=geometry&sensor=false"></script>
 
 </body>
 </html>
