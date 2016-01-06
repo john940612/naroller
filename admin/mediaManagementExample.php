@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>Sign In - NaRoller Management</title>
-    <meta name="keywords" content="">
+	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -18,8 +18,8 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="../css/nivo-lightbox.css" />
 	<link rel="stylesheet" href="../css/nivo_themes/default/default.css" />
 	<link rel="stylesheet" href="../css/templatemo-style.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="../css/main.css" />
+	<link rel="stylesheet" href="css/main.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -29,7 +29,7 @@ http://www.templatemo.com/tm-468-onetel
 <!-- navigation -->
 
 <div class="container">
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="navbar-header">
 			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="icon icon-bar"></span>
@@ -53,29 +53,29 @@ http://www.templatemo.com/tm-468-onetel
 <div id="contact-header">
 	<div class="container">
 		<div class="row">
-            <div class="container signInDiv">
-                <div id="contact" class="row">
-                    <div id="signInTitleArea" class="col-md-6 col-sm-4">
-                        <h2>Sign In</h2>
-                        <span class="fa fa-5x fa-sign-in"></span>
-                    </div>
-                    <div id="formArea" class="col-md-6 col-sm-6">
-                        <form id="signInForm" action="#" method="post" role="form">
-                            <input name="username" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
-                            <input name="password" type="password" class="form-control" id="email" placeholder="密碼｜Password" />
-                            <a id="signInButton" type="submit" class="btn btn-default">Sign In</a>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        
-        
-        
-            
-            
-            
-            
-            
+			<div class="container signInDiv">
+				<div id="contact" class="row">
+					<div id="signInTitleArea" class="col-md-6 col-sm-4">
+						<h2>Sign In</h2>
+						<span class="fa fa-5x fa-sign-in"></span>
+					</div>
+					<div id="formArea" class="col-md-6 col-sm-6">
+						<form id="signInForm" action="media.php" method="post" role="form" enctype="multipart/form-data">
+						
+							<input name="file" type="file" class="form-control" id="file" placeholder="請輸入文章標題" />
+							<button id="updateButton" type="submit" name="submit" class="btn btn-default">上傳檔案</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		
+		
+		
+			
+			
+			
+			
+			
 		</div>
 	</div>
 </div>
@@ -86,18 +86,18 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			
 			<div class="col-md-12 col-sm-12 mt30">
-                <div class="col-md-6 col-sm-4">
-                    <h2>Sign In</h2>
-                    <span class="fa fa-5x fa-sign-in"></span>
-                </div>
-                
-                <div id="formArea" class="col-md-6 col-sm-6">
-                    <form id="signInForm" action="#" method="post" role="form">
-                        <input name="username" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
-                        <input name="password" type="password" class="form-control" id="email" placeholder="密碼｜Password" />
-                        <a id="signInButton" type="submit" name="submit" class="btn btn-default">Sign In</a>
-                    </form>
-                </div>
+				<div class="col-md-6 col-sm-4">
+					<h2>Sign In</h2>
+					<span class="fa fa-5x fa-sign-in"></span>
+				</div>
+				
+				<div id="formArea" class="col-md-6 col-sm-6">
+					<form id="signInForm" action="#" method="post" role="form">
+						<input name="username" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
+						<input name="password" type="password" class="form-control" id="email" placeholder="密碼｜Password" />
+						<a id="signInButton" type="submit" name="submit" class="btn btn-default">Sign In</a>
+					</form>
+				</div>
 				
 			</div>
 		</div>
@@ -108,13 +108,13 @@ http://www.templatemo.com/tm-468-onetel
 <!--footer>
 	<div class="container">
 		<div class="row">
-        
+		
 			<div id="footerInfo" class="col-md-5 col-sm-4">
 				<img src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
 				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
 				<p><i class="fa fa-phone"></i> （000）000-0000</p>
 				<p><i class="fa fa-envelope-o"></i> info@naroller.com</p>
-                <p><i class="fa fa-globe"></i> www.naroller.com</p>
+				<p><i class="fa fa-globe"></i> www.naroller.com</p>
 			</div>
 
 			<div class="col-md-3 col-sm-4">
@@ -130,7 +130,7 @@ http://www.templatemo.com/tm-468-onetel
 				<h3>Map</h3>
 				<p>Place Google Map here.</p>
 			</div>
-            
+			
 		</div>
 	</div>
 </footer-->
@@ -138,7 +138,7 @@ http://www.templatemo.com/tm-468-onetel
 <!-- copyright section -->
 <div class="copyright">
 	<div class="container">
-        <p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
+		<p>Copyright © 2015 Naroller Electronics</p>
 	</div>
 </div>
 

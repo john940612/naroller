@@ -54,16 +54,20 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
             <div class="container signInDiv">
+            <?php
+            	//include("login.php");
+            ?>
                 <div id="contact" class="row">
                     <div id="signInTitleArea" class="col-md-6 col-sm-4">
                         <h2>Sign In</h2>
                         <span class="fa fa-5x fa-sign-in"></span>
                     </div>
                     <div id="formArea" class="col-md-6 col-sm-6">
-                        <form id="signInForm" action="#" method="post" role="form">
+                        <form id="signInForm" action="login.php" method="post" role="form">
+                        
                             <input name="username" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
                             <input name="password" type="password" class="form-control" id="email" placeholder="密碼｜Password" />
-                            <a id="signInButton" type="submit" class="btn btn-default">Sign In</a>
+                            <button id="signInButton" type="submit" name="submit" class="btn btn-default">Sign In</button>
                         </form>
                     </div>
                 </div>
@@ -138,7 +142,7 @@ http://www.templatemo.com/tm-468-onetel
 <!-- copyright section -->
 <div class="copyright">
 	<div class="container">
-        <p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
+        <p>Copyright © 2015 Naroller Electronics</p>
 	</div>
 </div>
 

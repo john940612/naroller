@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--TEST-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Naroller - 奈美電子</title>

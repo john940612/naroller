@@ -1,8 +1,9 @@
 @media all and (min-width: 768px){
-    #contact-header{
-        padding-top: 100px;
-    }
     
+ /*signIn.html*/
+    #signInTitleArea, #formArea{
+        margin-top: -50px;
+    }
     #signInForm input{
         border-radius: 5px !important;
         margin-bottom: 1em;
@@ -31,20 +32,46 @@
         letter-spacing: 0.5em;
     }
     
-    
     #signInButton{
         width: 60%;
         margin: 0;
         border-color: rgba(255, 255, 255, .7);
-        /*background: rgba(32, 32, 32, .7);*/
         background: rgba(32, 32, 32, .7);
         
     }
     
     #signInButton:hover{
         border-color: white;
-        /*background: rgba(255, 255, 255, .3);*/
         background: rgba(32, 32, 32, .2);
+    }
+    
+/*mediaManagement*/
+    .halfSideTitle{
+        text-align: center;
+    }
+    
+    #uploadForm{
+        padding-top: 1.5em;
+        width: 60%;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+    
+    #uploadForm a{
+        width: 100%;
+    }
+    /*Change letter-spacing of input placeholder ONLY*/
+    #uploadForm input::-webkit-input-placeholder{
+        letter-spacing: 0.5em;
+    }
+    #uploadForm input:-moz-placeholder{/*Firefox 18-*/
+        letter-spacing: 0.5em;
+    }
+    #uploadForm input::-moz-placeholder{/*Firefox 19+*/
+        letter-spacing: 0.5em;
+    }
+    #uploadForm input:-ms-input-placeholderr{
+        letter-spacing: 0.5em;
     }
     
     .copyright p{
@@ -60,3 +87,6 @@
 #signInTitleArea h2, #signInTitleArea span{
     text-shadow: 2px 2px rgba(32, 32, 32, .7);
 }
+
+/*mediaManagement*/
+
