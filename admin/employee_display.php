@@ -1,6 +1,6 @@
 <?php
 	include("connect_db.php");
-	$catch = "SELECT * FROM Article";
+	$catch = "SELECT * FROM Employee";
 	echo "<table border='1'>";
 	echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
 	echo "<tr>";

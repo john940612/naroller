@@ -1,7 +1,7 @@
 <?php
 	include("connect_db.php");
 
-	date_default_timezone_set('Asia/Taipei');
+	
 	
 	//$aId = "";
 	$eId = addslashes($_POST['eId']);
