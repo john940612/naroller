@@ -36,11 +36,8 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">
-<<<<<<< HEAD
                 <img id="logo" src="../images/NaRollerLogo-w500.png" />
-=======
                 <img id="logo" src="http://140.117.178.132/naroller/images/NaRollerLogo-w500.png" />
->>>>>>> da1c108cdd3d967798147bc619198a7706464eab
             </a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -107,59 +104,7 @@ http://www.templatemo.com/tm-468-onetel
 						<table border='0'>
 							<!--php列表部分-->
 							<?php
-								include("connect_db.php");
-								$catchArticle = "SELECT aTitle, aSecondTitle, aDateTime FROM article";
-
-
-								$flag = 1;
-								$catch = "SELECT * FROM Article";
-								//echo "<table border='1'>";
-								echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
-
-								foreach($dbh->query($catch) as $row)
-								{
-									if($flag)
-									{
-										echo "<tr>";
-											echo "<th width=5%>修改</th>";
-											echo "<th>時間</th>";
-											echo "<th>標題</th>";
-											echo "<th>副標</th>";
-											echo "<th colspan='2'>文章</th>";
-											echo "<th colspan='2'>大綱</th>";
-										echo "</tr>";
-										$flag = 0;
-									}	
-									echo "<tr>";
-										echo "<td>";
-											echo '<input name="aId" type="radio" class="form-control" id="name" value="
-												'.$row['aId'].'"/>';
-										echo "</td>";		
-										echo "<td>";
-											print_r ($row['aDateTime']);
-										echo "</td>";
-										echo "<td>";
-											print_r ($row['aTitle']);
-											echo '<input name="aTitle" type="hidden" class="form-control" id="name" value="'.$row['aTitle'].'"/>';
-										echo "</td>";
-										echo "<td>";
-											print_r ($row['aSecondTitle']);
-											echo '<input name="aSecondTitle" type="hidden" class="form-control" id="email" value="'.$row['aSecondTitle'].'"/>';
-										echo "</td>";
-										echo "<td colspan='2'>";
-											print_r ($row['aText']);
-											echo '<input name="aText" type="hidden" class="form-control" id="email"  value="'.$row['aText'].'"/>';
-										echo "</td>";
-										echo "<td colspan='2'>";
-											print_r ($row['aSummary']);
-											echo '<input name="aSummary" type="hidden" class="form-control" id="email"value="'.$row['aSummary'].'" />';
-										echo "</td>";
-									echo "</tr>";
-								}
-								echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改文章</button><br><br><br><br><br>';
-								echo '</form>';
-								echo "</table>";
-
+								include("article_display.php");
 							?>
 							<!--php列表部分結束-->
 							</div>

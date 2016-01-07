@@ -47,7 +47,8 @@
 		echo "</table>";
 	}
 	
-	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改文章</button>';
+	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="1">修改文章</button>';
+	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="2">刪除文章</button>';
 	echo '</form>';
 
 	//header("location: articleManagementExample.php");
