@@ -1,3 +1,7 @@
+.team-wrapper{
+    border: rgba(255, 255, 255, .0) !important;
+}
+
 .newsListArea{
     padding-left: 3em !important;
 }
@@ -24,4 +28,8 @@ a.newsListItem:hover{
     border: rgba(255, 255, 255, 1.0) solid 2px;
     background: rgba(255, 255, 255, 0.0);
     color: #d71921;
+}
+
+.articleArea{
+    padding: 0 10% 0 5%;
 }
