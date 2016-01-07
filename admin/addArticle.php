@@ -75,7 +75,7 @@ http://www.templatemo.com/tm-468-onetel
 			</div-->
             <h2>New Article</h2>
             <div id="article">
-                <form id="artForm" action="article_add" method="post" role="form">
+                <form id="artForm" action="article_add.php" method="post" role="form">
                     <input name="aTitle" type="text" class="form-control" id="artTitle" placeholder="標題" />
                     <input name="aSecondTitle" type="text" class="form-control" id="artSubtitle" placeholder="副標題" />
                     <textarea id="artSummary" name="aText" placeholder="摘要" class="form-control"></textarea>
