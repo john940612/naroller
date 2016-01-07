@@ -62,7 +62,7 @@ http://www.templatemo.com/tm-468-onetel
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>產品管理</h2>
-                        <a  class="fa fa-5x fa-suitcase"></a>
+                        <a href="product_list.php" class="fa fa-5x fa-suitcase"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>媒體管理</h2>
