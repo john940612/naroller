@@ -1,5 +1,9 @@
 @media all and (min-width: 768px) {
     
+    table{
+        letter-spacing: 0.1em;
+    }
+    
     #fileListArea th, #fileListArea td{
         border: solid 1px;
         text-align: center;
@@ -10,13 +14,22 @@
     }
 
     #fileListArea td{
-        height: 50px;
+        padding: 0;
     }
 
     #fileListArea table{
         width: 100%;
     }
 
+    .timeCol{
+        width: 15em;
+    }
     
-
+    .sizeCol{
+        width: 8em;
+    }
+    
+    .uploaderCol{
+        width: 15em;
+    }
 }

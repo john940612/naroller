@@ -103,7 +103,42 @@ http://www.templatemo.com/tm-468-onetel
                             <th class="sizeCol">Size</th>
                             <th class="uploaderCol">Uploader</th>
                         </tr>
-                        <tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
                             <td>2015/12/31 13:01:00</td>
                             <td>My Rabbit Is Cute.jpg</td>
