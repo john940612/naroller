@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<title>Naroller - 奈美電子</title>
-    <meta name="keywords" content="">
-	<meta name="description" content="">
+    <meta name="keywords" content="naroller">
+	<meta name="description" content="naroller是一間電子公司，電磁設計解決方案供應商">
+	<meta name="copyright" CONTENT="本網頁著作權naroller所有">
+	<meta name="msvalidate.01" content="5BE026C0730F761593748301D7C8B710" />
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +26,7 @@ http://www.templatemo.com/tm-468-onetel
 
 </head>
 <body>
-
+<?php include_once("analyticstracking.php") ?>
 <!-- navigation -->
 
 <div class="container">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Sign In - NaRoller Management</title>
+	<title>Top - NaRoller Management</title>
     <meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
@@ -40,10 +40,11 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<!--li><a href="index.html">HOME</a></li>
-				<li><a href="about.html">ABOUT US</a></li>
-				<li><a href="portfolio.html">PORTFOLIO</a></li-->
-				<li><a href="contact.html" class="active">Sign In</a></li>
+				<li><a href="articleManagement.html">文章管理</a></li>
+                <li><a href="">產品管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a href="">員工管理</a></li>
+				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
 	</div>
@@ -54,13 +55,22 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
             <div class="container signInDiv">
-                <div id="contact" class="row">
-                    <div id="signInTitleArea" class="col-md-6 col-sm-4">
-                        <h2>Sign In</h2>
-                        <span class="fa fa-5x fa-sign-in"></span>
+                <div id="adminMenu" class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h2>文章管理</h2>
+                        <a href="articleManagement.html" class="fa fa-5x fa-file-text-o"></a>
                     </div>
-                    <div id="formArea" class="col-md-6 col-sm-6">
-                        
+                    <div class="col-md-3 col-sm-6">
+                        <h2>產品管理</h2>
+                        <a  class="fa fa-5x fa-suitcase"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h2>媒體管理</h2>
+                        <a href="mediaManagement.php" class="fa fa-5x fa-music"></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h2>員工管理</h2>
+                        <a href="employeeManagement.php" class="fa fa-5x fa-user"></a>
                     </div>
                 </div>
             </div>

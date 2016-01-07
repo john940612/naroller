@@ -6,7 +6,7 @@
 	echo "<table border='0'>";
 	echo '<form id="signInForm" action="article_modification.php" method="post" role="form">';
 	echo "<tr>";
-		echo "<th>修改</th>";
+		echo "<th><center>修改</center></th>";
 		//echo "<th>時間</th>";
 		echo "<th>標題</th>";
 		//echo "<th>副標</th>";
@@ -22,10 +22,10 @@
 			$flag = 0;
 		}   */
 		echo "<tr>";
-			echo "<td>";
+			echo "<td><center>";
 				echo '<input name="aId" type="radio" class="form-control" id="name" value="
 					'.$row['aId'].'"/>';
-			echo "</td>";       
+			echo "</center></td>";       
 			//echo "<td>";
 				//print_r ($row['aDateTime']);
 			//echo "</td>";
