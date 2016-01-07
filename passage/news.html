@@ -12,14 +12,12 @@ OneTel Template
 http://www.templatemo.com/tm-468-onetel
 -->
 	<!-- stylesheet css -->
-	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="../css/nivo-lightbox.css"/>
-	<link rel="stylesheet" href="../css/nivo_themes/default/default.css"/>
-	<link rel="stylesheet" href="../css/templatemo-style.css"/>
-    <link rel="stylesheet" href="../css/main.css"/>
-    <link rel="stylesheet" href="../css/dropdown.css"/>
-
+	<link rel="stylesheet" href="C:\Users\john940612\Documents\GitHub\naroller/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="C:\Users\john940612\Documents\GitHub\naroller/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="C:\Users\john940612\Documents\GitHub\naroller/css/nivo-lightbox.css"/>
+	<link rel="stylesheet" href="C:\Users\john940612\Documents\GitHub\naroller/css/nivo_themes/default/default.css"/>
+	<link rel="stylesheet" href="C:\Users\john940612\Documents\GitHub\naroller/css/templatemo-style.css"/>
+    <link rel="stylesheet" href="C:\Users\john940612\Documents\GitHub\naroller/css/main.css"/>
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
 </head>
@@ -36,11 +34,7 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">
-<<<<<<< HEAD
-                <img id="logo" src="../images/NaRollerLogo-w500.png" />
-=======
-                <img id="logo" src="http://140.117.178.132/naroller/images/NaRollerLogo-w500.png" />
->>>>>>> da1c108cdd3d967798147bc619198a7706464eab
+                <img id="logo" src="images/NaRollerLogo-w500.png" />
             </a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -103,66 +97,33 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12">
 				<h2>NEWS SEARCH</h2>
+				<form action="" method="">
 					<center>
-						<table border='0'>
-							<!--php列表部分-->
-							<?php
-								include("connect_db.php");
-								$catchArticle = "SELECT aTitle, aSecondTitle, aDateTime FROM article";
+					<table bgcolor=#FFDC35 >
+						<tr>
+		             		<td><input type="button" value="Edit"></td>
+		             	</tr>
+						<tr>
+							<td>修改</td> 
+		             		<td>時間</td>
+		             		<td>標題</td>
+		             		<td>副標</td>
+		             		<td>文章</td>
+		             		<td>大綱</td>
+		             	</tr> 
+						<tr>
+							<td><input type="checkbox" name="vehicle" value="Bike"></td> 
+		             		<td>2016/1/7</td>
+		             		<td>偉銘是神</td>
+		             		<td>偉銘是神第二代</td>
+		             		<td>偉銘是神第三代</td>
+		             		<td>偉銘是神第四代</td>
+		             	</tr> 
 
-
-								$flag = 1;
-								$catch = "SELECT * FROM Article";
-								//echo "<table border='1'>";
-								echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
-
-								foreach($dbh->query($catch) as $row)
-								{
-									if($flag)
-									{
-										echo "<tr>";
-											echo "<th width=5%>修改</th>";
-											echo "<th>時間</th>";
-											echo "<th>標題</th>";
-											echo "<th>副標</th>";
-											echo "<th colspan='2'>文章</th>";
-											echo "<th colspan='2'>大綱</th>";
-										echo "</tr>";
-										$flag = 0;
-									}	
-									echo "<tr>";
-										echo "<td>";
-											echo '<input name="aId" type="radio" class="form-control" id="name" value="
-												'.$row['aId'].'"/>';
-										echo "</td>";		
-										echo "<td>";
-											print_r ($row['aDateTime']);
-										echo "</td>";
-										echo "<td>";
-											print_r ($row['aTitle']);
-											echo '<input name="aTitle" type="hidden" class="form-control" id="name" value="'.$row['aTitle'].'"/>';
-										echo "</td>";
-										echo "<td>";
-											print_r ($row['aSecondTitle']);
-											echo '<input name="aSecondTitle" type="hidden" class="form-control" id="email" value="'.$row['aSecondTitle'].'"/>';
-										echo "</td>";
-										echo "<td colspan='2'>";
-											print_r ($row['aText']);
-											echo '<input name="aText" type="hidden" class="form-control" id="email"  value="'.$row['aText'].'"/>';
-										echo "</td>";
-										echo "<td colspan='2'>";
-											print_r ($row['aSummary']);
-											echo '<input name="aSummary" type="hidden" class="form-control" id="email"value="'.$row['aSummary'].'" />';
-										echo "</td>";
-									echo "</tr>";
-								}
-								echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改文章</button><br><br><br><br><br>';
-								echo '</form>';
-								echo "</table>";
-
-							?>
-							<!--php列表部分結束-->
-							</div>
+		             </table>
+					</center>	
+				</form>
+			</div>
          </div>
          
          <div class="row mt30">
@@ -246,7 +207,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 
 			<div id="footerInfo" class="col-md-4 col-sm-4">
-				<img src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
 				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
                 <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
 				<p><i class="fa fa-phone"></i>（03）222-2500</p>
@@ -291,10 +252,10 @@ http://www.templatemo.com/tm-468-onetel
 </div>
 
 <!-- javascript js -->	
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.min.js"></script>	
-<script src="../js/nivo-lightbox.min.js"></script>
-<script src="../js/custom.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 </html>

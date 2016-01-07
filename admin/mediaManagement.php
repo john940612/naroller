@@ -20,6 +20,7 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="../css/templatemo-style.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/table.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -80,31 +81,71 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
-                    <form action="#" method="post" role="form">
-
-                        <div class="col-md-6 col-sm-6">
+                    <form id="uploadForm" action="#" method="post" role="form">
                             <!--label for="name">NAME</label-->
-                            <input name="name" type="text" class="form-control" id="name">
-                            <label for="email">EMAIL</label>
-                            <input name="email" type="email" class="form-control" id="email">
-                        </div>
-
-                        <div class="col-md-6 col-sm-6">
-                            <label for="message">MESSAGE</label>
-                            <textarea name="message" rows="6" class="form-control" id="message"></textarea>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6">
-                            <button type="submit" name="submit" class="btn btn-default">SEND</button>
-                        </div>
-
+                            <input name="name" type="text" class="form-control" id="name" placeholder="檔案命名" />
+                            <input name="file" type="file" class="form-control" id="file" />
+                            <!--input name="file" type="file" class="btn" id="file" /-->
+                            <!--input name="file" type="file" class="btn btn-default" id="file" /-->
+                            <a type="submit" class="btn btn-default">SEND</a>
+                            <!--input value="SEND" type="submit" class="btn btn-default" /-->
                     </form>
 				</div>
 			</div>
-			<div class="col-md-12 col-sm-12 mt20">
-            	<h3>Location</h3>
-				<div class="google_map mt20">
-					<div id="map-canvas"></div>
+			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
+            	<h3>Media File List</h3>
+				<div class="listTableArea">
+					<table>
+                        <tr class="headRow">
+                            <th class="checkCol"></th>
+                            <th class="timeCol">Upload Time</th>
+                            <th class="fileNameCol">File Name</th>
+                            <th class="sizeCol">Size</th>
+                            <th class="uploaderCol">Uploader</th>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                    </table>
 				</div>
 			</div>
 		</div>
@@ -112,12 +153,12 @@ http://www.templatemo.com/tm-468-onetel
 </div>		
 
 <!-- footer section -->
-<footer>
+<!--footer>
 	<div class="container">
 		<div class="row">
 
 			<div id="footerInfo" class="col-md-4 col-sm-4">
-				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<img src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
 				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
                 <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
 				<p><i class="fa fa-phone"></i>（03）222-2500</p>
@@ -141,7 +182,7 @@ http://www.templatemo.com/tm-468-onetel
             
 		</div><!-- End class="row"-->
 	</div>
-</footer>
+</footer-->
 
 <!-- copyright section -->
 <div class="copyright">

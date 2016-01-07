@@ -102,12 +102,3 @@
     padding-top: 50px;
 }
 
-#fileListArea th, #fileListArea td{
-    border: solid 1px;
-    padding: 0.5em 1em 0.5em 1em;
-    text-align: center;
-}
-
-#fileListArea table{
-    width: 100%;
-}
