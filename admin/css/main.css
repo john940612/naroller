@@ -46,7 +46,7 @@
     }
     
     
-    /*mediaManagement*/
+/*mediaManagement*/
     .halfSideTitle{
         text-align: center;
     }
@@ -56,6 +56,21 @@
         width: 60%;
         letter-spacing: 0.1em;
         text-align: center;
+    }
+    
+
+    
+    input[type="file"]::-webkit-file-upload-button{
+        float: right;
+        border: white 3px solid;
+        height: 100%;
+        background: transparent;
+        color: white;
+        font-family: 'Microsoft Jhenghei', sans-serif;
+    }
+    input[type="file"]::-webkit-file-upload-button:hover{
+        background: rgba(0, 0, 0, .7);
+    
     }
     
     #uploadForm a{
@@ -75,6 +90,33 @@
         letter-spacing: 0.5em;
     }
     
+/*addArticle.html*/
+    
+    #article{
+        padding: 2em 10% 0 10%;
+    }
+    
+    #artForm input, #artForm textarea{
+        margin-bottom: 2em !important;
+    
+    }
+    
+    textarea#artSummary{
+        height: 150px !important;   
+    }
+    
+    textarea#artContent{
+        height: 350px !important;
+    }
+    
+    #sendButtonArea{
+        text-align: right;
+    }
+    
+    #sendButtonArea a{
+        width: 10em;
+    }
+    
     .copyright p{
         text-align: center;
         letter-spacing: 0.1em;
@@ -90,11 +132,11 @@
 }
 
 /*mediaManagement*/
-#fileListArea{
+#fileListArea, #articleListArea{
     padding: 0 10% 0 10%;
 }
 
-#fileListArea h3{
+#fileListArea h3, #articleListArea{
     text-align: center;
 }
 
