@@ -27,19 +27,20 @@
     }
     
     .timeCol{
-        width: 15em;
+        width: 250px !important;
+        padding: 0;
+        color: green;
     }
     
     .sizeCol{
-        width: 8em;
+        width: 30px;
     }
     
     .uploaderCol{
-        width: 15em;
+        width: 80px;
     }
     
     .headRow{
-        /*background: rgba(255, 156, 156, 0.3);*/
         background: rgba(255, 0, 0, 0.3);
     }
     
@@ -48,7 +49,6 @@
     }
     
     .trtd2{
-        /*background: rgba(255, 193, 193, 0.3);*/
         background: rgba(255, 0, 0, 0.1);
     }
     
