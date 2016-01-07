@@ -54,6 +54,15 @@
         margin-bottom: 50px;
     }
     
+    #adminMenu a{
+        text-decoration: none;
+        opacity: .5;
+    }
+    
+    #adminMenu a:hover{
+        color: white;
+        opacity: 1;
+    }
 /*mediaManagement*/
     .halfSideTitle{
         text-align: center;
