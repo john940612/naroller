@@ -38,7 +38,7 @@ http://www.templatemo.com/tm-468-onetel
                 <img id="logo" src="../images/NaRollerLogo-w500.png" />
             </a>
 		</div>
-		<div class="collapse navbar-collapse drop-down-menu">
+		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right drop-down-menu">
 				<li><a class="active" href="about.html">關於我們</a></li>
 				<li><a href="news.html">最新消息</a></li>
