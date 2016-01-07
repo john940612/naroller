@@ -150,39 +150,7 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 		</div>
 	</div>
-</div>		
-
-<!-- footer section -->
-<!--footer>
-	<div class="container">
-		<div class="row">
-
-			<div id="footerInfo" class="col-md-4 col-sm-4">
-				<img src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
-				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
-                <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
-				<p><i class="fa fa-phone"></i>（03）222-2500</p>
-				<p><i class="fa fa-envelope-o"></i><a class="mailAddr" href="mailto: roger.lee@naroller.com">roger.lee@naroller.com</a></p>
-                <p><i class="fa fa-map-marker"></i>桃園市龜山區民生北路ㄧ段580號6樓</p>
-			</div>
-
-			<div id="footerMenu" class="col-md-3 col-sm-4">
-				<h3>Menu</h3>
-				<p class="menu"><a href="about.html">About</a></p>
-				<p class="menu"><a href="#">News</a></p>
-				<p class="menu"><a href="#">Products</a></p>
-				<p class="menu"><a href="#">Technology</a></p>
-				<p class="menu"><a href="#">Contact</a></p>
-			</div>
-
-			<div class="col-md-5 col-sm-4 newsletter">
-				<h3>Map</h3>
-				<div id="googleMap"></div>
-			</div>
-            
-		</div><!-- End class="row"-->
-	</div>
-</footer-->
+</div>
 
 <!-- copyright section -->
 <div class="copyright">
