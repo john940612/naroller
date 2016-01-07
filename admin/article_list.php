@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>About - Naroller</title>
-    <meta name="keywords" content="">
-	<meta name="description" content="">
+	<title>News - Naroller</title>
+    <meta name="keywords" content="News">
+	<meta name="description" content="News">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,17 +12,16 @@ OneTel Template
 http://www.templatemo.com/tm-468-onetel
 -->
 	<!-- stylesheet css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/nivo-lightbox.css" />
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css" />
-	<link rel="stylesheet" href="css/templatemo-style.css" />
-	<link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/dropdown.css" />
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../css/nivo-lightbox.css"/>
+	<link rel="stylesheet" href="../css/nivo_themes/default/default.css"/>
+	<link rel="stylesheet" href="../css/templatemo-style.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/dropdown.css"/>
 
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
-
 </head>
 <body>
 	
@@ -37,7 +36,8 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">
-                <img id="logo" src="images/NaRollerLogo-w500.png" />
+                <img id="logo" src="../images/NaRollerLogo-w500.png" />
+                <img id="logo" src="http://140.117.178.132/naroller/images/NaRollerLogo-w500.png" />
             </a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -46,17 +46,33 @@ http://www.templatemo.com/tm-468-onetel
 				<li><a href="news.html">最新消息</a></li>
 				<li><a href="portfolio.html">產品</a>
 					<ul>
-						<li><a href="#">Mini Sedan</a>
+						<li><a href="">Mini Sedan</a>
 							<ul>
-								<li><a href="Hyundai Accent.html">Hyundai Accent</a></li>
+								<li><a href="">Hyundai Accent</a></li>
+								<li><a href="">Proton saga</a></li>
+								<li><a href="">Toyota Yaris/VItz</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Compact Sedan</a>
+						<li><a href="">Compact Sedan</a>
 							<ul>
-								<li><a href="Ford Focus.html">Ford Focus</a></li>
+								<li><a href="">Ford Focus</a></li>
+								<li><a href="">Proton Gen-2</a></li>
+								<li><a href="">Honda Civic</a></li>
+								<li><a href="">Mitsubishi Lancer</a></li>
+								<li><a href="">Toyota Corolla Altis</a></li>
+								<li><a href="">Nissan Tiida 4-Door</a></li>
 							</ul>
 						</li>
-						
+						<li><a href="">Mid-size Sedan</a>
+							<ul>
+								<li><a href="">Ford Mondeo</a></li>
+								<li><a href="">Honda Accord</a></li>
+								<li><a href="">Peugeot 407</a></li>
+								<li><a href="">Nissan Altima</a></li>
+								<li><a href="">Toyota Camry</a></li>
+								<li><a href="">mazda 6</a></li>
+							</ul>
+						</li>
 					</ul>
 				</li>
 				<li><a href="portfolio.html">技術</a></li>
@@ -70,8 +86,8 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>About</h1>
-                <a class="downButton" href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
+                <h1>NEWS SEARCH</h1>
+                <a href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
 	</div>
@@ -83,21 +99,29 @@ http://www.templatemo.com/tm-468-onetel
     
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12">
-				<h2>About</h2>
-                <p>新創公司Naroller Electronics，奈美電子公司。</p>
-			</div>
+				<h2>NEWS SEARCH</h2>
+					<center>
+						<table border='0'>
+							<!--php列表部分-->
+							<?php
+								include("article_display.php");
+							?>
+							<!--php列表部分結束-->
+							</div>
          </div>
          
          <div class="row mt30">
 			<div class="col-md-4 col-sm-4 col-xs-9">
-				<div class="team-wrapper">
+						
+ 
+				<!--<div class="team-wrapper">
 					<img src="images/team1.jpg" class="img-responsive" alt="team img">
 					<h3>LINDA</h3>
 					<h4>Creative Director</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo.</p>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-9">
+			<div class="col-md-4 col-sm-4 col-xs-9">s
 				<div class="team-wrapper">
 					<img src="images/team2.jpg" class="img-responsive" alt="team img">
 					<h3>JULIA</h3>
@@ -111,7 +135,7 @@ http://www.templatemo.com/tm-468-onetel
 					<h3>MARY</h3>
 					<h4>Frontend Developer</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo.</p>
-				</div>
+				</div>-->
 			</div>
          </div>
          
@@ -167,7 +191,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 
 			<div id="footerInfo" class="col-md-4 col-sm-4">
-				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<img src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
 				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
                 <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
 				<p><i class="fa fa-phone"></i>（03）222-2500</p>
@@ -212,10 +236,10 @@ http://www.templatemo.com/tm-468-onetel
 </div>
 
 <!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>	
+<script src="../js/nivo-lightbox.min.js"></script>
+<script src="../js/custom.js"></script>
 
 </body>
 </html>
