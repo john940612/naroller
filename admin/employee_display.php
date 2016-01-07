@@ -14,7 +14,7 @@
 	{
 		echo "<tr>";
 			echo "<td>";
-				echo '<input name="eId" type="radio" class="form-control" id="name" value="'.$row['eId'].'"/>';
+				echo '<input name="eId" type="radio" class="form-control" id="eId" value="'.$row['eId'].'"/>';
 				print_r ($row['eId']);
 			echo "</td>";	
 			echo "<td>";

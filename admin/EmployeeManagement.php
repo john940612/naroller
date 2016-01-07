@@ -87,9 +87,9 @@ http://www.templatemo.com/tm-468-onetel
                 <div>
                     <form id="uploadForm" action="#" method="post" role="form">
                         <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
-                        <input name="name" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
-                        <input name="password" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
-                        <input name="access" type="" class="form-control" id="name" placeholder="" />
+                        <input name="eName" type="text" class="form-control" id="name" placeholder="名稱｜Username" />
+                        <input name="ePerm" type="text" class="form-control" id="perm" placeholder="權限｜Access"/>
+                        <input name="ePwd" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
                         <button type="reset" class="btn btn-default">CANCEL</button>
                         <button type="submit" class="btn btn-default">SEND</button>
                     </form>

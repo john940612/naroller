@@ -23,7 +23,7 @@
 			echo "<td>權限</td>";
 			echo "<td>";
 				//print_r ($row['aSummary']);
-				echo '<input name="ePerm" type="text" class="form-control" id="email"value="'.$row['ePerm'].'" />';
+				echo '<input name="ePerm" type="text" class="form-control" id="perm"value="'.$row['ePerm'].'" />';
 			echo "</td>";
 		echo "</tr>";
 		echo "</table>";

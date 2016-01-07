@@ -23,7 +23,7 @@
 		}   */
 		echo "<tr>";
 			echo "<td><center>";
-				echo '<input name="aId" type="radio" class="form-control" id="name" value="
+				echo '<input name="aId" type="radio" class="form-control"  value="
 					'.$row['aId'].'"/>';
 			echo "</center></td>";       
 			//echo "<td>";
