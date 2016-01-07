@@ -26,7 +26,7 @@ http://www.templatemo.com/tm-468-onetel
 
 </head>
 <body>
-
+<?php include_once("analyticstracking.php") ?>
 <!-- navigation -->
 
 <div class="container">
