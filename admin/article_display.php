@@ -3,7 +3,7 @@
 	//$flag = 1;
 	//include("display_paging.php");
 	$catch = "SELECT * FROM article";
-	echo "<table border='1'>";
+	echo "<table border='0'>";
 	echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
 	echo "<tr>";
 		echo "<th>修改</th>";
