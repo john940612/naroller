@@ -60,7 +60,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
                 <h1>Media Management</h1>
-                <a class="downButton" href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
+                <a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
 	</div>
