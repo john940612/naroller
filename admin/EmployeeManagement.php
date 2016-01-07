@@ -86,8 +86,6 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-6 col-sm-4 address">
                 <div>
                     <form id="uploadForm" action="#" method="post" role="form">
-<<<<<<< HEAD
-<<<<<<< HEAD
 
                             <!--label for="name">NAME</label-->
                             <input name="eName" type="text" class="form-control" id="name" placeholder="員工名稱" />
@@ -101,21 +99,21 @@ http://www.templatemo.com/tm-468-onetel
                         <button type="reset" class="btn btn-default">CANCEL</button>
                         <button type="submit" class="btn btn-default">SEND</button>
 
-=======
+
                             <!--label for="name">NAME</label-->
                             <input name="name" type="text" class="form-control" id="name" placeholder="檔案命名" />
                             <input name="file" type="file" class="form-control" id="file" />
                             <button type="submit" class="btn btn-default">SEND</button>
->>>>>>> 4c546daa0897ada7312c34d2e8964c1d29d14cf3
+
                             <!--input value="SEND" type="submit" class="btn btn-default" /-->
-=======
+
                             <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
                         <input name="name" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
                         <input name="password" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
                         <input name="access" type="" class="form-control" id="name" placeholder="" />
                         <button type="reset" class="btn btn-default">CANCEL</button>
                         <button type="submit" class="btn btn-default">SEND</button>
->>>>>>> 4355049e3e564a5dc5c9e08296b480bbc3e7a2c1
+
                     </form>
 				</div>
 			</div>
