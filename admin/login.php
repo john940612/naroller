@@ -5,7 +5,9 @@
 	{
 		// username and password sent from Form
 		$username = addslashes($_POST['username']);
+		//$password = addslashes(md5($_POST['password']));
 		$password = addslashes($_POST['password']);
+		
 		
 		try
 		{
@@ -18,7 +20,6 @@
 			{
 					$_SESSION['user_session'] = $userRow['username'];
 					$_SESSION['login_user'] = $username;
-					//$_SESSION['permission'] = 1;
 					header("location: admin.php");
 			}
 

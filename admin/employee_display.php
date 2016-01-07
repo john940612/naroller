@@ -34,3 +34,4 @@
 	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改員工權限</button>';
 	echo '</form>';
 	echo "</table>";
+?>
