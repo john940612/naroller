@@ -19,15 +19,15 @@
 			echo "</td>";	
 			echo "<td>";
 				print_r ($row['eName']);
-				echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
+				//echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
 			echo "</td>";
 			echo "<td>";
 				print_r ($row['ePwd']);
-				echo '<input name="ePwd" type="hidden" class="form-control" id="email"  value="'.$row['ePwd'].'"/>';
+				//echo '<input name="ePwd" type="hidden" class="form-control" id="email"  value="'.$row['ePwd'].'"/>';
 			echo "</td>";
 			echo "<td>";
 				print_r ($row['ePerm']);
-				echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
+				//echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
 			echo "</td>";
 		echo "</tr>";
 	}
