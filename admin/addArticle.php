@@ -76,10 +76,10 @@ http://www.templatemo.com/tm-468-onetel
             <h2>New Article</h2>
             <div id="article">
                 <form id="artForm" action="article_add" method="post" role="form">
-                    <input name="artTitle" type="text" class="form-control" id="artTitle" placeholder="標題" />
-                    <input name="artSubtitle" type="text" class="form-control" id="artSubtitle" placeholder="副標題" />
-                    <textarea id="artSummary" name="artSummary" placeholder="摘要" class="form-control"></textarea>
-                    <textarea id="artContent" name="artContent" placeholder="內容" class="form-control"></textarea>
+                    <input name="aTitle" type="text" class="form-control" id="artTitle" placeholder="標題" />
+                    <input name="aSecondTitle" type="text" class="form-control" id="artSubtitle" placeholder="副標題" />
+                    <textarea id="artSummary" name="aText" placeholder="摘要" class="form-control"></textarea>
+                    <textarea id="artContent" name="aSummary" placeholder="內容" class="form-control"></textarea>
                     <div id="sendButtonArea">
                         <a type="submit" class="btn btn-default">SEND</a>
                     </div>
