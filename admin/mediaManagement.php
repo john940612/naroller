@@ -104,7 +104,7 @@ http://www.templatemo.com/tm-468-onetel
 </div>		
 
 <!-- footer section -->
-<footer>
+<!--footer>
 	<div class="container">
 		<div class="row">
 
@@ -133,7 +133,7 @@ http://www.templatemo.com/tm-468-onetel
             
 		</div><!-- End class="row"-->
 	</div>
-</footer>
+</footer-->
 
 <!-- copyright section -->
 <div class="copyright">
