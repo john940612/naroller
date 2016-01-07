@@ -41,7 +41,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="articleManagement.html">文章管理</a></li>
-                <li><a href="">產品管理</a></li>
+                <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
                 <li><a href="">員工管理</a></li>
 				<li><a href="#">登出</a></li>
@@ -58,19 +58,19 @@ http://www.templatemo.com/tm-468-onetel
                 <div id="adminMenu" class="row">
                     <div class="col-md-3 col-sm-6">
                         <h2>文章管理</h2>
-                        <a class="fa fa-5x fa-file-text-o"></a>
+                        <a href="articleManagement.html" class="fa fa-5x fa-file-text-o"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>產品管理</h2>
-                        <a class="fa fa-5x fa-suitcase"></a>
+                        <a href="product_list.php" class="fa fa-5x fa-suitcase"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>媒體管理</h2>
-                        <a class="fa fa-5x fa-music"></a>
+                        <a href="mediaManagement.php" class="fa fa-5x fa-music"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>員工管理</h2>
-                        <a class="fa fa-5x fa-user"></a>
+                        <a href="employeeManagement.php" class="fa fa-5x fa-user"></a>
                     </div>
                 </div>
             </div>

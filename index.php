@@ -26,7 +26,7 @@ http://www.templatemo.com/tm-468-onetel
 
 </head>
 <body>
-
+<?php include_once("analyticstracking.php") ?>
 <!-- navigation -->
 
 <div class="container">
@@ -91,7 +91,7 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="divider-wrapper divider-one">
 					<img src="pic\3.jpg" height="80" width="200">
 					<h2>微結構和微發電機</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+					<p>半導體製程概分為三類：(1)薄膜成長，(2)微影曝光，(3)蝕刻成型。而微機電元件的製造技術則是利用目前的半導體製造技術為基礎再加以延伸應用，其製造技術的彈性與變化比一般的IC製造技術來的大，從薄膜成長，黃光微影曝光，乾/濕蝕刻成型等製程都在微機電製程的應用範疇，再配合其他新發展的精密加工與矽微加工技術</p>
 				</div>
 			</div>
             <!-- Divider 2 -->
@@ -99,7 +99,7 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="divider-wrapper divider-two">
 					<img src="pic\4.jpg" height="80" width="200">
 					<h2>精密servo motor design fabrication</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+					<p>伺服系統的構成通常包含受控體（plant）、致動器（actuator）、傳感器（sensor）、控制器（controller）等幾個部分。受控體係指被控制的物件，例如一個機械手臂，或是一個機械工作平台。致動器的功能在於主要提供受控體的動力，可能以氣壓、油壓、或是電力驅動的方式呈現，若是採用油壓驅動方式，則為油壓伺服系統。目前絕大多數的伺服系統採用電力驅動方式，致動器包含了馬達與功率放大器</p>
 				</div>
 			</div>
             <!-- Divider 3 -->
@@ -107,7 +107,7 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="divider-wrapper divider-three">
 					<img src="pic\5.jpg" height="80" width="200">
 					<h2>Power electronics in energy-saving</h2>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+					<p>使用高速材料的鍺電晶體可降低驅動電壓、功率及漏電流，仍無法達到張忠謀董事長於2014年台灣半導體協會喊出的「10倍功率降低」目標，因電壓降低的極限為電晶體開啟時的電流/電壓上升速率。為了解決此問題</p>
 				</div>
 			</div>
 		</div><!-- End row -->
@@ -151,7 +151,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12">
 				<h2>Product</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+                <p></p>
 			</div>
          </div>
 
@@ -227,8 +227,8 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div id="socialLinkArea" class="col-md-4 col-sm-6">
 				<ul class="social-icons">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+					<li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
 					<li><a href="mailto: roger.lee@naroller.com" class="fa fa-envelope-o"></a></li>
 				</ul>
 			</div>

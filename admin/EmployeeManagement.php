@@ -46,8 +46,8 @@ http://www.templatemo.com/tm-468-onetel
 				<!--li><a href="index.html" class="active">首頁</a></li -->
 				<li><a href="articleManagement.html">文章管理</a></li>
                 <li><a href="">產品管理</a></li>
-				<li><a class="active" href="mediaManagement.php">媒體管理</a></li>
-                <li><a href="">員工管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a class="active" href="">員工管理</a></li>
 				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
@@ -59,7 +59,7 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>Media Management</h1>
+                <h1>Employee Management</h1>
                 <a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
@@ -83,6 +83,7 @@ http://www.templatemo.com/tm-468-onetel
                 <div>
                     <form id="uploadForm" action="#" method="post" role="form">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                             <!--label for="name">NAME</label-->
                             <input name="eName" type="text" class="form-control" id="name" placeholder="員工名稱" />
@@ -103,63 +104,48 @@ http://www.templatemo.com/tm-468-onetel
                             <button type="submit" class="btn btn-default">SEND</button>
 >>>>>>> 4c546daa0897ada7312c34d2e8964c1d29d14cf3
                             <!--input value="SEND" type="submit" class="btn btn-default" /-->
+=======
+                            <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
+                        <input name="name" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
+                        <input name="password" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
+                        <input name="access" type="" class="form-control" id="name" placeholder="" />
+                        <button type="reset" class="btn btn-default">CANCEL</button>
+                        <button type="submit" class="btn btn-default">SEND</button>
+>>>>>>> 4355049e3e564a5dc5c9e08296b480bbc3e7a2c1
                     </form>
 				</div>
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
-            	<h3>Media File List</h3>
-				<div class="listTableArea">
-					<table>
-                        <tr class="headRow">
-                            <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
-                            <th class="timeCol">Upload Time</th>
-                            <th class="fileNameCol">File Name</th>
-                            <th class="sizeCol">Size</th>
-                            <th class="uploaderCol">Uploader</th>
-                        </tr>
-                        <tr class="trtd1">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd2">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">20Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd1">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">355kb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd2">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1.5Gb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd1">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd2">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                    </table>
+            	<h3>Employee List</h3>
+				<div class="listTableArea"> 
+                    <?php
+	include("connect_db.php");
+
+	$eId = $_POST['eId'];
+	$catch = "SELECT * FROM Employee WHERE eId = $eId";
+?>
+                    <form id="signInForm" action="employee_modify.php" method="post" role="form">
+                        <table>
+                            <tr class="headRow">
+                                <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
+                                <th class="nameCol">Username</th>
+                                <th class="accessCol">Access</th>
+                            </tr>
+
+                            <tr class="trtd1">
+                                <td class="check"><input type="radio" /></td>
+                                <td class="nameCol">ymayho</td>
+                                <td class="accessCol">general</td>
+                            </tr>
+                            <tr class="trtd2">
+                                <td class="check"><input type="checkbox" /></td>
+                                <td class="nameCol">usaAsakrua</td>
+                                <td class="accessCol">admin</td>
+                            </tr>
+                            
+                            </tr>
+                        </table>
+                    </form>
 				</div>
 			</div>
 		</div>
