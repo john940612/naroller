@@ -4,7 +4,7 @@
 	//include("display_paging.php");
 	$catch = "SELECT * FROM article";
 	echo "<table border='0'>";
-	echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
+	echo '<form id="signInForm" action="article_modification.php" method="post" role="form">';
 	echo "<tr>";
 		echo "<th>修改</th>";
 		echo "<th>時間</th>";

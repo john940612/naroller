@@ -5,8 +5,8 @@
 	$catch = "SELECT * FROM Article WHERE aId = $aId";
 	//echo $catch;
 
-	echo '<form id="signInForm" action="article_modification.php" method="post" role="form">';
-	echo "<table border='1'>";
+	echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
+	echo "<table border='0'>";
 	echo '<input name="aId" type="hidden" value="'.$aId.'"/>';
 
 	foreach($dbh->query($catch) as $row)
