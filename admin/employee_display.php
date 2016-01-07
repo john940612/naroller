@@ -2,7 +2,7 @@
 	include("connect_db.php");
 	$catch = "SELECT * FROM Employee";
 	echo "<table border='1'>";
-	echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
+	echo '<form id="signInForm" action="employee_modify.php" method="post" role="form">';
 	echo "<tr>";
 		//echo "<th>修改</th>";
 		echo "<th>員工ID</th>";
@@ -13,13 +13,10 @@
 	foreach($dbh->query($catch) as $row)
 	{
 		echo "<tr>";
-			//echo "<td>";
-				//echo '<input name="aId" type="radio" class="form-control" id="name" value="'.$row['a'].'"/>';
-			//echo "</td>";		
 			echo "<td>";
+				echo '<input name="eId" type="radio" class="form-control" id="name" value="'.$row['eId'].'"/>';
 				print_r ($row['eId']);
-				echo '<input name="eId" type="hidden" class="form-control" id="name" value="'.$row['eId'].'"/>';
-			echo "</td>";
+			echo "</td>";	
 			echo "<td>";
 				print_r ($row['eName']);
 				echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
