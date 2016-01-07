@@ -1,7 +1,7 @@
 <?php
 	
 	include("connect_db.php");
-	$catchArticle = "SELECT aTitle, aSecondTitle, aDateTime FROM article"
+	$catchArticle = "SELECT aTitle, aSecondTitle, aDateTime FROM article";
 
 	echo "<table border='1'>"; 
 	foreach($dbh->query($catchArticle) as $row) {
