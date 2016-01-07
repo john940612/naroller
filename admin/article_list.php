@@ -19,8 +19,8 @@
 				echo "<th>時間</th>";
 				echo "<th>標題</th>";
 				echo "<th>副標</th>";
-				echo "<th>文章</th>";
-				echo "<th>大綱</th>";
+				echo "<th colspan='2'>文章</th>";
+				echo "<th colspan='2'>大綱</th>";
 			echo "</tr>";
 			$flag = 0;
 		}	
