@@ -1,6 +1,22 @@
 @media all and (min-width: 768px) {
     
-    .check{
-        
+    #fileListArea th, #fileListArea td{
+        border: solid 1px;
+        text-align: center;
     }
+
+    #fileListArea th{
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    #fileListArea td{
+        height: 50px;
+    }
+
+    #fileListArea table{
+        width: 100%;
+    }
+
+    
+
 }
