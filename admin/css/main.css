@@ -117,11 +117,11 @@
 }
 
 /*mediaManagement*/
-#fileListArea{
+#fileListArea, #articleListArea{
     padding: 0 10% 0 10%;
 }
 
-#fileListArea h3{
+#fileListArea h3, #articleListArea{
     text-align: center;
 }
 

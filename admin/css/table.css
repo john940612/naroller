@@ -1,31 +1,24 @@
 @media all and (min-width: 768px) {
     
     table{
+        width: 100%;
         color: white;
         letter-spacing: 0.1em;
     }
     
-    #fileListArea th{
+    th{
+        padding: 0.5em 1em 0.5em 1em;
         text-transform: uppercase;
+        text-align: center;
     }
     
-    #fileListArea th, #fileListArea td{
+    td{
+        padding: 0;
         text-align: center;
     }
 
-    #fileListArea th{
-        padding: 0.5em 1em 0.5em 1em;
-    }
-
-    #fileListArea td{
-        padding: 0;
-    }
-
-    #fileListArea table{
-        width: 100%;
-    }
-
-    .check, .checkCol{
+    /*Media file list column*/
+    .check, .checkCol{/*Article list is also affected*/
         width: 5em;
     }
     
@@ -46,6 +39,49 @@
     .uploaderCol{
         width: 12em;
     }
+    /*End media file list column*/
+    
+    /*Article list column*/
+    
+    .dateCol, .subtitleCol{
+        border-left: rgba(255, 255, 255, .5) solid 1px;
+        border-right: rgba(255, 255, 255, .5) solid 1px;
+    }
+    
+    .dateCol{
+        width: 8em;
+    }
+    
+    td.titleCol, td.subtitleCol{
+        font-family: 'Microsoft Jhenghei';
+        font-weight: bold;
+    }
+    
+    .titleCol, .subtitleCol{
+        width: 27em;
+    }
+    
+    .authorCol{
+        width: 9em;
+    }
+    
+    .editCol a{
+        margin: 0 0.5em 0 0.5em;
+        padding: 0.3em;
+        height: auto;
+        text-decoration: none;
+    }
+    
+    .editCol .plusButton{
+        opacity: .5;
+    }
+    
+    .editCol .plusButton:hover{
+        opacity: 1;
+        color: white;
+    }
+    
+    /*End article list column*/
     
     .headRow{
         background: rgba(255, 0, 0, 0.3);
