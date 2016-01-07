@@ -44,7 +44,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<!--li><a href="index.html" class="active">首頁</a></li -->
-				<li><a href="about.html">最新消息</a></li>
+				<li><a href="article.php">最新消息</a></li>
 				<li><a class="active" href="about.html">媒體管理</a></li>
 				<!--li><a href="portfolio.html">產品</a></li>
 				<li><a href="portfolio.html">技術</a></li-->
