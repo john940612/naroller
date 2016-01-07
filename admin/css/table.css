@@ -1,30 +1,23 @@
 @media all and (min-width: 768px) {
     
     table{
+        width: 100%;
         color: white;
         letter-spacing: 0.1em;
     }
     
-    #fileListArea th{
+    th{
+        padding: 0.5em 1em 0.5em 1em;
         text-transform: uppercase;
+        text-align: center;
     }
     
-    #fileListArea th, #fileListArea td{
+    td{
+        padding: 0;
         text-align: center;
     }
 
-    #fileListArea th{
-        padding: 0.5em 1em 0.5em 1em;
-    }
-
-    #fileListArea td{
-        padding: 0;
-    }
-
-    #fileListArea table{
-        width: 100%;
-    }
-
+    /*Each column*/
     .check, .checkCol{
         width: 5em;
     }
@@ -46,7 +39,7 @@
     .uploaderCol{
         width: 12em;
     }
-    
+    /*End each column*/
     .headRow{
         background: rgba(255, 0, 0, 0.3);
     }
