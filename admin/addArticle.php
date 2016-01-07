@@ -81,7 +81,7 @@ http://www.templatemo.com/tm-468-onetel
                     <textarea id="artSummary" name="aText" placeholder="摘要" class="form-control"></textarea>
                     <textarea id="artContent" name="aSummary" placeholder="內容" class="form-control"></textarea>
                     <div id="sendButtonArea">
-                        <a type="submit" class="btn btn-default">SEND</a>
+                        '<button id="updateButton" type="submit" name="submit" class="btn btn-default">Send</button>';
                     </div>
                 </form>
 	       </div>
