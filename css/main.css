@@ -299,7 +299,7 @@ td {
 
 /*START NO MEDIA QUERY*/
 
-p, .navbar-default .navbar-nav li a{
+p, .navbar-default .navbar-nav li a, input, textarea{
     font-family: "Microsoft Jhenghei", sans-serif;
 
 }

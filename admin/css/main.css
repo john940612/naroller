@@ -46,7 +46,7 @@
     }
     
     
-    /*mediaManagement*/
+/*mediaManagement*/
     .halfSideTitle{
         text-align: center;
     }
@@ -73,6 +73,33 @@
     }
     #uploadForm input:-ms-input-placeholderr{
         letter-spacing: 0.5em;
+    }
+    
+/*addArticle.html*/
+    
+    #article{
+        padding: 2em 10% 0 10%;
+    }
+    
+    #artForm input, #artForm textarea{
+        margin-bottom: 2em !important;
+    
+    }
+    
+    textarea#artSummary{
+        height: 150px !important;   
+    }
+    
+    textarea#artContent{
+        height: 350px !important;
+    }
+    
+    #sendButtonArea{
+        text-align: right;
+    }
+    
+    #sendButtonArea a{
+        width: 10em;
     }
     
     .copyright p{
