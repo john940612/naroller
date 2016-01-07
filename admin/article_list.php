@@ -12,12 +12,14 @@ OneTel Template
 http://www.templatemo.com/tm-468-onetel
 -->
 	<!-- stylesheet css -->
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/nivo-lightbox.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/nivo_themes/default/default.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/templatemo-style.css"/>
-    <link rel="stylesheet" href="http://140.117.178.132/naroller/css/main.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../css/nivo-lightbox.css"/>
+	<link rel="stylesheet" href="../css/nivo_themes/default/default.css"/>
+	<link rel="stylesheet" href="../css/templatemo-style.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/dropdown.css"/>
+
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
 </head>
@@ -34,7 +36,11 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">
-                <img id="logo" src="images/NaRollerLogo-w500.png" />
+<<<<<<< HEAD
+                <img id="logo" src="../images/NaRollerLogo-w500.png" />
+=======
+                <img id="logo" src="http://140.117.178.132/naroller/images/NaRollerLogo-w500.png" />
+>>>>>>> da1c108cdd3d967798147bc619198a7706464eab
             </a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -240,7 +246,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 
 			<div id="footerInfo" class="col-md-4 col-sm-4">
-				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<img src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
 				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
                 <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
 				<p><i class="fa fa-phone"></i>（03）222-2500</p>
@@ -285,10 +291,10 @@ http://www.templatemo.com/tm-468-onetel
 </div>
 
 <!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>	
+<script src="../js/nivo-lightbox.min.js"></script>
+<script src="../js/custom.js"></script>
 
 </body>
 </html>
