@@ -13,7 +13,7 @@
 	{
 
 		$stmt = $dbh->prepare("INSERT INTO article(aTitle, aSecondTitle, aText, aSummary, aDateTime)
-			VALUES(:aTitle, :aSecondTitle, :aText, :aSummary, :aDateTime)");
+			VALUES(:aTitle, :aSecondTitle, :aText, :aSummary, :aDateTime)" );
 	
 		$stmt->bindparam(":aTitle", $aTitle);
 		$stmt->bindparam(":aSecondTitle", $aSecondTitle);
