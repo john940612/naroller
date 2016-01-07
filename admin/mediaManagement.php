@@ -95,7 +95,20 @@ http://www.templatemo.com/tm-468-onetel
             	<h3>Media File List</h3>
 				<div class="listTableArea">
 					<table>
-                        
+                        <tr class="headRow">
+                            <th class="check"></th>
+                            <th>Upload Time</th>
+                            <th>File Name</th>
+                            <th>Size</th>
+                            <th>Uploader</th>
+                        </tr>
+                        <tr>
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
                     </table>
 				</div>
 			</div>
