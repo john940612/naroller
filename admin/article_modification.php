@@ -12,12 +12,13 @@ OneTel Template
 http://www.templatemo.com/tm-468-onetel
 -->
 	<!-- stylesheet css -->
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/nivo-lightbox.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/nivo_themes/default/default.css"/>
-	<link rel="stylesheet" href="http://140.117.178.132/naroller/css/templatemo-style.css"/>
-    <link rel="stylesheet" href="http://140.117.178.132/naroller/css/main.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../css/nivo-lightbox.css"/>
+	<link rel="stylesheet" href="../css/nivo_themes/default/default.css"/>
+	<link rel="stylesheet" href="../css/templatemo-style.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/dropdown.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
 </head>
@@ -37,7 +38,7 @@ http://www.templatemo.com/tm-468-onetel
                 <img id="logo" src="../images/NaRollerLogo-w500.png" />
             </a>
 		</div>
-		<div class="collapse navbar-collapse">
+		<div class="collapse navbar-collapse drop-down-menu">
 			<ul class="nav navbar-nav navbar-right drop-down-menu">
 				<li><a class="active" href="about.html">關於我們</a></li>
 				<li><a href="news.html">最新消息</a></li>
