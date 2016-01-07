@@ -1,11 +1,13 @@
 @media all and (min-width: 768px) {
     
     table{
+        color: white;
         letter-spacing: 0.1em;
     }
     
     #fileListArea th, #fileListArea td{
-        border: solid 1px;
+        border-left: solid 1px;
+        border-right: solid 1px;
         text-align: center;
     }
 
@@ -31,5 +33,19 @@
     
     .uploaderCol{
         width: 15em;
+    }
+    
+    .headRow{
+        /*background: rgba(255, 156, 156, 0.3);*/
+        background: rgba(255, 0, 0, 0.7);
+    }
+    
+    .trtd1{
+        background: ;
+    }
+    
+    .trtd2{
+        /*background: rgba(255, 193, 193, 0.3);*/
+        background: rgba(255, 0, 0, 0.3);
     }
 }
