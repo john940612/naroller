@@ -5,7 +5,7 @@
 	$catch = "SELECT * FROM Employee WHERE eId = $eId";
 	//echo $catch;
 
-	echo '<form id="signInForm" action="employee_modify.php" method="post" role="form">';
+	echo '<form id="signInForm" action="employee_modify_action.php" method="post" role="form">';
 	echo "<table border='1'>";
 	echo '<input name="eId" type="hidden" value="'.$eId.'"/>';
 
