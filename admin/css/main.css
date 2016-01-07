@@ -44,7 +44,15 @@
         border-color: white;
         background: rgba(32, 32, 32, .2);
     }
+ 
+/*admin*/
+   #adminMenu{
+       margin-top: -30px;
+   } 
     
+    #adminMenu h2{
+        margin-bottom: 50px;
+    }
     
 /*mediaManagement*/
     .halfSideTitle{

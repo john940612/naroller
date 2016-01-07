@@ -55,22 +55,22 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
             <div class="container signInDiv">
-                <div id="contact" class="row">
+                <div id="adminMenu" class="row">
                     <div class="col-md-3 col-sm-6">
                         <h2>文章管理</h2>
                         <a class="fa fa-5x fa-file-text-o"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>產品管理</h2>
-                        <span class="fa fa-5x fa-suitcase"></span>
+                        <a class="fa fa-5x fa-suitcase"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>媒體管理</h2>
-                        <span class="fa fa-5x fa-music"></span>
+                        <a class="fa fa-5x fa-music"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>員工管理</h2>
-                        <span class="fa fa-5x fa-user"></span>
+                        <a class="fa fa-5x fa-user"></a>
                     </div>
                 </div>
             </div>
