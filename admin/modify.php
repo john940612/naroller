@@ -3,7 +3,7 @@
 
 	date_default_timezone_set('Asia/Taipei');
 	
-	//$aId = "";
+	$aId = addslashes($_POST['aId']);
 	$aTitle = addslashes($_POST['aTitle']);
 	$aSecondTitle = addslashes($_POST['aSecondTitle']);
 	$aText = addslashes($_POST['aText']);
@@ -11,20 +11,19 @@
 	$aDateTime = date("Y-m-d H:i:s");
 
 	try
-	{
-		
-		$stmt = $dbh->prepare("INSERT INTO article(aTitle, aSecondTitle, aText, aSummary, aDateTime)
-			VALUES(:aTitle, :aSecondTitle, :aText, :aSummary, :aDateTime)");
-
-		//$stmt->bindparam(":aId", $aId);
+	{		
+		$stmt = "UPDATE article SET aTitle='$aTitle', aSecondTitle='$aSecondTitle',
+			aText='$aText', aSummary='$aSummary', aDateTime='$aDateTime' WHERE aId=$aId";
+		/*
 		$stmt->bindparam(":aTitle", $aTitle);
 		$stmt->bindparam(":aSecondTitle", $aSecondTitle);
 		$stmt->bindparam(":aText", $aText);
 		$stmt->bindparam(":aSummary", $aSummary);
 		$stmt->bindparam(":aDateTime", $aDateTime);
-
-		$stmt->execute();
-
+*/
+		echo $stmt;
+		//$stmt->execute();
+		$dbh->exec($stmt);
 	}
 
 

@@ -2,9 +2,9 @@
     
 	$dbtype_sql = 'mysql';
 	$host_sql = '127.0.0.1';
-	$dbname_sql = 'naroller_employee';
+	$dbname_sql = 'naroller';
 	$username_sql = 'root';
-    $password_sql = '';
+    $password_sql = 'root';
     
 
 
