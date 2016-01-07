@@ -93,7 +93,13 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
             	<h3>Employee List</h3>
-				<div class="listTableArea">        
+				<div class="listTableArea"> 
+                    <?php
+	include("connect_db.php");
+
+	$eId = $_POST['eId'];
+	$catch = "SELECT * FROM Employee WHERE eId = $eId";
+?>
                     <form id="signInForm" action="employee_modify.php" method="post" role="form">
                         <table>
                             <tr class="headRow">
