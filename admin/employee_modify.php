@@ -40,7 +40,8 @@
 		echo "</table>";
 	}
 	
-	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改員工</button>';
+	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="1">修改員工</button>';
+	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="2">刪除員工</button>';
 	echo '</form>';
 
 	//header("location: articleManagementExample.php");
