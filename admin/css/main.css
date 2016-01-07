@@ -58,6 +58,21 @@
         text-align: center;
     }
     
+
+    
+    input[type="file"]::-webkit-file-upload-button{
+        float: right;
+        border: white 3px solid;
+        height: 100%;
+        background: transparent;
+        color: white;
+        font-family: 'Microsoft Jhenghei', sans-serif;
+    }
+    input[type="file"]::-webkit-file-upload-button:hover{
+        background: rgba(0, 0, 0, .7);
+    
+    }
+    
     #uploadForm a{
         width: 100%;
     }
