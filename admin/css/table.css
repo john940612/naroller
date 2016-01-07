@@ -17,8 +17,8 @@
         text-align: center;
     }
 
-    /*Each column*/
-    .check, .checkCol{
+    /*Media file list column*/
+    .check, .checkCol{/*Article list is also affected*/
         width: 5em;
     }
     
@@ -39,7 +39,40 @@
     .uploaderCol{
         width: 12em;
     }
-    /*End each column*/
+    /*End media file list column*/
+    
+    /*Article list column*/
+    
+    .dateCol, .subtitleCol{
+        border-left: rgba(255, 255, 255, .5) solid 1px;
+        border-right: rgba(255, 255, 255, .5) solid 1px;
+    }
+    
+    .dateCol{
+        width: 8em;
+    }
+    
+    td.titleCol, td.subtitleCol{
+        font-family: 'Microsoft Jhenghei';
+        font-weight: bold;
+    }
+    
+    .titleCol, .subtitleCol{
+        width: 27em;
+    }
+    
+    .authorCol{
+        width: 9em;
+    }
+    
+    .editCol a{
+        padding: 0.3em;
+        height: auto;
+        margin-right: 1em;
+    }
+    
+    /*End article list column*/
+    
     .headRow{
         background: rgba(255, 0, 0, 0.3);
     }
