@@ -108,7 +108,7 @@ http://www.templatemo.com/tm-468-onetel
 
 								$flag = 1;
 								$catch = "SELECT * FROM Article";
-								echo "<table border='1'>";
+								//echo "<table border='1'>";
 								echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
 
 								foreach($dbh->query($catch) as $row)
@@ -116,7 +116,7 @@ http://www.templatemo.com/tm-468-onetel
 									if($flag)
 									{
 										echo "<tr>";
-											echo "<th>修改</th>";
+											echo "<th width=5%>修改</th>";
 											echo "<th>時間</th>";
 											echo "<th>標題</th>";
 											echo "<th>副標</th>";
@@ -151,7 +151,7 @@ http://www.templatemo.com/tm-468-onetel
 										echo "</td>";
 									echo "</tr>";
 								}
-								echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改文章</button>';
+								echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改文章</button><br><br><br><br><br>';
 								echo '</form>';
 								echo "</table>";
 
