@@ -48,8 +48,6 @@ http://www.templatemo.com/tm-468-onetel
                 <li><a href="">產品管理</a></li>
 				<li><a class="active" href="mediaManagement.php">媒體管理</a></li>
                 <li><a href="">員工管理</a></li>
-				<!--li><a href="portfolio.html">產品</a></li>
-				<li><a href="portfolio.html">技術</a></li-->
 				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
@@ -87,9 +85,7 @@ http://www.templatemo.com/tm-468-onetel
                             <!--label for="name">NAME</label-->
                             <input name="name" type="text" class="form-control" id="name" placeholder="檔案命名" />
                             <input name="file" type="file" class="form-control" id="file" />
-                            <!--input name="file" type="file" class="btn" id="file" /-->
-                            <!--input name="file" type="file" class="btn btn-default" id="file" /-->
-                            <a type="submit" class="btn btn-default">SEND</a>
+                            <button type="submit" class="btn btn-default">SEND</button>
                             <!--input value="SEND" type="submit" class="btn btn-default" /-->
                     </form>
 				</div>
