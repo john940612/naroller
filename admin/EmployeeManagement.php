@@ -46,8 +46,8 @@ http://www.templatemo.com/tm-468-onetel
 				<!--li><a href="index.html" class="active">首頁</a></li -->
 				<li><a href="articleManagement.html">文章管理</a></li>
                 <li><a href="">產品管理</a></li>
-				<li><a class="active" href="mediaManagement.php">媒體管理</a></li>
-                <li><a href="">員工管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a class="active" href="">員工管理</a></li>
 				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
@@ -59,7 +59,7 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>Media Management</h1>
+                <h1>Employee Management</h1>
                 <a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
@@ -100,42 +100,19 @@ http://www.templatemo.com/tm-468-onetel
                                 <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
                                 <th class="nameCol">Username</th>
                                 <th class="accessCol">Access</th>
-                                <th class="checkCol"></th>
-                                <th class="nameCol">Username</th>
-                                <th class="accessCol">Access</th>
                             </tr>
 
                             <tr class="trtd1">
-                                <td class="check"><input type="checkbox" /></td>
+                                <td class="check"><input type="radio" /></td>
                                 <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
-                                <td class="check"><input type="checkbox" /></td>
-                                <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
+                                <td class="accessCol">general</td>
                             </tr>
                             <tr class="trtd2">
                                 <td class="check"><input type="checkbox" /></td>
-                                <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
-                                <td class="check"><input type="checkbox" /></td>
-                                <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
+                                <td class="nameCol">usaAsakrua</td>
+                                <td class="accessCol">admin</td>
                             </tr>
-                            <tr class="trtd1">
-                                <td class="check"><input type="checkbox" /></td>
-                                <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
-                                <td class="check"><input type="checkbox" /></td>
-                                <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
-                            </tr>
-                            <tr class="trtd2">
-                                <td class="check"><input type="checkbox" /></td>
-                                <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
-                                <td class="check"><input type="checkbox" /></td>
-                                <td class="nameCol">ymayho</td>
-                                <td class="accessCol">文章、產品、媒體</td>
+                            
                             </tr>
                         </table>
                     </form>
