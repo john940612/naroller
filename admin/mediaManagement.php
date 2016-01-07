@@ -20,6 +20,7 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="../css/templatemo-style.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/table.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -96,13 +97,48 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="listTableArea">
 					<table>
                         <tr class="headRow">
-                            <th class="check"></th>
-                            <th>Upload Time</th>
-                            <th>File Name</th>
-                            <th>Size</th>
-                            <th>Uploader</th>
+                            <th class="checkCol"></th>
+                            <th class="timeCol">Upload Time</th>
+                            <th class="fileNameCol">File Name</th>
+                            <th class="sizeCol">Size</th>
+                            <th class="uploaderCol">Uploader</th>
                         </tr>
-                        <tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td>2015/12/31 13:01:00</td>
+                            <td>My Rabbit Is Cute.jpg</td>
+                            <td>1Mb</td>
+                            <td>ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
                             <td>2015/12/31 13:01:00</td>
                             <td>My Rabbit Is Cute.jpg</td>

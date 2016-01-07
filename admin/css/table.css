@@ -1,6 +1,35 @@
 @media all and (min-width: 768px) {
     
-    .check{
-        
+    table{
+        letter-spacing: 0.1em;
+    }
+    
+    #fileListArea th, #fileListArea td{
+        border: solid 1px;
+        text-align: center;
+    }
+
+    #fileListArea th{
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    #fileListArea td{
+        padding: 0;
+    }
+
+    #fileListArea table{
+        width: 100%;
+    }
+
+    .timeCol{
+        width: 15em;
+    }
+    
+    .sizeCol{
+        width: 8em;
+    }
+    
+    .uploaderCol{
+        width: 15em;
     }
 }
