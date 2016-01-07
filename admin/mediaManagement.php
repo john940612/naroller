@@ -93,57 +93,9 @@ http://www.templatemo.com/tm-468-onetel
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
             	<h3>Media File List</h3>
 				<div class="listTableArea">
-					<table>
-                        <tr class="headRow">
-                            <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
-                            <th class="timeCol">Upload Time</th>
-                            <th class="fileNameCol">File Name</th>
-                            <th class="sizeCol">Size</th>
-                            <th class="uploaderCol">Uploader</th>
-                        </tr>
-                        <tr class="trtd1">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd2">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">20Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd1">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">355kb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd2">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1.5Gb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd1">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                        <tr class="trtd2">
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="timeCol">2015/12/31 13:01:00</td>
-                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
-                            <td class="uploaderCol">ymayho</td>
-                        </tr>
-                    </table>
+                    <?php
+					include("media_list.php");
+                    ?>
 				</div>
 			</div>
 		</div>

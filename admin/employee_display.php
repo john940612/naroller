@@ -14,7 +14,7 @@
 	{
 		echo "<tr>";
 			echo "<td>";
-				echo '<input name="eId" type="radio" class="form-control" id="name" value="'.$row['eId'].'"/>';
+				echo '<input name="eId" type="radio" class="form-control" id="eId" value="'.$row['eId'].'"/>';
 				print_r ($row['eId']);
 			echo "</td>";	
 			echo "<td>";
@@ -34,3 +34,4 @@
 	echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改員工權限</button>';
 	echo '</form>';
 	echo "</table>";
+?>
