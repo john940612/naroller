@@ -85,7 +85,7 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
-<<<<<<< HEAD
+
                     <form id="uploadForm" action="#" method="post" role="form">
 
                             <!--label for="name">NAME</label-->
@@ -116,11 +116,9 @@ http://www.templatemo.com/tm-468-onetel
                         <button type="submit" class="btn btn-default">SEND</button>
 
                     </form>
-=======
                     <?php
                       include("employee_add.php");
                     ?>
->>>>>>> 242179b8cdd88ca93b79225b9b1d2cbdbc68e59b
 				</div>
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
