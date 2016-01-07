@@ -3,42 +3,27 @@
 
 	date_default_timezone_set('Asia/Taipei');
 	
-	//$aId = "";
+	$aId = addslashes($_POST['aId']);
 	$aTitle = addslashes($_POST['aTitle']);
 	$aSecondTitle = addslashes($_POST['aSecondTitle']);
 	$aText = addslashes($_POST['aText']);
 	$aSummary = addslashes($_POST['aSummary']);
 	$aDateTime = date("Y-m-d H:i:s");
-/*
-	$aTitle = "test";
-	$aSecondTitle = "test";
-	$aText = "test";
-	$aSummary = "test";
-	$aDateTime = date("Y-m-d / H:i:s");
-*/
-
-	echo $aTitle;
-	echo $aSecondTitle;
-	echo $aText;
-	echo $aSummary;
-	echo $aDateTime;
 
 	try
-	{
-		
-		$stmt = $dbh->prepare("INSERT INTO article(aTitle, aSecondTitle, aText, aSummary, aDateTime)
-			VALUES(:aTitle, :aSecondTitle, :aText, :aSummary, :aDateTime)");
-
-		//$stmt->bindparam(":aId", $aId);
+	{		
+		$stmt = "UPDATE article SET aTitle='$aTitle', aSecondTitle='$aSecondTitle',
+			aText='$aText', aSummary='$aSummary', aDateTime='$aDateTime' WHERE aId=$aId";
+		/*
 		$stmt->bindparam(":aTitle", $aTitle);
 		$stmt->bindparam(":aSecondTitle", $aSecondTitle);
 		$stmt->bindparam(":aText", $aText);
 		$stmt->bindparam(":aSummary", $aSummary);
 		$stmt->bindparam(":aDateTime", $aDateTime);
-
-		$stmt->execute();
-		echo "1";
-
+*/
+		echo $stmt;
+		//$stmt->execute();
+		$dbh->exec($stmt);
 	}
 
 
@@ -46,13 +31,5 @@
 	{
 		echo $e->getMessage();
 	}
-/*
-	if(!$dbh->queryExec($stmt))
-	{
-		echo 'fail';
-	}*/
-
-
-	//header("location: articleManagementExample.php");
 
 ?>
