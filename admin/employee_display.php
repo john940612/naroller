@@ -18,19 +18,19 @@
 			//echo "</td>";		
 			echo "<td>";
 				print_r ($row['eId']);
-				echo '<input name="aTitle" type="hidden" class="form-control" id="name" value="'.$row['eId'].'"/>';
+				echo '<input name="eId" type="hidden" class="form-control" id="name" value="'.$row['eId'].'"/>';
 			echo "</td>";
 			echo "<td>";
 				print_r ($row['eName']);
-				echo '<input name="aSecondTitle" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
+				echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
 			echo "</td>";
 			echo "<td>";
 				print_r ($row['ePwd']);
-				echo '<input name="aText" type="hidden" class="form-control" id="email"  value="'.$row['ePwd'].'"/>';
+				echo '<input name="ePwd" type="hidden" class="form-control" id="email"  value="'.$row['ePwd'].'"/>';
 			echo "</td>";
 			echo "<td>";
 				print_r ($row['ePerm']);
-				echo '<input name="aSummary" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
+				echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
 			echo "</td>";
 		echo "</tr>";
 	}
