@@ -1,18 +1,25 @@
 <?php
 	include("connect_db.php");
+
+	$flag = 1;
 	$catch = "SELECT * FROM Article";
 	echo "<table border='1'>";
 	echo '<form id="signInForm" action="article_modify.php" method="post" role="form">';
-	echo "<tr>";
-		echo "<th>修改</th>";
-		echo "<th>時間</th>";
-		echo "<th>標題</th>";
-		echo "<th>副標</th>";
-		echo "<th>文章</th>";
-		echo "<th>大綱</th>";
-	echo "</tr>";
+
 	foreach($dbh->query($catch) as $row)
 	{
+		if($flag)
+		{
+			echo "<tr>";
+				echo "<th>修改</th>";
+				echo "<th>時間</th>";
+				echo "<th>標題</th>";
+				echo "<th>副標</th>";
+				echo "<th>文章</th>";
+				echo "<th>大綱</th>";
+			echo "</tr>";
+			$flag = 0;
+		}	
 		echo "<tr>";
 			echo "<td>";
 				echo '<input name="aId" type="radio" class="form-control" id="name" value="
