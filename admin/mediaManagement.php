@@ -97,7 +97,7 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="listTableArea">
 					<table>
                         <tr class="headRow">
-                            <th class="checkCol"></th>
+                            <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
                             <th class="timeCol">Upload Time</th>
                             <th class="fileNameCol">File Name</th>
                             <th class="sizeCol">Size</th>
@@ -105,45 +105,45 @@ http://www.templatemo.com/tm-468-onetel
                         </tr>
                         <tr class="trtd1">
                             <td class="check"><input type="checkbox" /></td>
-                            <td>2015/12/31 13:01:00</td>
-                            <td>My Rabbit Is Cute.jpg</td>
-                            <td>1Mb</td>
-                            <td>ymayho</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
-                            <td>2015/12/31 13:01:00</td>
-                            <td>My Rabbit Is Cute.jpg</td>
-                            <td>1Mb</td>
-                            <td>ymayho</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd1">
                             <td class="check"><input type="checkbox" /></td>
-                            <td>2015/12/31 13:01:00</td>
-                            <td>My Rabbit Is Cute.jpg</td>
-                            <td>1Mb</td>
-                            <td>ymayho</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
-                            <td>2015/12/31 13:01:00</td>
-                            <td>My Rabbit Is Cute.jpg</td>
-                            <td>1Mb</td>
-                            <td>ymayho</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd1">
                             <td class="check"><input type="checkbox" /></td>
-                            <td>2015/12/31 13:01:00</td>
-                            <td>My Rabbit Is Cute.jpg</td>
-                            <td>1Mb</td>
-                            <td>ymayho</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
-                            <td>2015/12/31 13:01:00</td>
-                            <td>My Rabbit Is Cute.jpg</td>
-                            <td>1Mb</td>
-                            <td>ymayho</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                     </table>
 				</div>
@@ -187,18 +187,7 @@ http://www.templatemo.com/tm-468-onetel
 <!-- copyright section -->
 <div class="copyright">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-sm-6">
-				<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
-			</div>
-			<div id="socialLinkArea" class="col-md-4 col-sm-6">
-				<ul class="social-icons">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="mailto: roger.lee@naroller.com" class="fa fa-envelope-o"></a></li>
-				</ul>
-			</div>
-		</div>
+        <p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
 	</div>
 </div>
 
