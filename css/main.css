@@ -3,7 +3,7 @@
         overflow-x: hidden;
     }
     /*table 文章*/
-    table { 
+    /*table { 
   font-family: arial; 
 
   border-color: red;
@@ -11,7 +11,7 @@
 td { 
    
   width: 10%;
-} 
+} */
     /*end table 文章*/
     p{
         font-size: 1.2em;

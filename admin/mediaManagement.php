@@ -114,21 +114,21 @@ http://www.templatemo.com/tm-468-onetel
                             <td class="check"><input type="checkbox" /></td>
                             <td class="timeCol">2015/12/31 13:01:00</td>
                             <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
+                            <td class="sizeCol">20Mb</td>
                             <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd1">
                             <td class="check"><input type="checkbox" /></td>
                             <td class="timeCol">2015/12/31 13:01:00</td>
                             <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
+                            <td class="sizeCol">355kb</td>
                             <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
                             <td class="timeCol">2015/12/31 13:01:00</td>
                             <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
-                            <td class="sizeCol">1Mb</td>
+                            <td class="sizeCol">1.5Gb</td>
                             <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd1">

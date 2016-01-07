@@ -5,6 +5,10 @@
         letter-spacing: 0.1em;
     }
     
+    #fileListArea th{
+        text-transform: uppercase;
+    }
+    
     #fileListArea th, #fileListArea td{
         text-align: center;
     }
@@ -21,23 +25,26 @@
         width: 100%;
     }
 
+    .check, .checkCol{
+        width: 5em;
+    }
+    
     .timeCol, .sizeCol{
         border-left: rgba(255, 255, 255, .5) solid 1px;
         border-right: rgba(255, 255, 255, .5) solid 1px;
     }
     
     .timeCol{
-        width: 250px !important;
+        width: 18em;
         padding: 0;
-        color: green;
     }
     
     .sizeCol{
-        width: 30px;
+        width: 10em;
     }
-    
+
     .uploaderCol{
-        width: 80px;
+        width: 12em;
     }
     
     .headRow{
