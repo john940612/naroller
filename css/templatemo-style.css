@@ -296,7 +296,14 @@ img {
 #portfolio .btn {
   margin-top: 30px;
 }
-
+/* news section*/
+#news-header {
+    background: url('../images/news-header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
 /* contact section */
 #contact-header {
   background: url('../images/contact-header.jpg') no-repeat;
