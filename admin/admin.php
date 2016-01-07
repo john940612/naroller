@@ -58,7 +58,7 @@ http://www.templatemo.com/tm-468-onetel
                 <div id="adminMenu" class="row">
                     <div class="col-md-3 col-sm-6">
                         <h2>文章管理</h2>
-                        <a href="articleManagement.html" class="fa fa-5x fa-file-text-o"></a>
+                        <a href="articleManagement.php" class="fa fa-5x fa-file-text-o"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>產品管理</h2>
