@@ -181,10 +181,13 @@
                 border-left: solid 0.75em rgba(64, 64, 64, 0);
                 border-right: solid 0.75em rgba(64, 64, 64, 0);
             }
+/*Who did this?*/
     #publish{
         margin-left: 440px;
         padding: 5px;
     }
+/*End Who did this*/
+    
     #about{
       margin: 0;
     }
