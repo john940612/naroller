@@ -150,7 +150,7 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6"></div>
                     <div id="newsButtonArea" class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="about.html" class="btn btn-default" id="newsButton">LEARN MORE</a>
+                        <a href="news.html" class="btn btn-default" id="newsButton">LEARN MORE</a>
                     </div>
                 </div>
 			</div><!-- End News Text -->
