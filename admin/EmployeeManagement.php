@@ -93,6 +93,9 @@ http://www.templatemo.com/tm-468-onetel
                         <button type="reset" class="btn btn-default">CANCEL</button>
                         <button type="submit" class="btn btn-default">SEND</button>
                     </form>
+                    <?php
+                      include("employee_add.php");
+                    ?>
 				</div>
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">

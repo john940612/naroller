@@ -36,14 +36,14 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand"><img id="logo" src="../images/NaRollerLogo.png" class="img-responsive" alt="logo"></a>
+			<a href="../index.php" class="navbar-brand"><img id="logo" src="../images/NaRollerLogo.png" class="img-responsive" alt="logo"></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="articleManagement.html">文章管理</a></li>
                 <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
-                <li><a href="">員工管理</a></li>
+                <li><a href="employeeManagement.php">員工管理</a></li>
 				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
@@ -58,7 +58,7 @@ http://www.templatemo.com/tm-468-onetel
                 <div id="adminMenu" class="row">
                     <div class="col-md-3 col-sm-6">
                         <h2>文章管理</h2>
-                        <a href="articleManagement.html" class="fa fa-5x fa-file-text-o"></a>
+                        <a href="articleManagement.php" class="fa fa-5x fa-file-text-o"></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <h2>產品管理</h2>
