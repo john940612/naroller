@@ -37,7 +37,7 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="index.html" class="navbar-brand">
+			<a href="admin.php" class="navbar-brand">
                 <img id="logo" src="../images/NaRollerLogo-w500.png" />
             </a>
 		</div>
@@ -46,8 +46,8 @@ http://www.templatemo.com/tm-468-onetel
 				<!--li><a href="index.html" class="active">首頁</a></li -->
 				<li><a href="articleManagement.html">文章管理</a></li>
                 <li><a href="">產品管理</a></li>
-				<li><a href="mediaManagement.php">媒體管理</a></li>
-                <li><a class="active" href="#">員工管理</a></li>
+				<li><a class="active" href="mediaManagement.php">媒體管理</a></li>
+                <li><a href="">員工管理</a></li>
 				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
@@ -59,7 +59,7 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>Employee Management</h1>
+                <h1>Media Management</h1>
                 <a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
@@ -75,66 +75,73 @@ http://www.templatemo.com/tm-468-onetel
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
 			</div-->
 			<div class="col-md-6 col-sm-8 mt30 halfSideTitle">
-				<h2>Add</h2>
-                <span class="fa fa-user-plus fa-3x"></span>
+				<h2>Upload</h2>
+                <span class="fa fa-upload fa-3x"></span>
                 
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
                     <form id="uploadForm" action="#" method="post" role="form">
-                        <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
-                        <input name="name" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
-                        <input name="password" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
-                        <input name="access" type="" class="form-control" id="name" placeholder="" />
-                        <button type="reset" class="btn btn-default">CANCEL</button>
-                        <button type="submit" class="btn btn-default">SEND</button>
+                            <!--label for="name">NAME</label-->
+                            <input name="name" type="text" class="form-control" id="name" placeholder="檔案命名" />
+                            <input name="file" type="file" class="form-control" id="file" />
+                            <button type="submit" class="btn btn-default">SEND</button>
                             <!--input value="SEND" type="submit" class="btn btn-default" /-->
                     </form>
 				</div>
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
-            	<h3>Employee List</h3>
+            	<h3>Media File List</h3>
 				<div class="listTableArea">
 					<table>
                         <tr class="headRow">
                             <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
-                            <th class="nameCol">Username</th>
-                            <th class="accessCol">Access</th>
-                            <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
-                            <th class="nameCol">Username</th>
-                            <th class="accessCol">Access</th>
+                            <th class="timeCol">Upload Time</th>
+                            <th class="fileNameCol">File Name</th>
+                            <th class="sizeCol">Size</th>
+                            <th class="uploaderCol">Uploader</th>
                         </tr>
                         <tr class="trtd1">
                             <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">20Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd1">
                             <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
-                            <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">355kb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                         <tr class="trtd2">
                             <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1.5Gb</td>
+                            <td class="uploaderCol">ymayho</td>
+                        </tr>
+                        <tr class="trtd1">
                             <td class="check"><input type="checkbox" /></td>
-                            <td class="nameCol">ymayho</td>
-                            <td class="accessCol">文章、產品、媒體</td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td class="timeCol">2015/12/31 13:01:00</td>
+                            <td class="fileNameCol">My Rabbit Is Cute.jpg</td>
+                            <td class="sizeCol">1Mb</td>
+                            <td class="uploaderCol">ymayho</td>
                         </tr>
                     </table>
 				</div>
