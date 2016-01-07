@@ -66,9 +66,19 @@
     }
     
     .editCol a{
+        margin: 0 1em 0 1em;
         padding: 0.3em;
         height: auto;
-        margin-right: 1em;
+        text-decoration: none;
+    }
+    
+    .editCol .plusButton{
+        opacity: .5;
+    }
+    
+    .editCol .plusButton:hover{
+        opacity: 1;
+        color: white;
     }
     
     /*End article list column*/
