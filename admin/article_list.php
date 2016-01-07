@@ -34,7 +34,7 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="index.php" class="navbar-brand">
-                <img id="logo" src="images/NaRollerLogo-w500.png" />
+                <img id="logo" src="http://140.117.178.132/naroller/images/NaRollerLogo-w500.png" />
             </a>
 		</div>
 		<div class="collapse navbar-collapse">
