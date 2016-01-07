@@ -18,7 +18,8 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="../css/nivo_themes/default/default.css"/>
 	<link rel="stylesheet" href="../css/templatemo-style.css"/>
     <link rel="stylesheet" href="../css/main.css"/>
-    <link rel="stylesheet" href="../css/dropdown.css" />
+    <link rel="stylesheet" href="../css/dropdown.css"/>
+
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
 </head>
@@ -36,6 +37,7 @@ http://www.templatemo.com/tm-468-onetel
 			</button>
 			<a href="index.php" class="navbar-brand">
                 <img id="logo" src="../images/NaRollerLogo-w500.png" />
+                <img id="logo" src="http://140.117.178.132/naroller/images/NaRollerLogo-w500.png" />
             </a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -84,7 +86,7 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>MANAGEMENT INTERFACE</h1>
+                <h1>NEWS SEARCH</h1>
                 <a href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
@@ -97,12 +99,15 @@ http://www.templatemo.com/tm-468-onetel
     
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12">
-				<center>
-					<?php
-						include("article_modify.php")
-					?>
-				</center>
-			</div>
+				<h2>NEWS SEARCH</h2>
+					<center>
+						<table border='0'>
+							<!--php列表部分-->
+							<?php
+								include("product_display.php");
+							?>
+							<!--php列表部分結束-->
+							</div>
          </div>
          
          <div class="row mt30">
@@ -186,7 +191,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 
 			<div id="footerInfo" class="col-md-4 col-sm-4">
-				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<img src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
 				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
                 <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
 				<p><i class="fa fa-phone"></i>（03）222-2500</p>
@@ -231,10 +236,10 @@ http://www.templatemo.com/tm-468-onetel
 </div>
 
 <!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>	
+<script src="../js/nivo-lightbox.min.js"></script>
+<script src="../js/custom.js"></script>
 
 </body>
 </html>

@@ -13,23 +13,12 @@
 	{
 		
 		echo "<tr>";
-		    echo "<tr>";
-			echo "<td>員工ID</td>";
-			echo "<td>";
-				print_r ($row['eId']);
-			echo "</td>";
 		echo "</tr>";
 			echo "<td>姓名</td>";		
 			echo "<td>";
-				echo '<input name="eName" type="text" class="form-control" id="name" value="'.$row['eName'].'"/>';
+				print_r ($row['eName']);
 			echo "</td>";
-		echo "</tr>";
-		echo "<tr>";
-			echo "<td>密碼</td>";
-			echo "<td>";
-				echo '<input name="ePwd" type="text" class="form-control" id="email" value="'.$row['ePwd'].'"/>';
-			echo "</td>";
-		echo "</tr>";
+			echo "</tr>";
 		echo "<tr>";
 			echo "<td>權限</td>";
 			echo "<td>";
