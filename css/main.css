@@ -3,17 +3,15 @@
         overflow-x: hidden;
     }
     /*table 文章*/
-    table { 
+    /*table { 
   font-family: arial; 
-  /*width: 50%;
- background-color: #FFDC35;*/
-  /*border-style:dotted;*/
+
   border-color: red;
 } 
 td { 
    
   width: 10%;
-} 
+} */
     /*end table 文章*/
     p{
         font-size: 1.2em;
@@ -299,6 +297,7 @@ td {
     }
 }/*End @media all and (min-width: 768px)*/
 
+/*START NO MEDIA QUERY*/
 
 p, .navbar-default .navbar-nav li a{
     font-family: "Microsoft Jhenghei", sans-serif;
