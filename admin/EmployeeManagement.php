@@ -79,14 +79,14 @@ http://www.templatemo.com/tm-468-onetel
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
 			</div-->
 			<div class="col-md-6 col-sm-8 mt30 halfSideTitle">
-				<h2>Upload</h2>
-                <span class="fa fa-upload fa-3x"></span>
+				<h2>Add</h2>
+                <span class="fa fa-user-plus fa-3x"></span>
                 
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
                     <form id="uploadForm" action="#" method="post" role="form">
-                            <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
+                        <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
                         <input name="name" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
                         <input name="password" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
                         <input name="access" type="" class="form-control" id="name" placeholder="" />
@@ -97,8 +97,6 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
             	<h3>Employee List</h3>
-				
-                
                     <form id="signInForm" action="employee_modify.php" method="post" role="form">
                         <table>
                             <tr class="headRow">
@@ -112,7 +110,7 @@ http://www.templatemo.com/tm-468-onetel
 		if($i==1){
             echo '<tr class="trtd1">';
 			echo '<td>';
-				echo '<input name="eId" type="radio" id="name" value="'.$row['eId'].'"/>';
+				echo '<input name="eId" type="radio" id="eId" value="'.$row['eId'].'"/>';
 				//print_r ($row['eId']);
 			echo '</td>';	
 			echo '<td>';
