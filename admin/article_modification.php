@@ -39,42 +39,12 @@ http://www.templatemo.com/tm-468-onetel
             </a>
 		</div>
 		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right drop-down-menu">
-				<li><a class="active" href="about.html">關於我們</a></li>
-				<li><a href="news.html">最新消息</a></li>
-				<li><a href="portfolio.html">產品</a>
-					<ul>
-						<li><a href="">Mini Sedan</a>
-							<ul>
-								<li><a href="">Hyundai Accent</a></li>
-								<li><a href="">Proton saga</a></li>
-								<li><a href="">Toyota Yaris/VItz</a></li>
-							</ul>
-						</li>
-						<li><a href="">Compact Sedan</a>
-							<ul>
-								<li><a href="">Ford Focus</a></li>
-								<li><a href="">Proton Gen-2</a></li>
-								<li><a href="">Honda Civic</a></li>
-								<li><a href="">Mitsubishi Lancer</a></li>
-								<li><a href="">Toyota Corolla Altis</a></li>
-								<li><a href="">Nissan Tiida 4-Door</a></li>
-							</ul>
-						</li>
-						<li><a href="">Mid-size Sedan</a>
-							<ul>
-								<li><a href="">Ford Mondeo</a></li>
-								<li><a href="">Honda Accord</a></li>
-								<li><a href="">Peugeot 407</a></li>
-								<li><a href="">Nissan Altima</a></li>
-								<li><a href="">Toyota Camry</a></li>
-								<li><a href="">mazda 6</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li><a href="portfolio.html">技術</a></li>
-				<li><a href="contact.html">聯繫我們</a></li>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="articleManagement.html">文章管理</a></li>
+                <li><a href="product_list.php">產品管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a href="employeeManagement.php">員工管理</a></li>
+				<li><a href="logout.php">登出</a></li>
 			</ul>
 		</div>
 	</div>
