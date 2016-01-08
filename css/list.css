@@ -31,5 +31,6 @@ a.newsListItem:hover{
 }
 
 .articleArea{
-    padding: 0 10% 0 5%;
+    padding: 2em 5% 3em 5%;
+    background: #1c1c1c;
 }

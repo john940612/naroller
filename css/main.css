@@ -341,3 +341,7 @@ a.mailAddr{
     text-align: justify;
 }
 
+p.aboutDesc{
+    text-align: center !important;
+    letter-spacing: 0.2em;
+}

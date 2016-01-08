@@ -85,49 +85,9 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
-<<<<<<< HEAD
 
-                    <form id="uploadForm" action="#" method="post" role="form">
-
-                            <!--label for="name">NAME</label-->
-                            <input name="eName" type="text" class="form-control" id="name" placeholder="員工名稱" />
-                            <input name="ePerm" type="text" class="form-control" id="perm" placeholder="員工權限"/>
-                            <button type="submit" class="btn btn-default">SEND</button>
-
-                        <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
-                        <input name="eName" type="text" class="form-control" id="name" placeholder="姓名｜Username" />
-                        <input name="ePwd" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
-                        <input name="access" type="" class="form-control" id="name" placeholder="" />
-                        <button type="reset" class="btn btn-default">CANCEL</button>
-                        <button type="submit" class="btn btn-default">SEND</button>
-
-
-                            <!--label for="name">NAME</label-->
-                            <input name="name" type="text" class="form-control" id="name" placeholder="檔案命名" />
-                            <input name="file" type="file" class="form-control" id="file" />
-                            <button type="submit" class="btn btn-default">SEND</button>
-
-                            <!--input value="SEND" type="submit" class="btn btn-default" /-->
-
-                            <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
-                        <input name="name" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
-                        <input name="password" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
-                        <input name="access" type="" class="form-control" id="name" placeholder="" />
-                        <button type="reset" class="btn btn-default">CANCEL</button>
-                        <button type="submit" class="btn btn-default">SEND</button>
-
-=======
-                    <form id="uploadForm" action="#" method="post" role="form">
-                        <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
-                        <input name="eName" type="text" class="form-control" id="name" placeholder="名稱｜Username" />
-                        <input name="ePerm" type="text" class="form-control" id="perm" placeholder="權限｜Access"/>
-                        <input name="ePwd" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
-                        <button type="reset" class="btn btn-default">CANCEL</button>
-                        <button type="submit" class="btn btn-default">SEND</button>
->>>>>>> 3bffc543adf6204c12dcc93ef959f1781ebc7247
-                    </form>
                     <?php
-                      include("employee_add.php");
+                      include("employee_display.php");
                     ?>
 				</div>
 			</div>

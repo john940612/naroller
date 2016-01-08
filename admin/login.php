@@ -5,21 +5,22 @@
 	{
 		// username and password sent from Form
 		$username = addslashes($_POST['username']);
-		//$password = addslashes(md5($_POST['password']));
 		$password = addslashes($_POST['password']);
-		
 		
 		try
 		{
 
-			$stmt = $dbh->prepare("SELECT eId FROM employee WHERE eName = '$username' and ePwd = '$password'");
+			$stmt = $dbh->prepare("SELECT * FROM employee WHERE eName = '$username' and ePwd = '$password'");
 			$stmt->execute(array($username, $password));
-			$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
+			//$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
 
 			if($stmt->rowCount() == 1)
 			{
-					$_SESSION['user_session'] = $userRow['username'];
+					//$_SESSION['user_session'] = $userRow['username'];
+					$_SESSION['user_session'] = $row['eName'];
 					$_SESSION['login_user'] = $username;
+					$_SESSION['user_permission'] = $row['ePerm'];
+					//$_SESSION['permission'] = 1;
 					header("location: admin.php");
 			}
 
