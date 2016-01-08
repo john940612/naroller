@@ -36,7 +36,7 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="index.html" class="navbar-brand">
+			<a href="../index.php" class="navbar-brand">
                 <img id="logo" src="../images/NaRollerLogo-w500.png" />
             </a>
 		</div>
@@ -62,6 +62,7 @@ http://www.templatemo.com/tm-468-onetel
 
                 <span class="fa fa-angle-double-down fa-2x">
                 <?php
+                    include("article_add.php");
                 	include("article_display.php");
                 ?>
                 </span>
