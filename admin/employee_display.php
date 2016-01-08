@@ -1,14 +1,14 @@
 <?php
 	include("connect_db.php");
 
-	session_start();
-	if(permission($_SESSION['user_permission']))
-	{
+	//session_start();
+	//if(permission($_SESSION['user_permission']))
+	//{
 		$catch = "SELECT * FROM Employee";
 		echo "<table border='1'>";
 		echo '<form id="signInForm" action="employee_modify.php" method="post" role="form">';
 		echo "<tr>";
-			//echo "<th>修改</th>";
+			
 			echo "<th>員工ID</th>";
 			echo "<th>姓名</th>";
 			echo "<th>密碼</th>";
@@ -38,13 +38,13 @@
 		echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default">修改員工權限</button>';
 		echo '</form>';
 		echo "</table>";
-	}
+	//}
 
-	function permission($_SESSION['user_permission'])
-	{
-		if($_SESSION['user_permission'] = "admin")
-			return 1;
-		else
-			return 0;
-	}
+	//function permission($_SESSION['user_permission'])
+	//{
+		//if($_SESSION['user_permission'] = "admin")
+			//return 1;
+		//else
+			//return 0;
+	//}
 ?>

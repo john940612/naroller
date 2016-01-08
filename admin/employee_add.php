@@ -1,9 +1,9 @@
 <?php
 	include("connect_db.php");
 
-	session_start();
-	if(permission($_SESSION['user_permission']))
-	{
+	//session_start();
+	//if(permission($_SESSION['user_permission']))
+	//{
 		//$aId = "";
 		$eId = addslashes($_POST['eId']);
 		$eName = addslashes($_POST['eName']);
@@ -32,13 +32,13 @@
 		{
 			echo $e->getMessage();
 		}
-	}
+	//}
 
-	function permission($_SESSION['user_permission'])
-	{
-		if($_SESSION['user_permission'] = "admin")
-			return 1;
-		else
-			return 0;
-	}
+	//function permission($_SESSION['user_permission'])
+	//{
+		//if($_SESSION['user_permission'] = "admin")
+			//return 1;
+		//else
+			//return 0;
+	//}
 ?>
