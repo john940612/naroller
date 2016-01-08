@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>Media Management - Naroller</title>
-    <meta name="keywords" content="">
+	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -18,8 +18,8 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="../css/nivo-lightbox.css" />
 	<link rel="stylesheet" href="../css/nivo_themes/default/default.css" />
 	<link rel="stylesheet" href="../css/templatemo-style.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="../css/main.css" />
+	<link rel="stylesheet" href="css/main.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -37,8 +37,8 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="../index.php" class="navbar-brand">
-                <img id="logo" src="../images/NaRollerLogo-w500.png" />
-            </a>
+				<img id="logo" src="../images/NaRollerLogo-w500.png" />
+			</a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -58,15 +58,15 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>Article Management</h1>
+				<h1>Article Management</h1>
 
-                <span class="fa fa-angle-double-down fa-2x">
-                <?php
-                    include("article_add.php");
-                	include("article_display.php");
-                ?>
-                </span>
-            </div>
+				<span class="fa fa-angle-double-down fa-2x">
+				<?php
+					
+					include("article_display.php");
+				?>
+				</span>
+			</div>
 		</div>
 	</div>
 </div>
@@ -77,38 +77,27 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<!--div class="col-md-offset-2 col-md-8 col-sm-12">
 				<h2>Get in touch</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
 			</div-->
 			<div class="col-md-6 col-sm-8 mt30 halfSideTitle">
 				<h2>Upload</h2>
-                <span class="fa fa-upload fa-3x"></span>
-                
+				<span class="fa fa-upload fa-3x"></span>
+				
 			</div>
 			<div class="col-md-6 col-sm-4 address">
-                <div>
-                    <form action="#" method="post" role="form">
-
-                        <div class="col-md-6 col-sm-6">
-                            <!--label for="name">NAME</label-->
-                            <input name="name" type="text" class="form-control" id="name">
-                            <label for="email">EMAIL</label>
-                            <input name="email" type="email" class="form-control" id="email">
-                        </div>
-
-                        <div class="col-md-6 col-sm-6">
-                            <label for="message">MESSAGE</label>
-                            <textarea name="message" rows="6" class="form-control" id="message"></textarea>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6">
-                            <button type="submit" name="submit" class="btn btn-default">SEND</button>
-                        </div>
-
-                    </form>
+				<div>
+					<form id="signInForm" action="article.php" method="post" role="form">
+						
+							<input name="aTitle" type="text" class="form-control" id="name" placeholder="請輸入文章標題" />
+							<input name="aSecondTitle" type="text" class="form-control" id="email" placeholder="請輸入文章副標題(可為空)" />
+							<input name="aText" type="text" class="form-control" id="email" placeholder="請輸入文章內容" />
+							<input name="aSummary" type="text" class="form-control" id="email" placeholder="請輸入文章摘要(可為空)" />
+							<button id="updateButton" type="submit" name="submit" class="btn btn-default">上傳文章</button>
+					</form>
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 mt20">
-            	<h3>Location</h3>
+				<h3>Location</h3>
 				<div class="google_map mt20">
 					<div id="map-canvas"></div>
 				</div>
@@ -125,10 +114,10 @@ http://www.templatemo.com/tm-468-onetel
 			<div id="footerInfo" class="col-md-4 col-sm-4">
 				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
 				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
-                <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
+				<p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
 				<p><i class="fa fa-phone"></i>（03）222-2500</p>
 				<p><i class="fa fa-envelope-o"></i><a class="mailAddr" href="mailto: roger.lee@naroller.com">roger.lee@naroller.com</a></p>
-                <p><i class="fa fa-map-marker"></i>桃園市龜山區民生北路ㄧ段580號6樓</p>
+				<p><i class="fa fa-map-marker"></i>桃園市龜山區民生北路ㄧ段580號6樓</p>
 			</div>
 
 			<div id="footerMenu" class="col-md-3 col-sm-4">
@@ -144,7 +133,7 @@ http://www.templatemo.com/tm-468-onetel
 				<h3>Map</h3>
 				<div id="googleMap"></div>
 			</div>
-            
+			
 		</div><!-- End class="row"-->
 	</div>
 </footer>
