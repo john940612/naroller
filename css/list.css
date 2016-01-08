@@ -34,3 +34,14 @@ a.newsListItem:hover{
     padding: 2em 5% 3em 5%;
     background: #1c1c1c;
 }
+
+.articleArea h3{
+    letter-spacing: 0.2em;
+}
+
+.articleArea h4{
+    margin: 1em 0 1em 0;
+    letter-spacing: 0.2em;
+    color: white !important;
+    font-family:  "microsoft jhenghei", sans-serif;
+}
