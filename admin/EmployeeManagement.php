@@ -87,7 +87,9 @@ http://www.templatemo.com/tm-468-onetel
                 <div>
 
                     <?php
+                      include("employee_add.php");
                       include("employee_display.php");
+                      include("employee_password_modify.php");
                     ?>
 				</div>
 			</div>
