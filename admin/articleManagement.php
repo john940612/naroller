@@ -42,12 +42,11 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<!--li><a href="index.html" class="active">首頁</a></li -->
-				<li><a href="about.html">最新消息</a></li>
-				<li><a class="active" href="about.html">媒體管理</a></li>
-				<!--li><a href="portfolio.html">產品</a></li>
-				<li><a href="portfolio.html">技術</a></li-->
-				<li><a href="#">登出</a></li>
+				<li><a class="active" href="articleManagement.html">文章管理</a></li>
+                <li><a href="product_list.php">產品管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a href="employeeManagement.php">員工管理</a></li>
+				<li><a href="logout.php">登出</a></li>
 			</ul>
 		</div>
 	</div>
