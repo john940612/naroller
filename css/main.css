@@ -2,17 +2,7 @@
     html{
         overflow-x: hidden;
     }
-    /*table 文章*/
-    /*table { 
-  font-family: arial; 
 
-  border-color: red;
-} 
-td { 
-   
-  width: 10%;
-} */
-    /*end table 文章*/
     p{
         font-size: 1.2em;
         letter-spacing: 1px;
@@ -344,4 +334,14 @@ a.mailAddr{
 p.aboutDesc{
     text-align: center !important;
     letter-spacing: 0.2em;
+}
+
+form#contactForm{
+    margin-top: 2em;
+}
+
+form input[type="submit"]{
+    font-family: 'Montserrat', 'microsoft jhenghei', sans-serif;
+    width: 100%;
+    margin-top: 2em;
 }
