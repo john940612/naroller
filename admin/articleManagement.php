@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Media Management - Naroller</title>
+	<title>Article Management - Naroller</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
@@ -36,18 +36,17 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="../index.php" class="navbar-brand">
+			<a href="admin.php" class="navbar-brand">
 				<img id="logo" src="../images/NaRollerLogo-w500.png" />
 			</a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<!--li><a href="index.html" class="active">首頁</a></li -->
-				<li><a href="about.html">最新消息</a></li>
-				<li><a class="active" href="about.html">媒體管理</a></li>
-				<!--li><a href="portfolio.html">產品</a></li>
-				<li><a href="portfolio.html">技術</a></li-->
-				<li><a href="#">登出</a></li>
+				<li><a class="active" href="articleManagement.html">文章管理</a></li>
+                <li><a href="product_list.php">產品管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a href="employeeManagement.php">員工管理</a></li>
+				<li><a href="logout.php">登出</a></li>
 			</ul>
 		</div>
 	</div>
@@ -59,13 +58,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
 				<h1>Article Management</h1>
-
-				<span class="fa fa-angle-double-down fa-2x">
-				<?php
-					
-					include("article_display.php");
-				?>
-				</span>
+				<a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
 			</div>
 		</div>
 	</div>
@@ -100,6 +93,10 @@ http://www.templatemo.com/tm-468-onetel
 				<h3>Location</h3>
 				<div class="google_map mt20">
 					<div id="map-canvas"></div>
+                    <?php
+					
+					include("article_display.php");
+				?>
 				</div>
 			</div>
 		</div>
@@ -107,36 +104,6 @@ http://www.templatemo.com/tm-468-onetel
 </div>		
 
 <!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-
-			<div id="footerInfo" class="col-md-4 col-sm-4">
-				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
-				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
-				<p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
-				<p><i class="fa fa-phone"></i>（03）222-2500</p>
-				<p><i class="fa fa-envelope-o"></i><a class="mailAddr" href="mailto: roger.lee@naroller.com">roger.lee@naroller.com</a></p>
-				<p><i class="fa fa-map-marker"></i>桃園市龜山區民生北路ㄧ段580號6樓</p>
-			</div>
-
-			<div id="footerMenu" class="col-md-3 col-sm-4">
-				<h3>Menu</h3>
-				<p class="menu"><a href="about.html">About</a></p>
-				<p class="menu"><a href="#">News</a></p>
-				<p class="menu"><a href="#">Products</a></p>
-				<p class="menu"><a href="#">Technology</a></p>
-				<p class="menu"><a href="#">Contact</a></p>
-			</div>
-
-			<div class="col-md-5 col-sm-4 newsletter">
-				<h3>Map</h3>
-				<div id="googleMap"></div>
-			</div>
-			
-		</div><!-- End class="row"-->
-	</div>
-</footer>
 
 <!-- copyright section -->
 <div class="copyright">
@@ -145,13 +112,7 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-8 col-sm-6">
 				<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
 			</div>
-			<div id="socialLinkArea" class="col-md-4 col-sm-6">
-				<ul class="social-icons">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="mailto: roger.lee@naroller.com" class="fa fa-envelope-o"></a></li>
-				</ul>
-			</div>
+			
 		</div>
 	</div>
 </div>
