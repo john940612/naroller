@@ -1,7 +1,3 @@
-<?php
-	include("connect_db.php");
-	$catch = "SELECT * FROM Employee";
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,20 +75,31 @@ http://www.templatemo.com/tm-468-onetel
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
 			</div-->
 			<div class="col-md-6 col-sm-8 mt30 halfSideTitle">
-				<h2>Add</h2>
-                <span class="fa fa-user-plus fa-3x"></span>
+				<h2>Upload</h2>
+                <span class="fa fa-upload fa-3x"></span>
                 
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
-
-                    <?php
-                      include("employee_display.php");
-                    ?>
+                    <form id="uploadForm" action="#" method="post" role="form">
+                            <input name="eId" type="text" class="form-control" id="eId" placeholder="員工編號｜Emplyee ID" />
+                        <input name="name" type="text" class="form-control" id="name" placeholder="帳號｜Username" />
+                        <input name="password" type="password" class="form-control" id="password" placeholder="密碼｜Password" />
+                        <input name="access" type="" class="form-control" id="name" placeholder="" />
+                        <button type="reset" class="btn btn-default">CANCEL</button>
+                        <button type="submit" class="btn btn-default">SEND</button>
+                    </form>
 				</div>
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
             	<h3>Employee List</h3>
+				<div class="listTableArea"> 
+                    <?php
+	include("connect_db.php");
+
+	$eId = $_POST['eId'];
+	$catch = "SELECT * FROM Employee WHERE eId = $eId";
+?>
                     <form id="signInForm" action="employee_modify.php" method="post" role="form">
                         <table>
                             <tr class="headRow">
@@ -100,44 +107,19 @@ http://www.templatemo.com/tm-468-onetel
                                 <th class="nameCol">Username</th>
                                 <th class="accessCol">Access</th>
                             </tr>
-<?php
-                            $i=1;
-	foreach($dbh->query($catch) as $row){
-		if($i==1){
-            echo '<tr class="trtd1">';
-			echo '<td>';
-				echo '<input name="eId" type="radio" id="eId" value="'.$row['eId'].'"/>';
-				//print_r ($row['eId']);
-			echo '</td>';	
-			echo '<td>';
-				print_r ($row['eName']);
-				//echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
-			echo '</td>';
-			echo '<td>';
-				print_r ($row['ePerm']);
-				//echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
-			echo '</td>';
-		  echo '</tr>';
-            $i=2;
-        }
-        else{
-            echo '<tr class="trtd2">';
-                echo '<td>';
-                    echo '<input name="eId" type="radio" id="name" value="'.$row['eId'].'"/>';
-                    //print_r ($row['eId']);
-                echo '</td>';	
-                echo '<td>';
-                    print_r ($row['eName']);
-                    //echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
-                echo '</td>';
-                echo '<td>';
-                    print_r ($row['ePerm']);
-                    //echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
-                echo '</td>';
-            echo '</tr>';
-            $i=1;
-        }
-	}?>
+
+                            <tr class="trtd1">
+                                <td class="check"><input type="radio" /></td>
+                                <td class="nameCol">ymayho</td>
+                                <td class="accessCol">general</td>
+                            </tr>
+                            <tr class="trtd2">
+                                <td class="check"><input type="checkbox" /></td>
+                                <td class="nameCol">usaAsakrua</td>
+                                <td class="accessCol">admin</td>
+                            </tr>
+                            
+                            </tr>
                         </table>
                     </form>
 				</div>
