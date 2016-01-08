@@ -62,6 +62,7 @@ http://www.templatemo.com/tm-468-onetel
 
                 <span class="fa fa-angle-double-down fa-2x">
                 <?php
+                    include("article_add.php");
                 	include("article_display.php");
                 ?>
                 </span>
