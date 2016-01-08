@@ -42,4 +42,6 @@
 		echo $e->getMessage();
 	}
 
+	header("location: articleManagement.php");
+
 ?>

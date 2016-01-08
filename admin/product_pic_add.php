@@ -23,9 +23,10 @@
 			echo "</tr>";
 		}
 	}
+	
+	echo "</table>";
 	echo '<button id="updateButton" type="submit" name="submit" class="btn btn-default">添加圖片</button>';
 	echo '</form>';
-	echo "</table>";
 /*
 	echo '<form id="signInForm" action="productAddExample.php" method="post" role="form">';
 		echo '<input name="pName" type="text" class="form-control" id="name" placeholder="請輸入文章標題" />';

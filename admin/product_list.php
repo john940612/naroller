@@ -83,21 +83,24 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
     
 		<div class="row">
-			<div class="col-md-offset-2 col-md-8 col-sm-12">
+			<div class>
+		<!--<div class="col-md-offset-2 col-md-8 col-sm-12">-->
 				<h2>NEWS SEARCH</h2>
 					<center>
 						<table border='0'>
 							<!--php列表部分-->
 							<?php
 								include("product_display.php");
-							?>
+							
+								include("product_pic_add.php");
+							?>	
 							<!--php列表部分結束-->
 							</div>
          </div>
          
          <div class="row mt30">
 			<div class="col-md-4 col-sm-4 col-xs-9">
-						
+					
  
 				<!--<div class="team-wrapper">
 					<img src="images/team1.jpg" class="img-responsive" alt="team img">

@@ -1,8 +1,8 @@
 <?php
 	include("connect_db.php");
-	session_start();
+	/*session_start();
 	if(permission($_SESSION['user_permission']))	
-	{
+	{*/
 		$eId = $_POST['eId'];
 		$catch = "SELECT * FROM Employee WHERE eId = $eId";
 		//echo $catch;
@@ -33,13 +33,13 @@
 		
 		echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="1">修改密碼</button>';
 		echo '</form>';
-	}
-
+	//}
+/*
 	function permission($_SESSION['user_permission'])
 	{
 		if($_SESSION['user_permission'] = "general")
 			return 1;
 		else
 			return 0;
-	}
+	}*/
 ?>

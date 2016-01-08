@@ -81,13 +81,13 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-6 col-sm-8 mt30 halfSideTitle">
 				<h2>Add</h2>
                 <span class="fa fa-user-plus fa-3x"></span>
-                
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
 
                     <?php
-                      include("employee_add.php");
+                                      
+                 	  //include("employee_add.php");
                       include("employee_display.php");
                       include("employee_password_modify.php");
                     ?>
@@ -139,6 +139,7 @@ http://www.templatemo.com/tm-468-onetel
             echo '</tr>';
             $i=1;
         }
+
 	}?>
                         </table>
                     </form>

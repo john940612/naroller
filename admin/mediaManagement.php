@@ -81,9 +81,9 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
-                    <form id="uploadForm" action="#" method="post" role="form">
+                    <form id="uploadForm" action="media.php" method="post" role="form">
                             <!--label for="name">NAME</label-->
-                            <!--<input name="name" type="text" class="form-control" id="name" placeholder="檔案命名" />-->
+                            <!--<input name="mName" type="text" class="form-control" id="name" placeholder="檔案命名" />-->
                             <input name="file" type="file" class="form-control" id="file" />
                             <button type="submit" class="btn btn-default">SEND</button>
                             <!--input value="SEND" type="submit" class="btn btn-default" /-->

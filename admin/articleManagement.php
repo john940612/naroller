@@ -86,7 +86,7 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div class="col-md-6 col-sm-4 address">
 				<div>
-					<form id="signInForm" action="article.php" method="post" role="form">
+					<form id="signInForm" action="article_add.php" method="post" role="form">
 						
 							<input name="aTitle" type="text" class="form-control" id="name" placeholder="請輸入文章標題" />
 							<input name="aSecondTitle" type="text" class="form-control" id="email" placeholder="請輸入文章副標題(可為空)" />

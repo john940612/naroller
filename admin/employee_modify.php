@@ -1,9 +1,9 @@
 <?php
 	include("connect_db.php");
 
-	session_start();
+/*	session_start();
 	if(permission($_SESSION['user_permission']))
-	{
+	{*/
 		$eId = $_POST['eId'];
 		$catch = "SELECT * FROM Employee WHERE eId = $eId";
 		//echo $catch;
@@ -25,7 +25,9 @@
 				echo "<td>權限</td>";
 				echo "<td>";
 					//print_r ($row['aSummary']);
-					echo '<input name="ePerm" type="text" class="form-control" id="email"value="'.$row['ePerm'].'" />';
+					echo '<input name="eName" type="hidden" class="form-control" id="email"value="'.$row['eName'].'" />';
+					echo '<input name="ePwd" type="hidden" class="form-control" id="email"value="'.$row['ePwd'].'" />';
+					echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
 				echo "</td>";
 			echo "</tr>";
 			echo "</table>";
@@ -34,8 +36,8 @@
 		echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="1">修改員工</button>';
 		echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="2">刪除員工</button>';
 		echo '</form>';
-	}
-
+	//}
+/*
 	function permission($_SESSION['user_permission'])
 	{
 		if($_SESSION['user_permission'] = "admin")
@@ -43,6 +45,6 @@
 		else
 			return 0;
 	}
-
+*/
 	//header("location: articleManagementExample.php");
 ?>

@@ -1,6 +1,6 @@
 <?php
 	
-	$name = $_FILES["file"]["name"];
+	$name = addslashes($_POST['mName']);
 	$type = $_FILES["file"]["type"];
 	$size = $_FILES["file"]["size"] / 1024 / 1024;
 
