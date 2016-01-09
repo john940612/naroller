@@ -43,7 +43,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right drop-down-menu">
 				<li><a href="about.html">關於我們</a></li>
-				<li><a class="active"  href="news.html">最新消息</a></li>
+				<li><a class="activePage"  href="news.html">最新消息</a></li>
 				<li><a href="portfolio.html">產品</a>
                     <ul>
                         <li><a href="#">Mini Sedan</a>
