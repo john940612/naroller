@@ -1,6 +1,6 @@
 <?php
 	
-	$name = $_FILES["file"]["name"];
+	$name = addslashes($_POST['mName']);
 	$type = $_FILES["file"]["type"];
 	$size = $_FILES["file"]["size"] / 1024 / 1024;
 
@@ -9,12 +9,12 @@
 		echo "Error: " . $_FILES["file"]["error"];
 	}	
 	else{
-		
+		/*
 		echo "檔案名稱: " . $name . "<br/>";
 		echo "檔案類型: " . $type . "<br/>";
 		echo "檔案大小: " . $size . " MB<br />";
 		echo "暫存名稱: " . $_FILES["file"]["tmp_name"];
-		
+		*/
 		if(file_exists("upload/" . $_FILES["file"]["name"]))
 		{
 			echo "檔案已經存在，請勿重覆上傳相同檔案";
@@ -24,20 +24,7 @@
 			if(mediaType($type) && mediaSize($size))
 			{
 				move_uploaded_file($_FILES["file"]["tmp_name"],"upload/".$name);
-				switch ($type) {
-					case 'image/bmp':
-						$src = imagecreatefromwbmp("upload/".$name);
-						break;
-					case 'image/gif':
-						$src = imagecreatefromgif("upload/".$name);
-						break;
-					case 'image/jpeg':
-						$src = imagecreatefromjpeg("upload/".$name);
-						break;
-					case 'image/png':
-						$src = imagecreatefrompng("upload/".$name);
-						break;
-				}			
+				$src = imagecreatefromjpeg("upload/".$name);
 
 				if(!$src)
 				{
@@ -92,7 +79,7 @@
 
 	function mediaType($type)
 	{
-		if($type == "image/bmp"||$type == "image/gif"||$type == "image/jpeg"||$type == "image/png")
+		if($type == "image/bmp"||$type == "image/png"||$type == "image/svg"||$type == "image/gif"||$type == "image/jpeg")
 			return 1;
 		else
 			return 0;

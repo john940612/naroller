@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Top - NaRoller Management</title>
+	<title>Sign In - NaRoller Management</title>
     <meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
@@ -36,15 +36,14 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="../index.php" class="navbar-brand"><img id="logo" src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo"></a>
+			<a href="#" class="navbar-brand"><img id="logo" src="../images/NaRollerLogo.png" class="img-responsive" alt="logo"></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="articleManagement.php">文章管理</a></li>
-                <li><a href="product_list.php">產品管理</a></li>
-				<li><a href="mediaManagement.php">媒體管理</a></li>
-                <li><a href="employeeManagement.php">員工管理</a></li>
-				<li><a href="logout.php">登出</a></li>
+				<!--li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li-->
+				<li><a href="contact.html" class="active">Sign In</a></li>
 			</ul>
 		</div>
 	</div>
@@ -55,22 +54,20 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
             <div class="container signInDiv">
-                <div id="adminMenu" class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <h2>文章管理</h2>
-                        <a href="articleManagement.php" class="fa fa-5x fa-file-text-o"></a>
+                <div id="contact" class="row">
+                    <div id="signInTitleArea" class="col-md-6 col-sm-4">
+                        <h2>Sign In</h2>
+                        <span class="fa fa-5x fa-sign-in"></span>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <h2>產品管理</h2>
-                        <a href="product_list.php" class="fa fa-5x fa-suitcase"></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <h2>媒體管理</h2>
-                        <a href="mediaManagement.php" class="fa fa-5x fa-music"></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <h2>員工管理</h2>
-                        <a href="employeeManagement.php" class="fa fa-5x fa-user"></a>
+                    <div id="formArea" class="col-md-6 col-sm-6">
+                        <form id="signInForm" action="article.php" method="post" role="form">
+                        
+                            <input name="aTitle" type="text" class="form-control" id="name" placeholder="請輸入文章標題" />
+                            <input name="aSecondTitle" type="text" class="form-control" id="email" placeholder="請輸入文章副標題(可為空)" />
+                            <input name="aText" type="text" class="form-control" id="email" placeholder="請輸入文章內容" />
+                            <input name="aSummary" type="text" class="form-control" id="email" placeholder="請輸入文章摘要(可為空)" />
+                            <button id="updateButton" type="submit" name="submit" class="btn btn-default">上傳文章</button>
+                        </form>
                     </div>
                 </div>
             </div>
