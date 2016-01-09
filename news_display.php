@@ -102,7 +102,7 @@ http://www.templatemo.com/tm-468-onetel
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-9  col-sm-4 col-xs-9 articleArea tab-content">
+			<div class="col-md-8  col-sm-4 col-xs-9 articleArea tab-content">
 			<?php
 				include("admin/connect_db.php");
            		$get="SELECT * FROM article ORDER BY aId DESC limit 5";
