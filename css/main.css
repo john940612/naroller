@@ -267,21 +267,21 @@
     
     /*about.html, contact.html, news.html*/
     
-    #about-header, #contact-header, #news-header, #portfolio-header, #technique-header{
+    #about-header, #contact-header, #news-header, #portfolio-header{
         text-align: center;
         text-shadow: 3px 3px rgba(0, 0, 0, .7);
     }
     
-    #about-header h1, #contact-header h1, #news-header h1, #portfolio-header h1, #technique-header h1{
+    #about-header h1, #contact-header h1, #news-header h1, #portfolio-header h1{
         font-size: 56pt;
     }
     
-    #about-header a.downButton, #contact-header a.downButton, #news-header a.downButton, #portfolio-header a.downButton, #technique-header a.downButton{
+    #about-header a.downButton, #contact-header a.downButton, #news-header a.downButton, #portfolio-header a.downButton{
         font-size: 48pt;
         opacity: .7;
     }
     
-    #about-header a:hover, #contact-header a:hover, #news-header a:hover, #portfolio-header a.downButton:hover, #technique-header a.downButton:hover{
+    #about-header a:hover, #contact-header a:hover, #news-header a:hover, #portfolio-header a.downButton:hover{
         opacity: 1;
     }
 }/*End @media all and (min-width: 768px)*/
