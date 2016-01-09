@@ -266,7 +266,8 @@ img {
 
 /* portfolio section */
 #portfolio-header {
-  background: url('../images/portfolio-header.jpg') no-repeat;
+ /* background: url('../images/portfolio-header.jpg') no-repeat;*/
+     background: url('../images/photo/product-banner.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
