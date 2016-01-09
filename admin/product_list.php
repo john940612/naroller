@@ -126,7 +126,7 @@ http://www.templatemo.com/tm-468-onetel
 				</div>-->
 			</div>
          </div>
-         
+      <!--   
         <div class="row mt30"> 
 			<div class="col-md-12 col-sm-12">
 				<hr>
@@ -141,7 +141,7 @@ http://www.templatemo.com/tm-468-onetel
                 </p>
 			</div>
 		</div>
-        
+        -->
         
          <!--div class="row mt30"> 
 			<div class="col-md-12 col-sm-12">
