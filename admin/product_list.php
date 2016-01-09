@@ -24,9 +24,31 @@ http://www.templatemo.com/tm-468-onetel
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
 </head>
 <body>
-	
+<div class="container">
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="admin.php" class="navbar-brand">
+                <img id="logo" src="../images/NaRollerLogo-w500.png" />
+            </a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="articleManagement.html">文章管理</a></li>
+                <li><a class="active" href="product_list.php">產品管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a href="employeeManagement.php">員工管理</a></li>
+				<li><a href="#">登出</a></li>
+			</ul>
+		</div>
+	</div>
+</div>	
 <!-- navigation -->
-
+<!--
 <div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="navbar-header">
@@ -66,13 +88,26 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 	</div>
 </div>
+-->
 <!-- about header section -->
+<!--
 <div id="about-header">
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
                 <h1>NEWS SEARCH</h1>
                 <a href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
+            </div>
+		</div>
+	</div>
+</div>
+-->
+<div id="contact-header">
+	<div class="container">
+		<div class="row">
+			<div id="headerTitle" class="col-md-12 col-sm-12">
+                <h1>Product Management</h1>
+                <a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
 	</div>
@@ -174,6 +209,7 @@ http://www.templatemo.com/tm-468-onetel
 </div><!-- End div#team -->	
 
 <!-- footer section -->
+<!--
 <footer>
 	<div class="container">
 		<div class="row">
@@ -202,10 +238,12 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
             
 		</div><!-- End class="row"-->
+<!--
 	</div>
 </footer>
-
+-->
 <!-- copyright section -->
+<!--
 <div class="copyright">
 	<div class="container">
 		<div class="row">
@@ -222,7 +260,17 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 	</div>
 </div>
-
+-->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-6">
+				<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
+			</div>
+			
+		</div>
+	</div>
+</div>
 <!-- javascript js -->	
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.min.js"></script>	
