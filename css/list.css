@@ -6,17 +6,21 @@
     padding-left: 3em !important;
 }
 
+.newsListArea > ul{
+    border: none;
+}
+
 a.newsListItem{
-    display: block;
-    width: 90%;
-    border: rgba(255, 255, 255, .0) solid 2px;
+    display: block !important;
+    width: 10em;
+    border: rgba(255, 255, 255, .0) solid 2px !important;
     margin-bottom: 0.5em;
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em 0.5em 1em !important;
     background: #1c1c1c;
     font-family: 'Microsoft Jhenghei', sans-serif;
     font-size: 1.2em;
     letter-spacing: 0.1em;
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
@@ -25,9 +29,15 @@ a.newsListItem{
 }
 
 a.newsListItem:hover{
-    border: rgba(255, 255, 255, 1.0) solid 2px;
-    background: rgba(255, 255, 255, 0.0);
-    color: #d71921;
+    border: rgba(255, 255, 255, 1.0) solid 2px !important;
+    background: rgba(255, 255, 255, 0.0) !important;
+    color: #d71921 !important;
+}
+
+.nav-tabs>li.active>a{
+    background: #1c1c1c;
+    border: #d71921 solid 2px !important;
+    pointer-events: none;
 }
 
 .articleArea{
