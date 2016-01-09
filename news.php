@@ -143,19 +143,15 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
 					<h3>大標題</h3>
 					<h4>副標題</h4>
                 	<p>
-                
                 rr混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。
 Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲，消費者對於對車輛動力操控和加速度的感受要求增加，車輛動力已經成為新的趨勢主流。本計畫剎車再生儲能之高扭力比馬達於Nano-Hybrid System(輔助加速系統)是能輸出較以往更豐沛的推進力道，更安全可靠，且為更創新的科技：保留原產品的功能特性，於後輪加裝小容量的FSPM作為輔助傳動，搭配已發展成功的ADAPTIVE SERVO DRIVE即時偵測前後輪馬達的速差，再依此適應控制後輪馬達的扭矩，且開發剎車再生儲能裝置，不但效率可大幅提升，車子的行車穩定安全性與功率輸出將會更高，增加加速效率油耗低減。
-
                 	</p>
-				</div>
-                	
-            </div>
-				
+				</div>	
+            </div>		
          </div>
         
         
-         <div class="row mt30"> 
+         <!--div class="row mt30"> 
 			<div class="col-md-12 col-sm-12">
 				<hr>
 			</div>
@@ -182,7 +178,7 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
 					</div>
 			</div>
 		</div-->
-	</div>
+	</div-->
 </div><!-- End div#team -->	
 
 <!-- footer section -->
