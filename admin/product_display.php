@@ -19,8 +19,8 @@
 				print_r ($row['pDesc']);
 			echo "</td>";
 			echo "<td>";
-				explode(".", $row['pThumb']);
-				echo "<img src='".dirname(__FILE__).$row['pThumb']."'/>";//./upload
+				$pThumb = strtok($row['pThumb'], ".");
+				echo "<img src='".dirname(__FILE__).$pThumb."'/>";//./upload
 			echo "</td>";
 		echo "</tr>";
 	}
