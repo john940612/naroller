@@ -25,16 +25,16 @@
 			{
 				move_uploaded_file($_FILES["file"]["tmp_name"],"upload/".$name);
 				switch ($type) {
-					case 'bmp':
+					case 'image/bmp':
 						$src = imagecreatefromwbmp("upload/".$name);
 						break;
-					case 'gif':
+					case 'image/gif':
 						$src = imagecreatefromgif("upload/".$name);
 						break;
-					case 'jpeg':
+					case 'image/jpeg':
 						$src = imagecreatefromjpeg("upload/".$name);
 						break;
-					case 'png':
+					case 'image/png':
 						$src = imagecreatefrompng("upload/".$name);
 						break;
 				}			
