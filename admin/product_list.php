@@ -120,7 +120,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div class>
 		<!--<div class="col-md-offset-2 col-md-8 col-sm-12">-->
-				<h2>NEWS SEARCH</h2>
+				<h2>Product Upload</h2>
 					<center>
 						<table border='0'>
 							<!--php列表部分-->
