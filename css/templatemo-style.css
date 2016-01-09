@@ -305,6 +305,14 @@ img {
   min-height: 500px;
   padding-top: 160px;
 }
+/* technique section*/
+#technique-header {
+    background: url('../images/technique-header1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
 /* contact section */
 #contact-header {
   background: url('../images/contact-header.jpg') no-repeat;

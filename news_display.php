@@ -43,7 +43,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right drop-down-menu">
 				<li><a href="about.html">關於我們</a></li>
-				<li><a class="active"  href="news.php">最新消息</a></li>
+				<li><a class="active"  href="news.html">最新消息</a></li>
 				<li><a href="portfolio.html">產品</a>
                     <ul>
                         <li><a href="#">Mini Sedan</a>
@@ -59,7 +59,7 @@ http://www.templatemo.com/tm-468-onetel
                         </li>
                     </ul>
 				</li>
-				<li><a href="technique.html">技術</a></li>
+				<li><a href="portfolio.html">技術</a></li>
 				<li><a href="contact.html">聯繫我們</a></li>
 			</ul>
 		</div>
@@ -86,31 +86,76 @@ http://www.templatemo.com/tm-468-onetel
 				<h2>News</h2>
 			</div>
          </div>
-        
-         <div class="row mt30">
+         <?php
+			include("news_list.php");
+		?>
+         
+       <div class="row mt30">
 			<div class="col-md-3 col-sm-4 col-xs-9">
 				<div class="team-wrapper newsListArea">
-					<a class="newsListItem" href="#">各種文章</a>
-                    <a class="newsListItem" href="#">各種文章</a>
-                    <a class="newsListItem" href="#">各種文章</a>
-                    <a class="newsListItem" href="#">各種文章</a>
-                    <a class="newsListItem" href="#">各種文章</a>
+					<ul class ="nav nav-tabs">
+						<li><a class="newsListItem active" href="#latest">最新文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#second">各種文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#third">各種文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#fouth">各種文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#fifth">各種文章</a></li>
+					</ul>
 				</div>
 			</div>
-			<div class="col-md-8  col-sm-4 col-xs-9 articleArea">
-                <h3>大標題</h3>
-				<h4>副標題</h4>
-                <p>
-                混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。
+			<div class="col-md-9  col-sm-4 col-xs-9 articleArea tab-content">
+				<div id="latest" class="tab-pane fade in active">
+					<h3>大標題</h3>
+					<h4>副標題</h4>
+                	<p>
+                GG混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。
 Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲，消費者對於對車輛動力操控和加速度的感受要求增加，車輛動力已經成為新的趨勢主流。本計畫剎車再生儲能之高扭力比馬達於Nano-Hybrid System(輔助加速系統)是能輸出較以往更豐沛的推進力道，更安全可靠，且為更創新的科技：保留原產品的功能特性，於後輪加裝小容量的FSPM作為輔助傳動，搭配已發展成功的ADAPTIVE SERVO DRIVE即時偵測前後輪馬達的速差，再依此適應控制後輪馬達的扭矩，且開發剎車再生儲能裝置，不但效率可大幅提升，車子的行車穩定安全性與功率輸出將會更高，增加加速效率油耗低減。
 
-                </p>
+                	</p>
+				</div>
+				<div id="second" class="tab-pane fade">
+					<h3>大標題</h3>
+					<h4>副標題</h4>
+                	<p>
+                QQ混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。
+Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲，消費者對於對車輛動力操控和加速度的感受要求增加，車輛動力已經成為新的趨勢主流。本計畫剎車再生儲能之高扭力比馬達於Nano-Hybrid System(輔助加速系統)是能輸出較以往更豐沛的推進力道，更安全可靠，且為更創新的科技：保留原產品的功能特性，於後輪加裝小容量的FSPM作為輔助傳動，搭配已發展成功的ADAPTIVE SERVO DRIVE即時偵測前後輪馬達的速差，再依此適應控制後輪馬達的扭矩，且開發剎車再生儲能裝置，不但效率可大幅提升，車子的行車穩定安全性與功率輸出將會更高，增加加速效率油耗低減。
+
+                	</p>
+				</div>
+				<div id="third" class="tab-pane fade">
+					<h3>大標題</h3>
+					<h4>副標題</h4>
+                	<p>
+                RR混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。
+Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲，消費者對於對車輛動力操控和加速度的感受要求增加，車輛動力已經成為新的趨勢主流。本計畫剎車再生儲能之高扭力比馬達於Nano-Hybrid System(輔助加速系統)是能輸出較以往更豐沛的推進力道，更安全可靠，且為更創新的科技：保留原產品的功能特性，於後輪加裝小容量的FSPM作為輔助傳動，搭配已發展成功的ADAPTIVE SERVO DRIVE即時偵測前後輪馬達的速差，再依此適應控制後輪馬達的扭矩，且開發剎車再生儲能裝置，不但效率可大幅提升，車子的行車穩定安全性與功率輸出將會更高，增加加速效率油耗低減。
+
+                	</p>
+				</div>
+				<div id="fouth" class="tab-pane fade">
+					<h3>大標題</h3>
+					<h4>副標題</h4>
+                	<p>
+                WW混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。
+Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲，消費者對於對車輛動力操控和加速度的感受要求增加，車輛動力已經成為新的趨勢主流。本計畫剎車再生儲能之高扭力比馬達於Nano-Hybrid System(輔助加速系統)是能輸出較以往更豐沛的推進力道，更安全可靠，且為更創新的科技：保留原產品的功能特性，於後輪加裝小容量的FSPM作為輔助傳動，搭配已發展成功的ADAPTIVE SERVO DRIVE即時偵測前後輪馬達的速差，再依此適應控制後輪馬達的扭矩，且開發剎車再生儲能裝置，不但效率可大幅提升，車子的行車穩定安全性與功率輸出將會更高，增加加速效率油耗低減。
+
+                	</p>
+				</div>
+				<div id="fifth" class="tab-pane fade">
+					<h3>大標題</h3>
+					<h4>副標題</h4>
+                	<p>
+                
+                rr混合動力在新興國家機車規模佔全球產量的前5名，利用高馬力比的馬達輔助加速系統的研發和專利，是各家機車車廠全力投入的龐大商機和技術。
+Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲，消費者對於對車輛動力操控和加速度的感受要求增加，車輛動力已經成為新的趨勢主流。本計畫剎車再生儲能之高扭力比馬達於Nano-Hybrid System(輔助加速系統)是能輸出較以往更豐沛的推進力道，更安全可靠，且為更創新的科技：保留原產品的功能特性，於後輪加裝小容量的FSPM作為輔助傳動，搭配已發展成功的ADAPTIVE SERVO DRIVE即時偵測前後輪馬達的速差，再依此適應控制後輪馬達的扭矩，且開發剎車再生儲能裝置，不但效率可大幅提升，車子的行車穩定安全性與功率輸出將會更高，增加加速效率油耗低減。
+
+                	</p>
+				</div>
+                	
             </div>
 				
          </div>
         
         
-         <!--div class="row mt30"> 
+         <div class="row mt30"> 
 			<div class="col-md-12 col-sm-12">
 				<hr>
 			</div>
@@ -157,10 +202,10 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
 			<div id="footerMenu" class="col-md-3 col-sm-4">
 				<h3>Menu</h3>
 				<p class="menu"><a href="about.html">About</a></p>
-				<p class="menu"><a href="news.html">News</a></p>
-				<p class="menu"><a href="portfolio.html">Products</a></p>
-				<p class="menu"><a href="technique.html">Technology</a></p>
-				<p class="menu"><a href="contact.html">Contact</a></p>
+				<p class="menu"><a href="#">News</a></p>
+				<p class="menu"><a href="#">Products</a></p>
+				<p class="menu"><a href="#">Technology</a></p>
+				<p class="menu"><a href="#">Contact</a></p>
 			</div>
 
 			<div class="col-md-5 col-sm-4 newsletter">

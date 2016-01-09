@@ -62,7 +62,7 @@ http://www.templatemo.com/tm-468-onetel
 						
 					</ul>
 				</li>
-				<li><a href="technique.html">技術</a></li>
+				<li><a href="portfolio.html">技術</a></li>
 				<li><a href="contact.html">聯繫我們</a></li>
 			</ul>
 		</div>
@@ -90,6 +90,10 @@ http://www.templatemo.com/tm-468-onetel
                 <!--p>以下是我們產品圖片</p-->
                 <!--目前這理是寫死的 應該要導向到product_display.php-->
                 <!--不過include完跑版機會很大ORZ-->
+                <?php
+                	//include_path = ".;c:\php5\PEAR;c:\php5\library";
+                	include("admin/product_display.php");
+                ?>
 			</div>
          </div>
          <div class="row mt30">
@@ -149,10 +153,10 @@ http://www.templatemo.com/tm-468-onetel
 			<div id="footerMenu" class="col-md-3 col-sm-4">
 				<h3>Menu</h3>
 				<p class="menu"><a href="about.html">About</a></p>
-				<p class="menu"><a href="news.html">News</a></p>
-				<p class="menu"><a href="portfolio.html">Products</a></p>
-				<p class="menu"><a href="technique.html">Technology</a></p>
-				<p class="menu"><a href="contact.html">Contact</a></p>
+				<p class="menu"><a href="#">News</a></p>
+				<p class="menu"><a href="#">Products</a></p>
+				<p class="menu"><a href="#">Technology</a></p>
+				<p class="menu"><a href="#">Contact</a></p>
 			</div>
 
 			<div class="col-md-5 col-sm-4 newsletter">
