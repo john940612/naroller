@@ -112,9 +112,9 @@ img {
   /*color: #ffa500;*/
     color: #f55;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .activePage > a,
+.navbar-default .navbar-nav > .activePage > a:hover,
+.navbar-default .navbar-nav > .activePage > a:focus {
   	/*color: #ffa500;*/
     color: #f55;
   	background-color: transparent;
@@ -136,7 +136,7 @@ img {
   background-color: transparent
 }
 
-.active {
+.activePage {
 	background: rgba(49, 49, 49, 0.5);
     border-bottom: #d71921 3px solid;
 }
