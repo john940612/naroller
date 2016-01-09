@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Product - Naroller</title>
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 
+OneTel Template
+http://www.templatemo.com/tm-468-onetel
+-->
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/nivo-lightbox.css" />
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css" />
+	<link rel="stylesheet" href="css/templatemo-style.css" />
+	<link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/dropdown.css" />
+
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
+
+</head>
+<body>
+	<?php include_once("analyticstracking.php") ?>
+	
+<!-- navigation -->
+
+	<div class="container">
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="index.php" class="navbar-brand">
+                <img id="logo" src="images/NaRollerLogo-w500.png" />
+            </a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right drop-down-menu">
+				<!--li><a href="index.html" class="active">首頁</a></li -->
+				<li><a href="about.html">關於我們</a></li>
+				<li><a href="news.php">最新消息</a></li>
+				<li><a class="active"  href="portfolio.html">產品</a>
+					<ul>
+						<li><a href="#">Mini Sedan</a>
+							<ul>
+								<li><a href="Hyundai Accent.html">Hyundai Accent</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Compact Sedan</a>
+							<ul>
+								<li><a href="Ford Focus.html">Ford Focus</a></li>
+								<li><a href="Hyundai Elantra.html">Hyundai Elantra</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</li>
+				<li><a href="portfolio.html">技術</a></li>
+				<li><a href="contact.html">聯繫我們</a></li>
+			</ul>
+		</div>
+	</div>
+</div>		
+
+<!-- portfolio header section -->
+<div id="portfolio-header">
+	<div class="container">
+		<div class="row">
+			<div id="headerTitle" class="col-md-12 col-sm-12">
+                <h1>Product</h1>
+                <a class="downButton" href="#portfolio"><span class="fa fa-angle-double-down fa-2x"></span></a>
+            </div>
+		</div>
+	</div>
+</div>
+
+<!-- portfolio section -->
+<div id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 col-sm-12">
+				<h2>Our product, our pride.</h2>
+                <!--p>以下是我們產品圖片</p-->
+                <!--目前這理是寫死的 應該要導向到product_display.php-->
+                <!--不過include完跑版機會很大ORZ-->
+                <?php
+                	//include_path = ".;c:\php5\PEAR;c:\php5\library";
+                	include("admin/product_display.php");
+                ?>
+			</div>
+         </div>
+         <div class="row mt30">
+         
+			<div class="col-md-4 col-sm-4 col-xs-6">
+				<a href="images/portfolio-img11.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img11.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+				<a href="images/portfolio-img12.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img12.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+				<a href="images/portfolio-img13.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img13.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="images/portfolio-img14.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img14.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="images/portfolio-img15.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img15.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="images/portfolio-img16.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img16.jpg" alt="portfolio img"></a>
+			</div>
+            
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<a href="images/portfolio-img17.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img17.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+				<a href="images/portfolio-img18.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img18.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+				<a href="images/portfolio-img19.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img19.jpg" alt="portfolio img"></a>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+				<a href="images/portfolio-img20.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img20.jpg" alt="portfolio img"></a>
+			</div>
+            
+
+            
+		</div>
+	</div>
+</div>		
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div id="footerInfo" class="col-md-4 col-sm-4">
+				<img src="images/NaRollerLogo-w500.png" class="img-responsive" alt="logo">
+				<p>Naroller Electronics<br/ >奈美電子公司，電磁設計解決方案供應商</p>
+                <p><i class="fa fa-user"></i>連絡人：Roger Lee</p>
+				<p><i class="fa fa-phone"></i>（03）222-2500</p>
+				<p><i class="fa fa-envelope-o"></i><a class="mailAddr" href="mailto: roger.lee@naroller.com">roger.lee@naroller.com</a></p>
+                <p><i class="fa fa-map-marker"></i>桃園市龜山區民生北路ㄧ段580號6樓</p>
+			</div>
+
+			<div id="footerMenu" class="col-md-3 col-sm-4">
+				<h3>Menu</h3>
+				<p class="menu"><a href="about.html">About</a></p>
+				<p class="menu"><a href="#">News</a></p>
+				<p class="menu"><a href="#">Products</a></p>
+				<p class="menu"><a href="#">Technology</a></p>
+				<p class="menu"><a href="#">Contact</a></p>
+			</div>
+
+			<div class="col-md-5 col-sm-4 newsletter">
+				<h3>Map</h3>
+				<div id="googleMap"></div>
+			</div>
+            
+		</div><!-- End class="row"-->
+	</div>
+</footer>
+
+<!-- copyright section -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-6">
+				<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
+			</div>
+			<div id="socialLinkArea" class="col-md-4 col-sm-6">
+				<ul class="social-icons">
+					<li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+					<li><a href="https://twitter.com" class="fa fa-twitter"></a></li>
+					<li><a href="mailto: roger.lee@naroller.com" class="fa fa-envelope-o"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
