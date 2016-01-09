@@ -19,7 +19,8 @@
 				print_r ($row['pDesc']);
 			echo "</td>";
 			echo "<td>";
-				$pThumb = strtok($row['pThumb'], ".");
+				$tok_thumb = explode(".", $row['pThumb'], 2);
+				$pThumb = $tok_thumb[0].$tok_thumb[1];
 				echo "<img src='".dirname(__FILE__).$pThumb."'/>";//./upload
 			echo "</td>";
 		echo "</tr>";

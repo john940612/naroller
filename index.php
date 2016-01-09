@@ -108,7 +108,7 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="divider-wrapper divider-three">
 					<img src="pic\5.jpg" height="80" width="200">
 					<h2>Power electronics in energy-saving</h2>
-					<p>使用高速材料的鍺電晶體可降低驅動電壓、功率及漏電流，仍無法達到張忠謀董事長於２０１４Ｓ年台灣半導體協會喊出的「10倍功率降低」目標，因電壓降低的極限為電晶體開啟時的電流/電壓上升速率。</p>
+					<p>目前已知使用高速材料的鍺電晶體可以降低驅動電壓、功率以及漏電流，可惜的是，這樣仍然無法達到張忠謀董事長於２０１４年台灣半導體協會喊出的目標－－「１０倍功率降低」，因為電壓降低的極限為電晶體開啟時的電流／電壓上升速率。</p>
 				</div>
 			</div>
 		</div><!-- End row -->
@@ -204,10 +204,10 @@ http://www.templatemo.com/tm-468-onetel
 			<div id="footerMenu" class="col-md-3 col-sm-4">
 				<h3>Menu</h3>
 				<p class="menu"><a href="about.html">About</a></p>
-				<p class="menu"><a href="#">News</a></p>
-				<p class="menu"><a href="#">Products</a></p>
-				<p class="menu"><a href="#">Technology</a></p>
-				<p class="menu"><a href="#">Contact</a></p>
+				<p class="menu"><a href="news.html">News</a></p>
+				<p class="menu"><a href="portfolio.html">Products</a></p>
+				<p class="menu"><a href="technique.html">Technology</a></p>
+				<p class="menu"><a href="contact.html">Contact</a></p>
 			</div>
 
 			<div class="col-md-5 col-sm-4 newsletter">
