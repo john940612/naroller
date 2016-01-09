@@ -140,7 +140,7 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
 					</div>
 			</div>
 		</div-->
-	</div>
+	</div><!-- End div.container -->
 </div><!-- End div#team -->	
 
 <!-- footer section -->
