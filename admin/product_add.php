@@ -5,8 +5,8 @@
 	$pName = addslashes($_POST['pName']);
 	$pDesc = addslashes($_POST['pDesc']);
 	$pFile = addslashes($_POST['pFile']);
-	$pPath = "/upload/".$pFile;
-	$pThumb = "/thumb/".$pFile;
+	$pPath = dirname(__FILE__)."/upload/".$pFile;
+	$pThumb = dirname(__FILE__)."/thumb/".$pFile;
 
 	try
 	{

@@ -19,9 +19,7 @@
 				print_r ($row['pDesc']);
 			echo "</td>";
 			echo "<td>";
-				//print_r ($row['pPath']);
-				echo "<img src='".dirname(__FILE__).$row['pThumb']."'/>";//./upload
-				echo dirname(__FILE__).$row['pThumb'];
+				echo "<img src='".$row['pThumb']."'/>";//./upload
 			echo "</td>";
 		echo "</tr>";
 	}
