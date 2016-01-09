@@ -87,22 +87,60 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
          </div>
          <?php
-			include("news_list.php");
+			//include("news_list.php");
 		?>
          
        <div class="row mt30">
 			<div class="col-md-3 col-sm-4 col-xs-9">
 				<div class="team-wrapper newsListArea">
 					<ul class ="nav nav-tabs">
-						<li><a class="newsListItem active" href="#latest">最新文章</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#second">各種文章</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#third">各種文章</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#fouth">各種文章</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#fifth">各種文章</a></li>
+						<li class="active"><a a data-toggle="tab" class="newsListItem" href="#1">最新文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#2">各種文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#3">各種文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#4">各種文章</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#5">各種文章</a></li-->
 					</ul>
 				</div>
 			</div>
 			<div class="col-md-9  col-sm-4 col-xs-9 articleArea tab-content">
+			<?php
+				include("admin/connect_db.php");
+           		$get="SELECT * FROM article ORDER BY aId DESC limit 5";
+           		$count = 1;
+             	foreach($dbh->query($get) as $row){
+             		$countString = '"' . strval($count) . '"';
+             		if ($count == 1) {
+             			echo "<div id=$countString class='tab-pane fade in active'>";
+						echo "<h3>";
+					    	print_r ($row['aTitle']);
+						echo "</h3>";
+						echo "<h3>";
+					    	print_r ($row['aSecondTitle']);
+						echo "</h3>";
+                		echo "<p>";
+                        	print_r ($row['aText']);
+                		echo "</p>";
+						echo "</div>";
+             		}
+					else{
+						echo "<div id=$countString class='tab-pane fade'>";
+						echo "<h3>";
+					    	print_r ($row['aTitle']);
+						echo "</h3>";
+						echo "<h3>";
+					    	print_r ($row['aSecondTitle']);
+						echo "</h3>";
+                		echo "<p>";
+                        	print_r ($row['aText']);
+                		echo "</p>";
+						echo "</div>";
+					}
+					$count ++;
+				}
+
+			?>
+			</div>
+			<!--<div class="col-md-9  col-sm-4 col-xs-9 articleArea tab-content">
 				<div id="latest" class="tab-pane fade in active">
 					<h3>大標題</h3>
 					<h4>副標題</h4>
@@ -150,7 +188,7 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
                 	</p>
 				</div>
                 	
-            </div>
+            </div>-->
 				
          </div>
         

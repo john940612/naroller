@@ -1,15 +1,13 @@
 <?php
 	include("connect_db.php");
 
-<<<<<<< HEAD
+
 /*	session_start();
 	if(permission($_SESSION['user_permission']))
 	{*/
-=======
 	//session_start();
 	//if(permission($_SESSION['user_permission']))
 	//{
->>>>>>> ee4b943393be3bd71bd60bf042db3b2c0eb3d45a
 		$catch = "SELECT * FROM Employee";
 		echo "<table border='1'>";
 		echo '<form id="signInForm" action="employee_modify.php" method="post" role="form">';
@@ -45,7 +43,7 @@
 		echo '</form>';
 		echo "</table>";
 	//}
-<<<<<<< HEAD
+
 /*
 	function permission($_SESSION['user_permission'])
 	{
@@ -54,7 +52,7 @@
 		else
 			return 0;
 	}*/
-=======
+
 
 	//function permission($_SESSION['user_permission'])
 	//{
@@ -63,5 +61,3 @@
 		//else
 			//return 0;
 	//}
->>>>>>> ee4b943393be3bd71bd60bf042db3b2c0eb3d45a
-?>
