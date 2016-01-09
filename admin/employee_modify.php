@@ -1,15 +1,11 @@
 <?php
 	include("connect_db.php");
 
-<<<<<<< HEAD
+
 /*	session_start();
 	if(permission($_SESSION['user_permission']))
 	{*/
-=======
-	//session_start();
-	//if(permission($_SESSION['user_permission']))
-	//{
->>>>>>> ee4b943393be3bd71bd60bf042db3b2c0eb3d45a
+
 		$eId = $_POST['eId'];
 		$catch = "SELECT * FROM Employee WHERE eId = $eId";
 		echo $catch;
@@ -43,7 +39,7 @@
 		echo  '<button id="updateButton" type="submit" name="submit" class="btn btn-default" value="2">刪除員工</button>';
 		echo '</form>';
 	//}
-<<<<<<< HEAD
+\
 /*
 	function permission($_SESSION['user_permission'])
 	{
@@ -53,16 +49,5 @@
 			return 0;
 	}
 */
-=======
 
-	//function permission($_SESSION['user_permission'])
-	//{
-		//if($_SESSION['user_permission'] = "admin")
-			//return 1;
-		//else
-			//return 0;
-	//}
-
->>>>>>> ee4b943393be3bd71bd60bf042db3b2c0eb3d45a
-	//header("location: articleManagementExample.php");
 ?>
