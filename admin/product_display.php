@@ -19,7 +19,8 @@
 				print_r ($row['pDesc']);
 			echo "</td>";
 			echo "<td>";
-				echo "<img src='".$row['pThumb']."'/>";//./upload
+				explode(".", $row['pThumb']);
+				echo "<img src='".dirname(__FILE__).$row['pThumb']."'/>";//./upload
 			echo "</td>";
 		echo "</tr>";
 	}
