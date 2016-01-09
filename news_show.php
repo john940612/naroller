@@ -20,6 +20,11 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/dropdown.css" />
     <link rel="stylesheet" href="css/list.css" />
+    <!--文章用css & js-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script-->
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
 
@@ -86,10 +91,61 @@ http://www.templatemo.com/tm-468-onetel
 				<h2>News</h2>
 			</div>
          </div>
+	</div>
+</div><!-- End div#team -->	
+
+<!--news show-->
          <?php
-			include("news_show.php");
-		?>
-         
+	      	 include("admin/connect_db.php");
+	      	$sql1 = "SELECT * FROM article";       
+ 		?>
+		<!--div class="container"-->
+		<!--  <h2>Dynamic Tabs</h2>
+		  <p>The <strong>show</strong> method shows the tab.</p>-->
+		  <ul class="nav nav-tabs">
+			  	<?php 
+		          $count=1;
+		         foreach($dbh->query($sql1) as $row)
+		          {
+		            echo "<li><a href='#menu$count'>";
+		            print_r ($row['aTitle'])."</a></li>";
+		            $count+=1;
+		          }
+	        	?>
+				<!--<li class="active"><a href="#home"></a></li>
+			    <li><a href="#menu1">Menu 1</a></li>
+			    <li><a href="#menu2">Menu 2</a></li>
+			    <li><a href="#menu3">Menu 3</a></li>
+			    <li><a href="#menu3">Menu 4</a></li>-->
+		  </ul>
+
+		  <div class="tab-content">
+		    <!--<div id="home" class="tab-pane fade in active">
+		      <h3>HOME</h3>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		    </div>-->
+			    <?php 
+		          $count1=1;
+		         foreach($dbh->query($sql1) as $row)
+		          {
+		            echo "<div id='menu$count1' class='tab-pane fade'>";
+		            echo "<h3>";
+		            print_r ($row['aSecondTitle']);
+		            echo "</h3><p>";
+					print_r ($row['aText']);
+		            echo "</p></div>";
+		            $count1+=1;
+		          }
+	        	?>
+     		</div>
+     		<script>
+				$(document).ready(function(){
+				    $(".nav-tabs a").click(function(){
+				        $(this).tab('show');
+				    });
+				});
+			</script>
+	<!--news show-->
        <!--  <div class="row mt30">
 			<div class="col-md-3 col-sm-4 col-xs-9">
 				<div class="team-wrapper newsListArea">
@@ -140,8 +196,6 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
 					</div>
 			</div>
 		</div-->
-	</div>
-</div><!-- End div#team -->	
 
 <!-- footer section -->
 <footer>
