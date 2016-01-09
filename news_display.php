@@ -43,7 +43,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right drop-down-menu">
 				<li><a href="about.html">關於我們</a></li>
-				<li><a class="active"  href="news.html">最新消息</a></li>
+				<li><a class="activePage"  href="news_display.php">最新消息</a></li>
 				<li><a href="portfolio.html">產品</a>
                     <ul>
                         <li><a href="#">Mini Sedan</a>
@@ -59,7 +59,7 @@ http://www.templatemo.com/tm-468-onetel
                         </li>
                     </ul>
 				</li>
-				<li><a href="portfolio.html">技術</a></li>
+				<li><a href="technique.html">技術</a></li>
 				<li><a href="contact.html">聯繫我們</a></li>
 			</ul>
 		</div>
@@ -240,10 +240,10 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
 			<div id="footerMenu" class="col-md-3 col-sm-4">
 				<h3>Menu</h3>
 				<p class="menu"><a href="about.html">About</a></p>
-				<p class="menu"><a href="#">News</a></p>
-				<p class="menu"><a href="#">Products</a></p>
-				<p class="menu"><a href="#">Technology</a></p>
-				<p class="menu"><a href="#">Contact</a></p>
+				<p class="menu"><a href="news_display.php">News</a></p>
+				<p class="menu"><a href="portfolio.html">Products</a></p>
+				<p class="menu"><a href="technique.html">Technology</a></p>
+				<p class="menu"><a href="contact.html">Contact</a></p>
 			</div>
 
 			<div class="col-md-5 col-sm-4 newsletter">
