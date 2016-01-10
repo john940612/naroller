@@ -45,19 +45,22 @@ http://www.templatemo.com/tm-468-onetel
 				<li><a href="about.html">關於我們</a></li>
 				<li><a class="activePage"  href="news_display.php">最新消息</a></li>
 				<li><a href="portfolio.html">產品</a>
-                    <ul>
-                        <li><a href="#">Mini Sedan</a>
-                            <ul>
-                                <li><a href="Hyundai Accent.html">Hyundai Accent</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Compact Sedan</a>
-                            <ul>
-                                <li><a href="Ford Focus.html">Ford Focus</a></li>
-                                <li><a href="Hyundai Elantra.html">Hyundai Elantra</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <!--
+					<ul>
+						<li><a href="#">Mini Sedan</a>
+							<ul>
+								<li><a href="Hyundai Accent.html">Hyundai Accent</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Compact Sedan</a>
+							<ul>
+								<li><a href="Ford Focus.html">Ford Focus</a></li>
+								<li><a href="Hyundai Elantra.html">Hyundai Elantra</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				-->
 				</li>
 				<li><a href="technique.html">技術</a></li>
 				<li><a href="contact.html">聯繫我們</a></li>
