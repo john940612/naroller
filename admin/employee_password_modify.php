@@ -3,8 +3,8 @@
 
 	if($_SERVER["REQUEST_METHOD"] == "POST")
 	{
-		$eName = $_SESSION['login_user']
-		$catch = "SELECT * FROM Employee WHERE eName = $eName";
+		$eName = $_SESSION['login_user'];
+		$catch = "SELECT * FROM Employee WHERE eName = $eName AND ePerm = 'general'";
 	
 		echo '<form id="signInForm" action="employee_password_modify_action.php" method="post" role="form">';
 		echo "<table border='1'>";
