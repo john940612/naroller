@@ -94,10 +94,10 @@ http://www.templatemo.com/tm-468-onetel
 						{
 							echo"<div>";
 							echo'<form id="signInForm" action="employee_add.php" method="post" role="form">';
-						  	echo"<input name="eId" type="text" class="form-control" id="email" placeholder="請輸入員工ID" />";
-							echo"<input name="eName" type="text" class="form-control" id="email" placeholder="請輸入員工名稱" />";
-							echo"<input name="ePwd" type="text" class="form-control" id="email" placeholder="請輸入員工密碼" />";
-							echo"<button id="updateButton" type="submit" name="submit" class="btn btn-default">新增員工</button>";
+						  	echo'<input name="eId" type="text" class="form-control" id="email" placeholder="請輸入員工ID" />';
+							echo'<input name="eName" type="text" class="form-control" id="email" placeholder="請輸入員工名稱" />';
+							echo'<input name="ePwd" type="text" class="form-control" id="email" placeholder="請輸入員工密碼" />';
+							echo'<button id="updateButton" type="submit" name="submit" class="btn btn-default">新增員工</button>';
 					echo"</form>"
 				echo"</div>"
 							include("employee_display.php");
