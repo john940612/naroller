@@ -95,10 +95,10 @@ http://www.templatemo.com/tm-468-onetel
 				<div class="team-wrapper newsListArea">
 					<ul class ="nav nav-tabs">
 						<li class="active"><a data-toggle="tab" class="newsListItem" href="#1">最新文章</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#2">各種文章１</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#3">各種文章２</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#4">各種文章３</a></li>
-						<li><a data-toggle="tab" class="newsListItem" href="#5">各種文章４</a></li-->
+						<li><a data-toggle="tab" class="newsListItem" href="#2">熱門文章１</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#3">熱門文章２</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#4">熱門文章３</a></li>
+						<li><a data-toggle="tab" class="newsListItem" href="#5">熱門文章４</a></li>
 					</ul>
 				</div>
 			</div>
