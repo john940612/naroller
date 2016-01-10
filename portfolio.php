@@ -92,10 +92,12 @@ http://www.templatemo.com/tm-468-onetel
                 <!--不過include完跑版機會很大ORZ-->
                 <?php
                 	//include_path = ".;c:\php5\PEAR;c:\php5\library";
-                	include("admin/product_display.php");
+                	include("product_display.php");
                 ?>
+
 			</div>
          </div>
+         <!--
          <div class="row mt30">
          
 			<div class="col-md-4 col-sm-4 col-xs-6">
@@ -129,10 +131,11 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="images/portfolio-img20.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img20.jpg" alt="portfolio img"></a>
 			</div>
-            
+           
 
             
 		</div>
+	-->
 	</div>
 </div>		
 
