@@ -4,7 +4,7 @@
 
 
 
-	$catch = "SELECT * FROM Employee";
+	$catch = "SELECT * FROM Employee WHERE ePerm = 'general'";
 	echo "<table border='1'>";
 	echo '<form id="signInForm" action="employee_modify.php" method="post" role="form">';
 	echo "<tr>";

@@ -132,15 +132,13 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="images/portfolio-img20.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img20.jpg" alt="portfolio img"></a>
 			</div>
-<<<<<<< HEAD
+
          -->   
-=======
-           
->>>>>>> 97ba86a215dc2626a2a8d5e0c4589710b285e853
+
 
             
 		</div>
-	-->
+
 	</div>
 </div>		
 
