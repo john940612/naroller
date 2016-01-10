@@ -93,7 +93,7 @@ http://www.templatemo.com/tm-468-onetel
 						if($_SESSION['permission'] == "admin")
 						{
 							echo"<div>";
-					echo"<form id="signInForm" action="employee_add.php" method="post" role="form">";
+							echo'<form id="signInForm" action="employee_add.php" method="post" role="form">';
 						  	echo"<input name="eId" type="text" class="form-control" id="email" placeholder="請輸入員工ID" />";
 							echo"<input name="eName" type="text" class="form-control" id="email" placeholder="請輸入員工名稱" />";
 							echo"<input name="ePwd" type="text" class="form-control" id="email" placeholder="請輸入員工密碼" />";
