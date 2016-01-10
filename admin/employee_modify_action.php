@@ -9,27 +9,28 @@
 	$ePerm = addslashes($_POST['ePerm']);
 
 
-	
-	try
+	if($_SERVER["REQUEST_METHOD"] == "POST")
 	{
-		if($submit == 1)
+		try
 		{
-			$stmt = "UPDATE employee SET eName='$eName', ePwd='$ePwd',
-				ePerm='$ePerm' WHERE eId=$eId";
-			$dbh->exec($stmt);
+			if($submit == 1)
+			{
+				$stmt = "UPDATE employee SET ePerm='$ePerm' WHERE eId=$eId";
+				$dbh->exec($stmt);
+			}
+
+			else if($submit == 2)
+			{
+				$stmt = "DELETE FROM `sad`.`employee` WHERE eId=$eId";
+				$dbh->exec($stmt);
+			}
 		}
 
-		else if($submit == 2)
+
+		catch(PDOException $e)
 		{
-			$stmt = "DELETE FROM `sad`.`employee` WHERE eId=$eId";
-			$dbh->exec($stmt);
+			echo $e->getMessage();
 		}
-	}
-
-
-	catch(PDOException $e)
-	{
-		echo $e->getMessage();
 	}
 
 ?>

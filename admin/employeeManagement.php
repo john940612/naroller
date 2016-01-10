@@ -1,5 +1,5 @@
 <?php
-		session_start();
+	session_start();
 	if($_SESSION['permission'] != "admin" && $_SESSION['permission'] != "general")
 	{
 		header("location: signIn.php");
@@ -11,7 +11,7 @@
 <html lang="en">
 <head>
 	<title>Employee Management - Naroller</title>
-    <meta name="keywords" content="">
+	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -27,9 +27,9 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="../css/nivo-lightbox.css" />
 	<link rel="stylesheet" href="../css/nivo_themes/default/default.css" />
 	<link rel="stylesheet" href="../css/templatemo-style.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/table.css" />
+	<link rel="stylesheet" href="../css/main.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/table.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
 
@@ -47,15 +47,17 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="admin.php" class="navbar-brand">
-                <img id="logo" src="../images/NaRollerLogo-w500.png" />
-            </a>
+				<img id="logo" src="../images/NaRollerLogo-w500.png" />
+			</a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="articleManagement.php">文章管理</a></li>
+				<li><a href="product_list.php">產品管理</a></li>
+				<li><a href="articleManagement.php">文章管理</a></li>
                 <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
-                <li><a class="active" href="employeeManagement.php">員工管理</a></li>
+				<li><a class="active" href="employeeManagement.php">員工管理</a></li>
 				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
@@ -67,9 +69,9 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>Employee Management</h1>
-                <a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
-            </div>
+				<h1>Employee Management</h1>
+				<a class="downButton" href="#contact"><span class="fa fa-angle-double-down fa-2x"></span></a>
+			</div>
 		</div>
 	</div>
 </div>
@@ -80,37 +82,43 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<!--div class="col-md-offset-2 col-md-8 col-sm-12">
 				<h2>Get in touch</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
 			</div-->
 			<div class="col-md-6 col-sm-8 mt30 halfSideTitle">
 				<h2>Add</h2>
-                <span class="fa fa-user-plus fa-3x"></span>
+				<span class="fa fa-user-plus fa-3x"></span>
 			</div>
 			<div class="col-md-6 col-sm-4 address">
-                <div>
+				<div>
 
-                    <?php
-                                      
-                 	  //include("employee_add.php");
-                      include("employee_display.php");
-                      include("employee_password_modify.php");
-                    ?>
+					<?php
+						if($_SESSION['permission'] == "admin")
+						{
+							//include("employee_add.php");
+							include("employee_display.php");
+						}
+						
+						if($_SESSION['permission'] == "general")
+						{
+							include("employee_password_modify.php");
+						}
+					?>
 				</div>
 			</div>
 			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
-            	<h3>Employee List</h3>
-                    <form id="signInForm" action="employee_modify.php" method="post" role="form">
-                        <table>
-                            <tr class="headRow">
-                                <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
-                                <th class="nameCol">Username</th>
-                                <th class="accessCol">Access</th>
-                            </tr>
+				<h3>Employee List</h3>
+					<form id="signInForm" action="employee_modify.php" method="post" role="form">
+						<table>
+							<tr class="headRow">
+								<th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
+								<th class="nameCol">Username</th>
+								<th class="accessCol">Access</th>
+							</tr>
 <?php
-                            $i=1;
+/*							$i=1;
 	foreach($dbh->query($catch) as $row){
 		if($i==1){
-            echo '<tr class="trtd1">';
+			echo '<tr class="trtd1">';
 			echo '<td>';
 				echo '<input name="eId" type="radio" id="eId" value="'.$row['eId'].'"/>';
 				//print_r ($row['eId']);
@@ -124,29 +132,29 @@ http://www.templatemo.com/tm-468-onetel
 				//echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
 			echo '</td>';
 		  echo '</tr>';
-            $i=2;
-        }
-        else{
-            echo '<tr class="trtd2">';
-                echo '<td>';
-                    echo '<input name="eId" type="radio" id="name" value="'.$row['eId'].'"/>';
-                    //print_r ($row['eId']);
-                echo '</td>';	
-                echo '<td>';
-                    print_r ($row['eName']);
-                    //echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
-                echo '</td>';
-                echo '<td>';
-                    print_r ($row['ePerm']);
-                    //echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
-                echo '</td>';
-            echo '</tr>';
-            $i=1;
-        }
-
+			$i=2;
+		}
+		else{
+			echo '<tr class="trtd2">';
+				echo '<td>';
+					echo '<input name="eId" type="radio" id="name" value="'.$row['eId'].'"/>';
+					//print_r ($row['eId']);
+				echo '</td>';	
+				echo '<td>';
+					print_r ($row['eName']);
+					//echo '<input name="eName" type="hidden" class="form-control" id="email" value="'.$row['eName'].'"/>';
+				echo '</td>';
+				echo '<td>';
+					print_r ($row['ePerm']);
+					//echo '<input name="ePerm" type="hidden" class="form-control" id="email"value="'.$row['ePerm'].'" />';
+				echo '</td>';
+			echo '</tr>';
+			$i=1;
+		}
+*/
 	}?>
-                        </table>
-                    </form>
+						</table>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -156,7 +164,7 @@ http://www.templatemo.com/tm-468-onetel
 <!-- copyright section -->
 <div class="copyright">
 	<div class="container">
-        <p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
+		<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
 	</div>
 </div>
 
