@@ -42,37 +42,21 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="../index.php" class="navbar-brand">
-                <img id="logo" src="../images/NaRollerLogo-w500.png" />
-                <img id="logo" src="http://140.117.178.132/naroller/images/NaRollerLogo-w500.png" />
-            </a>
+			<a href="admin.php" class="navbar-brand">
+				<img id="logo" src="../images/NaRollerLogo-w500.png" />
+			</a>
 		</div>
 		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right drop-down-menu">
-				<li><a class="active" href="../about.html">關於我們</a></li>
-				<li><a href="../news.html">最新消息</a></li>
-				<li><a href="../portfolio.html">產品</a>
-					<ul>
-						<li><a href="#">Mini Sedan</a>
-							<ul>
-								<li><a href="../Hyundai Accent.html">Hyundai Accent</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Compact Sedan</a>
-							<ul>
-								<li><a href="../Ford Focus.html">Ford Focus</a></li>
-								<li><a href="../Hyundai Elantra.html">Hyundai Elantra</a></li>
-							</ul>
-						</li>
-						
-					</ul>
-				</li>
-				<li><a href="../portfolio.html">技術</a></li>
-				<li><a href="../contact.html">聯繫我們</a></li>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a class="active" href="articleManagement.html">文章管理</a></li>
+                <li><a href="product_list.php">產品管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
+                <li><a href="employeeManagement.php">員工管理</a></li>
+				<li><a href="logout.php">登出</a></li>
 			</ul>
 		</div>
 	</div>
-</div>
+</div>		
 <!-- about header section -->
 <div id="about-header">
 	<div class="container">
