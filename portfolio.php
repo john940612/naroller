@@ -46,7 +46,7 @@ http://www.templatemo.com/tm-468-onetel
 				<!--li><a href="index.html" class="active">首頁</a></li -->
 				<li><a href="about.html">關於我們</a></li>
 				<li><a href="news.php">最新消息</a></li>
-				<li><a class="active"  href="portfolio.php">產品</a>
+				<li><a class="activePage"  href="portfolio.php">產品</a>
 					<!--
 					<ul>
 						<li><a href="#">Mini Sedan</a>
@@ -93,8 +93,9 @@ http://www.templatemo.com/tm-468-onetel
                 <!--不過include完跑版機會很大ORZ-->
                 <?php
                 	//include_path = ".;c:\php5\PEAR;c:\php5\library";
-                	include("admin/product_display.php");
+                	include("product_display.php");
                 ?>
+
 			</div>
          </div>
          <!--
@@ -131,10 +132,15 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="images/portfolio-img20.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img20.jpg" alt="portfolio img"></a>
 			</div>
+<<<<<<< HEAD
          -->   
+=======
+           
+>>>>>>> 97ba86a215dc2626a2a8d5e0c4589710b285e853
 
             
 		</div>
+	-->
 	</div>
 </div>		
 

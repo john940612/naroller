@@ -20,7 +20,9 @@
 			echo "</td>";
 			echo "<td>";
 				//print_r ($row['pPath']);
-				echo "<img src='".$row['pThumb']."'/>";//./upload
+				$tok_thimb = explode(".", $row['pThumb'], 2);
+				$pThumb = $tok_thimb[0].$tok_thimb[1];
+				echo "<img src='".'./admin'.$pThumb."'/>";//./upload
 			echo "</td>";
 		echo "</tr>";
 	}
