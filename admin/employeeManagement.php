@@ -92,7 +92,7 @@ http://www.templatemo.com/tm-468-onetel
 					<?php
 						if($_SESSION['permission'] == "admin")
 						{
-							//include("employee_add.php");
+							include("employee_add.php");
 							include("employee_display.php");
 						}
 						
