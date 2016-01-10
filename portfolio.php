@@ -45,7 +45,7 @@ http://www.templatemo.com/tm-468-onetel
 			<ul class="nav navbar-nav navbar-right drop-down-menu">
 				<!--li><a href="index.html" class="active">首頁</a></li -->
 				<li><a href="about.html">關於我們</a></li>
-				<li><a href="news.php">最新消息</a></li>
+				<li><a href="news_display.php">最新消息</a></li>
 				<li><a class="activePage"  href="portfolio.php">產品</a>
 					<!--
 					<ul>
@@ -132,13 +132,13 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="images/portfolio-img20.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img20.jpg" alt="portfolio img"></a>
 			</div>
-<<<<<<< HEAD
+
          -->   
 
 
             
 		</div>
-	-->
+
 	</div>
 </div>		
 

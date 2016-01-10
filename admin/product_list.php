@@ -63,7 +63,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
                 <h1>Product Management</h1>
-                <a href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
+                <a class="downButton" href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
 	</div>
@@ -83,10 +83,21 @@ http://www.templatemo.com/tm-468-onetel
 							<?php
 								include("product_display.php");
 							
-								include("product_pic_add.php");
+								
 							?>	
-							<!--php列表部分結束-->
+                            <div class="col-md-12 col-sm-12 mt20">
+							<div class="google_map mt20">
+							<center>
+							<!-- <div id="map-canvas"></div> -->
+							<?php
+								include("product_pic_add.php");
+							?>
+							</center>
 							</div>
+							</div>
+							
+							<!--php列表部分結束-->
+			</div>
          </div>
          
          <div class="row mt30">
@@ -165,6 +176,7 @@ http://www.templatemo.com/tm-468-onetel
 </div><!-- End div#team -->	
 
 <!-- footer section -->
+<!--
 <footer>
 	<div class="container">
 		<div class="row">
@@ -193,9 +205,10 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
             
 		</div><!-- End class="row"-->
+<!--
 	</div>
 </footer>
-
+-->
 <!-- copyright section -->
 <div class="copyright">
 	<div class="container">
@@ -203,6 +216,7 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-8 col-sm-6">
 				<p>Copyright © 2015 Naroller Electronics ｜ All rights reserved.</p>
 			</div>
+			<!--
 			<div id="socialLinkArea" class="col-md-4 col-sm-6">
 				<ul class="social-icons">
 					<li><a href="#" class="fa fa-facebook"></a></li>
@@ -210,6 +224,7 @@ http://www.templatemo.com/tm-468-onetel
 					<li><a href="mailto: roger.lee@naroller.com" class="fa fa-envelope-o"></a></li>
 				</ul>
 			</div>
+			-->
 		</div>
 	</div>
 </div>
