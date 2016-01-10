@@ -53,8 +53,6 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="articleManagement.php">文章管理</a></li>
-				<li><a href="product_list.php">產品管理</a></li>
-				<li><a href="articleManagement.php">文章管理</a></li>
                 <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
 				<li><a class="activePage" href="employeeManagement.php">員工管理</a></li>
