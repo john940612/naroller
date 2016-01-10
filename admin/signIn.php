@@ -36,11 +36,11 @@ http://www.templatemo.com/tm-468-onetel
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<a href="signIn.php" class="navbar-brand"><img id="logo" src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo"></a>
+			<a href="#" class="navbar-brand"><img id="logo" src="../images/NaRollerLogo-w500.png" class="img-responsive" alt="logo"></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				
+				<li><a href="contact.html" class="active">Sign In</a></li>
 			</ul>
 		</div>
 	</div>
