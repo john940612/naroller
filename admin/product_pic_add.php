@@ -1,5 +1,5 @@
 <?php
-	include("session.php");
+	//include("session.php");
 	$path = './thumb';
 	$dh = opendir($path);
 
