@@ -28,7 +28,7 @@
 		{
 			echo $e->getMessage();
 		}
-	header("location: employeeManagement.php");
+	
 
 		
 					?>
