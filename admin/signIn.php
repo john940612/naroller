@@ -40,7 +40,7 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="contact.html" class="active">Sign In</a></li>
+				<!-- <li><a href="contact.html" class="active">Sign In</a></li> -->
 			</ul>
 		</div>
 	</div>
