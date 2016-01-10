@@ -1,5 +1,5 @@
 <?php
-	include("connect_db.php");
+	include("admin/connect_db.php");
 	//$flag = 1;
 	//include("display_paging.php");
 	$catch = "SELECT * FROM product";
