@@ -103,7 +103,7 @@ http://www.templatemo.com/tm-468-onetel
 					?>
 				</div>
 			</div>
-			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
+			<!--<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
 				<h3>Employee List</h3>
 					<form id="signInForm" action="employee_modify.php" method="post" role="form">
 						<table>
@@ -154,7 +154,7 @@ http://www.templatemo.com/tm-468-onetel
 						</table>
 					</form>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </div>
