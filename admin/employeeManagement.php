@@ -53,11 +53,9 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="articleManagement.php">文章管理</a></li>
-				<li><a href="product_list.php">產品管理</a></li>
-				<li><a href="articleManagement.php">文章管理</a></li>
                 <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
-				<li><a class="active" href="employeeManagement.php">員工管理</a></li>
+				<li><a class="activePage" href="employeeManagement.php">員工管理</a></li>
 				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
@@ -105,7 +103,7 @@ http://www.templatemo.com/tm-468-onetel
 					?>
 				</div>
 			</div>
-			<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
+			<!--<div id="fileListArea" class="col-md-12 col-sm-12 mt20">
 				<h3>Employee List</h3>
 					<form id="signInForm" action="employee_modify.php" method="post" role="form">
 						<table>
@@ -151,12 +149,12 @@ http://www.templatemo.com/tm-468-onetel
 			echo '</tr>';
 			$i=1;
 		}
-*/
-	}?>
+
+	}*/?>
 						</table>
 					</form>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </div>

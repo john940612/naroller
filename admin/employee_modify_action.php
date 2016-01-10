@@ -4,8 +4,6 @@
 		
 	$submit = addslashes($_POST['submit']);
 	$eId = addslashes($_POST['eId']);
-	$eName = addslashes($_POST['eName']);
-	$ePwd = addslashes($_POST['ePwd']);
 	$ePerm = addslashes($_POST['ePerm']);
 
 
@@ -24,6 +22,7 @@
 				$stmt = "DELETE FROM `sad`.`employee` WHERE eId=$eId";
 				$dbh->exec($stmt);
 			}
+			header("location: employeeManagement.php");
 		}
 
 

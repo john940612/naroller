@@ -48,8 +48,8 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a class="active" href="articleManagement.php">文章管理</a></li>
-                <li><a href="product_list.php">產品管理</a></li>
+				<li><a href="articleManagement.php">文章管理</a></li>
+                <li><a class="activePage" href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
                 <li><a href="employeeManagement.php">員工管理</a></li>
 				<li><a href="logout.php">登出</a></li>
@@ -58,11 +58,11 @@ http://www.templatemo.com/tm-468-onetel
 	</div>
 </div>		
 <!-- about header section -->
-<div id="about-header">
+<div id="contact-header">
 	<div class="container">
 		<div class="row">
 			<div id="headerTitle" class="col-md-12 col-sm-12">
-                <h1>NEWS SEARCH</h1>
+                <h1>Product Management</h1>
                 <a href="#team"><span class="fa fa-angle-double-down fa-2x"></span></a>
             </div>
 		</div>
@@ -76,7 +76,7 @@ http://www.templatemo.com/tm-468-onetel
 		<div class="row">
 			<div class>
 		<!--<div class="col-md-offset-2 col-md-8 col-sm-12">-->
-				<h2>NEWS SEARCH</h2>
+				<h2>Product Management</h2>
 					<center>
 						<table border='0'>
 							<!--php列表部分-->
@@ -117,7 +117,7 @@ http://www.templatemo.com/tm-468-onetel
 				</div>-->
 			</div>
          </div>
-         
+        <!--
         <div class="row mt30"> 
 			<div class="col-md-12 col-sm-12">
 				<hr>
@@ -132,7 +132,7 @@ http://www.templatemo.com/tm-468-onetel
                 </p>
 			</div>
 		</div>
-        
+        -->
         
          <!--div class="row mt30"> 
 			<div class="col-md-12 col-sm-12">

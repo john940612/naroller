@@ -46,7 +46,8 @@ http://www.templatemo.com/tm-468-onetel
 				<!--li><a href="index.html" class="active">首頁</a></li -->
 				<li><a href="about.html">關於我們</a></li>
 				<li><a href="news.php">最新消息</a></li>
-				<li><a class="active"  href="portfolio.html">產品</a>
+				<li><a class="activePage"  href="portfolio.php">產品</a>
+					<!--
 					<ul>
 						<li><a href="#">Mini Sedan</a>
 							<ul>
@@ -58,11 +59,11 @@ http://www.templatemo.com/tm-468-onetel
 								<li><a href="Ford Focus.html">Ford Focus</a></li>
 								<li><a href="Hyundai Elantra.html">Hyundai Elantra</a></li>
 							</ul>
-						</li>
-						
+						</li>	
 					</ul>
+					-->
 				</li>
-				<li><a href="portfolio.html">技術</a></li>
+				<li><a href="technique.html">技術</a></li>
 				<li><a href="contact.html">聯繫我們</a></li>
 			</ul>
 		</div>
@@ -92,10 +93,12 @@ http://www.templatemo.com/tm-468-onetel
                 <!--不過include完跑版機會很大ORZ-->
                 <?php
                 	//include_path = ".;c:\php5\PEAR;c:\php5\library";
-                	include("admin/product_display.php");
+                	include("product_display.php");
                 ?>
+
 			</div>
          </div>
+         <!--
          <div class="row mt30">
          
 			<div class="col-md-4 col-sm-4 col-xs-6">
@@ -129,10 +132,15 @@ http://www.templatemo.com/tm-468-onetel
 			<div class="col-md-4 col-sm-4 col-xs-6">
 				<a href="images/portfolio-img20.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img20.jpg" alt="portfolio img"></a>
 			</div>
-            
+<<<<<<< HEAD
+         -->   
+=======
+           
+>>>>>>> 97ba86a215dc2626a2a8d5e0c4589710b285e853
 
             
 		</div>
+	-->
 	</div>
 </div>		
 
