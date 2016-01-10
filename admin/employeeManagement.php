@@ -151,8 +151,8 @@ http://www.templatemo.com/tm-468-onetel
 			echo '</tr>';
 			$i=1;
 		}
-*/
-	}?>
+
+	}*/?>
 						</table>
 					</form>
 				</div>
