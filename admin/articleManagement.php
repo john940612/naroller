@@ -1,3 +1,10 @@
+<?php
+	session_start();
+	if($_SESSION['permission'] != "admin" && $_SESSION['permission'] != "general")
+	{
+		header("location: signIn.php");
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,12 +29,7 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="css/main.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<style>
-		.form-control[type="radio"], #contact input[type="radio"]
-		{
-			height:13px;
-		}
-	</style>
+
 </head>
 <body>
 	
@@ -47,7 +49,7 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a class="activePage" href="articleManagement.php">文章管理</a></li>
+				<li><a class="active" href="articleManagement.html">文章管理</a></li>
                 <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
                 <li><a href="employeeManagement.php">員工管理</a></li>
@@ -94,16 +96,14 @@ http://www.templatemo.com/tm-468-onetel
 					</form>
 				</div>
 			</div>
-			<center>
-				<?php					
-					include("article_display.php");
-				?>
-			</center>
 			<div class="col-md-12 col-sm-12 mt20">
 				<h3>Location</h3>
 				<div class="google_map mt20">
 					<div id="map-canvas"></div>
-                    
+                    <?php
+					
+					include("article_display.php");
+				?>
 				</div>
 			</div>
 		</div>

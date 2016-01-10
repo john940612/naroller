@@ -12,8 +12,7 @@
 		{
 			echo "<tr>";
 				echo "<td>";
-					echo '<input name="pFile" type="radio" class="form-control" id="name" value="
-						'.$file.'"/>';
+					echo '<input name="pFile" type="radio" class="form-control" id="name" value="'.$file.'" style="width:13px; height:13px;"/>';
 					//echo '<input name="pThumb" type="hidden" class="form-control" id="name" value="
 						//thumb/'.$file.'"/>';
 				echo "</td>";

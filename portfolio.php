@@ -92,6 +92,14 @@ http://www.templatemo.com/tm-468-onetel
                 <!--p>以下是我們產品圖片</p-->
                 <!--目前這理是寫死的 應該要導向到product_display.php-->
                 <!--不過include完跑版機會很大ORZ-->
+<<<<<<< HEAD
+=======
+                <?php
+                	//include_path = ".;c:\php5\PEAR;c:\php5\library";
+                	include("product_display.php");
+                ?>
+                <!--
+>>>>>>> 9adb8843a1672c29bd71b4ad7133b66a17434afb
 			</div>
          </div>
          <!--
@@ -134,8 +142,12 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 	</div>
 </div>		
+<<<<<<< HEAD
 
 
+=======
+-->
+>>>>>>> 9adb8843a1672c29bd71b4ad7133b66a17434afb
 <!-- footer section -->
 <footer>
 	<div class="container">

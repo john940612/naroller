@@ -1,3 +1,10 @@
+<?php
+	session_start();
+	if($_SESSION['permission'] != "admin" && $_SESSION['permission'] != "general")
+	{
+		header("location: signIn.php");
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,9 +50,9 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="articleManagement.php">文章管理</a></li>
+				<li><a href="articleManagement.html">文章管理</a></li>
                 <li><a href="product_list.php">產品管理</a></li>
-				<li><a class="activePage" href="mediaManagement.php">媒體管理</a></li>
+				<li><a href="mediaManagement.php">媒體管理</a></li>
                 <li><a href="employeeManagement.php">員工管理</a></li>
 				<li><a href="logout.php">登出</a></li>
 			</ul>
@@ -80,7 +87,7 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div class="col-md-6 col-sm-4 address">
                 <div>
-                    <form id="uploadForm" action="media.php" method="post" role="form">
+                    <form id="uploadForm" action="media.php" method="post" role="form" enctype="multipart/form-data">
                             <!--label for="name">NAME</label-->
                             <!--<input name="mName" type="text" class="form-control" id="name" placeholder="檔案命名" />-->
                             <input name="file" type="file" class="form-control" id="file" />
