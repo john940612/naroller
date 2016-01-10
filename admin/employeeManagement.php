@@ -1,4 +1,9 @@
 <?php
+		session_start();
+	if($_SESSION['permission'] != "admin" && $_SESSION['permission'] != "general")
+	{
+		header("location: signIn.php");
+	}
 	include("connect_db.php");
 	$catch = "SELECT * FROM Employee";
 ?>
@@ -25,12 +30,6 @@ http://www.templatemo.com/tm-468-onetel
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/table.css" />
-    <style>
-	.form-control[type="radio"], #contact input[type="radio"]
-	{
-		height:13px;
-	}
-	</style>
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
 
@@ -53,11 +52,11 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="articleManagement.php">文章管理</a></li>
+				<li><a href="articleManagement.html">文章管理</a></li>
                 <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
-                <li><a class="activePage" href="employeeManagement.php">員工管理</a></li>
-				<li><a href="logout.php">登出</a></li>
+                <li><a class="active" href="employeeManagement.php">員工管理</a></li>
+				<li><a href="#">登出</a></li>
 			</ul>
 		</div>
 	</div>
