@@ -134,9 +134,7 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 <<<<<<< HEAD
          -->   
-=======
-           
->>>>>>> 97ba86a215dc2626a2a8d5e0c4589710b285e853
+
 
             
 		</div>
