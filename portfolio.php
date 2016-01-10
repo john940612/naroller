@@ -92,8 +92,9 @@ http://www.templatemo.com/tm-468-onetel
                 <!--不過include完跑版機會很大ORZ-->
                 <?php
                 	//include_path = ".;c:\php5\PEAR;c:\php5\library";
-                	include("admin/product_display.php");
+                	include("product_display.php");
                 ?>
+                <!--
 			</div>
          </div>
          <div class="row mt30">
@@ -135,7 +136,7 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 	</div>
 </div>		
-
+-->
 <!-- footer section -->
 <footer>
 	<div class="container">
