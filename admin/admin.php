@@ -6,7 +6,6 @@
 		//echo $_SESSION['permission'];
 		header("location: signIn.php");
 	}
-	include ("connect_db.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

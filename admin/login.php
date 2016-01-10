@@ -2,6 +2,7 @@
 	include("connect_db.php");
 	session_start();
 	$_SESSION['permission'] = 0;
+	echo $_SESSION['permission'];
 	if($_SERVER["REQUEST_METHOD"] == "POST")
 	{
 		// username and password sent from Form
@@ -15,13 +16,12 @@
 			$stmt->execute(array($username, $password));
 			//$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
 
-			if($stmt->rowCount() == 1)
+			if($stmt->rowCount() > 0)
 			{
 					//$_SESSION['user_session'] = $userRow['username'];
-					$_SESSION['user_session'] = $row['eName'];
+					//$_SESSION['user_session'] = $row['eName'];
 					$_SESSION['login_user'] = $username;
-					//$_SESSION['permission'] = $row['ePerm'];
-					$_SESSION['permission'] = 1;
+					$_SESSION['permission'] = $row['ePerm'];
 					header("location: admin.php");
 			}
 /*
