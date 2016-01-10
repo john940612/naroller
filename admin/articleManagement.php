@@ -97,13 +97,14 @@ http://www.templatemo.com/tm-468-onetel
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 mt20">
-				<h3>Location</h3>
 				<div class="google_map mt20">
-					<div id="map-canvas"></div>
+				<center>
+				<!--	<div id="map-canvas"></div> -->
                     <?php
 					
 					include("article_display.php");
 				?>
+				</center>
 				</div>
 			</div>
 		</div>

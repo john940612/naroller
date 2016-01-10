@@ -45,7 +45,7 @@ http://www.templatemo.com/tm-468-onetel
 			<ul class="nav navbar-nav navbar-right drop-down-menu">
 				<!--li><a href="index.html" class="active">首頁</a></li -->
 				<li><a href="about.html">關於我們</a></li>
-				<li><a href="news.php">最新消息</a></li>
+				<li><a href="news_display.php">最新消息</a></li>
 				<li><a class="activePage"  href="portfolio.php">產品</a>
 					<!--
 					<ul>
