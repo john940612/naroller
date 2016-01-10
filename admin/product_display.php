@@ -1,4 +1,5 @@
 <?php
+	include("session.php")
 	include("connect_db.php");
 	//$flag = 1;
 	//include("display_paging.php");
