@@ -52,8 +52,10 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="articleManagement.html">文章管理</a></li>
+				<li><a href="articleManagement.php">文章管理</a></li>
 				<li><a href="product_list.php">產品管理</a></li>
+				<li><a href="articleManagement.php">文章管理</a></li>
+                <li><a href="product_list.php">產品管理</a></li>
 				<li><a href="mediaManagement.php">媒體管理</a></li>
 				<li><a class="active" href="employeeManagement.php">員工管理</a></li>
 				<li><a href="#">登出</a></li>
@@ -113,7 +115,7 @@ http://www.templatemo.com/tm-468-onetel
 								<th class="accessCol">Access</th>
 							</tr>
 <?php
-							$i=1;
+/*							$i=1;
 	foreach($dbh->query($catch) as $row){
 		if($i==1){
 			echo '<tr class="trtd1">';
@@ -149,7 +151,7 @@ http://www.templatemo.com/tm-468-onetel
 			echo '</tr>';
 			$i=1;
 		}
-
+*/
 	}?>
 						</table>
 					</form>
