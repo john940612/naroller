@@ -10,7 +10,7 @@
 		try
 		{
 			
-			$stmt = $dbh->prepare("INSERT INTO article(eId,ePName,ePwd)
+			$stmt = $dbh->prepare("INSERT INTO employee(eId,ePName,ePwd)
 				VALUES(:eId, :eName, :ePwd)");
 	
 			//$stmt->bindparam(":aId", $aId);
