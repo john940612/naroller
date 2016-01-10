@@ -25,6 +25,12 @@ http://www.templatemo.com/tm-468-onetel
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/table.css" />
+    <style>
+	.form-control[type="radio"], #contact input[type="radio"]
+	{
+		height:13px;
+	}
+	</style>
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
 

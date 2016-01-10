@@ -1,6 +1,6 @@
 <?php
 	include("connect_db.php");
-
+	echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8">';
 	echo '<form id="signInForm" action="product_add.php" method="post" role="form">';
 		echo '<input name="pName" type="text" class="form-control" id="name" placeholder="請輸入產品名稱" />';
 		echo '<input name="pDesc" type="text" class="form-control" id="email" placeholder="請輸入產品敘述" />';
