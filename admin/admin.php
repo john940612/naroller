@@ -1,3 +1,13 @@
+<?php
+	session_start();
+	//if($_SESSION['permission'] != "admin" && $_SESSION['permission'] != "general")
+	if($_SESSION['permission'] == 0)
+	{
+		//echo $_SESSION['permission'];
+		header("location: signIn.php");
+	}
+	include ("connect_db.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

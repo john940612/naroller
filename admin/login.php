@@ -1,6 +1,7 @@
 <?php
 	include("connect_db.php");
 	session_start();
+	$_SESSION['permission'] = 0;
 	if($_SERVER["REQUEST_METHOD"] == "POST")
 	{
 		// username and password sent from Form
@@ -19,11 +20,17 @@
 					//$_SESSION['user_session'] = $userRow['username'];
 					$_SESSION['user_session'] = $row['eName'];
 					$_SESSION['login_user'] = $username;
-					$_SESSION['user_permission'] = $row['ePerm'];
-					//$_SESSION['permission'] = 1;
+					//$_SESSION['permission'] = $row['ePerm'];
+					$_SESSION['permission'] = 1;
 					header("location: admin.php");
 			}
-
+/*
+			$_SESSION["myusername"];
+			$_SESSION['login_user'] = $myusername;
+			$_SESSION['permission'] = 1;
+		
+			header("location: admin.php");
+*/
 			else
 			{
 				$error = "Your Login Name or Password is invalid";
