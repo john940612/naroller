@@ -196,7 +196,7 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
          </div>
         
         
-         <div class="row mt30"> 
+         <!--div class="row mt30"> 
 			<div class="col-md-12 col-sm-12">
 				<hr>
 			</div>
@@ -223,7 +223,7 @@ Downsizing、energy-saving和減少二氧化碳和硫化物排放的觀念高漲
 					</div>
 			</div>
 		</div-->
-	</div>
+	<!--/div-->
 </div><!-- End div#team -->	
 
 <!-- footer section -->
