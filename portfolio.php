@@ -19,7 +19,7 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="css/templatemo-style.css" />
 	<link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/dropdown.css" />
-
+    <link rel="stylesheet" href="css/table.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
 
