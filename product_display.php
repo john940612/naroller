@@ -18,20 +18,20 @@
         else{
             echo '<tr class="trtd2">';
             $i=1;
-        }
+        }   
 		
-			echo '<td class="productNameCol">';
-				print_r ($row['pName']);
-			echo '</td>';
-			echo '<td>';
-				print_r ($row['pDesc']);
-			echo '</td>';
-			echo '<td>';
-				//print_r ($row['pPath']);
-				$tok_thimb = explode('.', $row['pThumb'], 2);
-				$pThumb = $tok_thimb[0].$tok_thimb[1];
-				echo "<img src='".'./admin'.$pThumb."'/>";//./upload
-			echo "</td>";
+            echo '<td class="productNameCol">';
+              print_r ($row['pName']);
+            echo '</td>';
+            echo '<td>';
+              print_r ($row['pDesc']);
+            echo '</td>';
+            echo '<td>';
+                //print_r ($row['pPath']);
+                $tok_thimb = explode('.', $row['pThumb'], 2);
+                $pThumb = $tok_thimb[0].$tok_thimb[1];
+                echo "<img src='".'./admin'.$pThumb."'/>";//./upload
+            echo "</td>";
 		echo "</tr>";
 	}
 	echo "</table>";
