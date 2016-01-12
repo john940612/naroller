@@ -29,7 +29,7 @@ a.newsListItem{
 }
 
 a.newsListItem:hover{
-    border: rgba(255, 255, 255, 1.0) solid 2px !important;
+    /*border: rgba(255, 255, 255, 1.0) solid 2px !important;*/
     background: rgba(255, 255, 255, 0.0) !important;
     color: #d71921 !important;
 }
@@ -54,4 +54,8 @@ a.newsListItem:hover{
     letter-spacing: 0.2em;
     color: white !important;
     font-family:  "microsoft jhenghei", sans-serif;
+}
+
+li.active:before{
+    background-color: transparent;
 }
