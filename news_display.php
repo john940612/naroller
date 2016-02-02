@@ -113,31 +113,21 @@ http://www.templatemo.com/tm-468-onetel
              	foreach($dbh->query($get) as $row){
              		$countString = '"' . strval($count) . '"';
              		if ($count == 1) {
-             			echo "<div id=$countString class='tab-pane fade in active'>";
-						echo "<h3>";
-					    	print_r ($row['aTitle']);
-						echo "</h3>";
-						echo "<h3>";
-					    	print_r ($row['aSecondTitle']);
-						echo "</h3>";
-                		echo "<p>";
-                        	print_r ($row['aText']);
-                		echo "</p>";
-						echo "</div>";
+             			echo '<div id=$countString class="tab-pane fade in active">';
              		}
 					else{
-						echo "<div id=$countString class='tab-pane fade'>";
-						echo "<h3>";
-					    	print_r ($row['aTitle']);
-						echo "</h3>";
-						echo "<h3>";
-					    	print_r ($row['aSecondTitle']);
-						echo "</h3>";
-                		echo "<p>";
-                        	print_r ($row['aText']);
-                		echo "</p>";
-						echo "</div>";
+						echo '<div id=$countString class="tab-pane fade">';
 					}
+                    echo '<h3>';
+					    	print_r ($row['aTitle']);
+						echo '</h3>';
+						echo '<h3>';
+					    	print_r ($row['aSecondTitle']);
+						echo '</h3>';
+                		echo '<p>';
+                        	print_r ($row['aText']);
+                		echo '</p>';
+						echo '</div>';
 					$count ++;
 				}
 

@@ -10,7 +10,7 @@
 	*/
     
 	$dbtype_sql = 'mysql';
-	$host_sql = '127.0.0.1';
+	$host_sql = 'http://140.117.178.132/';
 	$dbname_sql = 'naroller';
 	$username_sql = 'root';
     $password_sql = '';

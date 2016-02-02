@@ -27,6 +27,7 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="../css/templatemo-style.css" />
 	<link rel="stylesheet" href="../css/main.css" />
 	<link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="../css/table.css" />
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -96,17 +97,59 @@ http://www.templatemo.com/tm-468-onetel
 					</form>
 				</div>
 			</div>
-			<div class="col-md-12 col-sm-12 mt20">
-				<div class="google_map mt20">
-				<center>
-				<!--	<div id="map-canvas"></div> -->
-                    <?php
-					
-					include("article_display.php");
-				?>
-				</center>
+            
+            <div id="articleListArea" class="col-md-12 col-sm-12 mt20">
+            	<h3>Article List</h3>
+                
+				<div class="listTableArea">
+					<table>
+                        <tr class="headRow">
+                            <th class="checkCol"><input class="btn" type="submit" value="Delete" /></th>
+                            <th class="dateCol">Date</th>
+                            <th class="titleCol">Title</th>
+                            <th class="subtitleCol">Subtitle</th>
+                            <th class="authorCol">Author</th>
+                            <th class="editCol"><a href="addArticle.php" class="fa fa-plus-circle fa-2x plusButton"></a></th>
+                        </tr>
+                        <?php
+					       include("article_display.php");
+				        ?>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td class="dateCol">2015/12/31</td>
+                            <td class="titleCol">海生館的兔子</td>
+                            <td class="subtitleCol">是兔子不是海膽</td>
+                            <td class="authorCol">ymayho</td>
+                            <td class="editCol"><a href="articleEdit.php" class="btn">Edit</a></td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td class="dateCol">2015/12/30</td>
+                            <td class="titleCol">植基於兔子之萌的生物多樣性研究</td>
+                            <td class="subtitleCol">我需要二十個字萌我家兔子超萌我家兔子超萌</td>
+                            <td class="authorCol">ymayho</td>
+                            <td class="editCol"><a href="articleEdit.php" class="btn">Edit</a></td>
+                        </tr>
+                        <tr class="trtd1">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td class="dateCol">2015/12/31</td>
+                            <td class="titleCol">海生館的兔子</td>
+                            <td class="subtitleCol">是兔子不是海膽</td>
+                            <td class="authorCol">ymayho</td>
+                            <td class="editCol"><a href="articleEdit.php" class="btn">Edit</a></td>
+                        </tr>
+                        <tr class="trtd2">
+                            <td class="check"><input type="checkbox" /></td>
+                            <td class="dateCol">2015/12/30</td>
+                            <td class="titleCol">My Rabbit Is Cute.jpg</td>
+                            <td class="subtitleCol">20Mb</td>
+                            <td class="authorCol">ymayho</td>
+                            <td class="editCol"><a href="articleEdit.php" class="btn">Edit</a></td>
+                        </tr>
+                    </table>
 				</div>
-			</div>
+            
+            
 		</div>
 	</div>
 </div>		

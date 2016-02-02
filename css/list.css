@@ -56,6 +56,3 @@ a.newsListItem:hover{
     font-family:  "microsoft jhenghei", sans-serif;
 }
 
-li.active:before{
-    background-color: transparent;
-}

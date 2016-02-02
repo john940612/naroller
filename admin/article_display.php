@@ -6,14 +6,7 @@
 	$catch = "SELECT * FROM article";
 	echo "<table border='0'>";
 	echo '<form id="signInForm" action="article_modification.php" method="post" role="form">';
-	echo "<tr>";
-		echo "<th><center>修改</center></th>";
-		//echo "<th>時間</th>";
-		echo "<th>標題</th>";
-		//echo "<th>副標</th>";
-		//echo "<th colspan='2'>文章</th>";
-		echo "<th colspan='2'>大綱</th>";
-	echo "</tr>";
+
 	foreach($dbh->query($catch) as $row)
 	{
 		/*
